@@ -36,10 +36,10 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="history.html">About Us</a></li>
-                        <li><a href="grants.html">Services</a></li>
-                        <li><a href="sciencematrix.html">Portfolio</a></li>
-                        <li><a href="News.html">Blog</a></li> 
+                        <li><a href="history.html">History</a></li>
+                        <li><a href="grants.html">Grants</a></li>
+                        <li><a href="sciencematrix.html">Science Matrix</a></li>
+                        <li><a href="News.html">News</a></li> 
                         <li><a href="contact-us.html">Contact</a></li>                        
                     </ul>
                 </div>

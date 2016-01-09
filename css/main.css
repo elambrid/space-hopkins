@@ -183,7 +183,7 @@ body > section {
 
 .top-bar {
   padding: 10px 0;
-  background:#00008b;
+  background: #00008b;
   border-bottom: 1px solid #222;
   line-height: 28px;
 }
@@ -231,7 +231,7 @@ ul.social-share li a:hover {
 .navbar {
   border-radius: 0;
   margin-bottom: 0;
-  background: #151515;
+  background: #00008b;
   padding: 15px 0;
   padding-bottom: 0;
 }

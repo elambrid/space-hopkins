@@ -338,6 +338,11 @@ ul.social-share li a:hover {
   position: relative;
 }
 
+.carousel img {
+    min-width: 100%;
+}
+
+
 #carousel-slider .carousel-indicators {
   bottom: -25px;
 }

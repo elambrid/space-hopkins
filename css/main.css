@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
-
+@import url(http://fonts.googleapis.com/css?family=Oswald:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
 
 /*************************
 *******Typography******
@@ -9,7 +9,7 @@ body {
   background: #fff;
   font-family:Oswald, sans-serif;
   color:#333;
-  line-height:1.6em;
+  line-height:14px;
 }
 
 h1,
@@ -20,9 +20,10 @@ h5,
 h6 {
     font-weight:500; 
     font-family: Oswald, sans-serif;
-	font-weight:500;
-	line-height:1.1;
-	color:#666;
+    line-height:26.4px;
+    color: #ecf0f1;
+    font-size: 3em;
+
 }
 
 h1{
@@ -35,14 +36,14 @@ h2{
 }
 
 h3{
-  font-size: 36px;
+  font-size: 12px;
   color: #787878;
   font-weight: 400;
   line-height: 24px;
 }
 
 h4{
-  font-size: 16px;
+  font-size: 12px;
 }
 
 a {
@@ -186,7 +187,7 @@ body > section {
 
 .top-bar {
   padding: 10px 0;
-  background: #000066;
+  background: #003366;
   border-bottom: 1px solid #222;
   line-height: 28px;
 }
@@ -228,13 +229,13 @@ ul.social-share li a:hover {
   color:#E8CE0E;
 }
 .navbar-header a.navbar-brand {
-  color:#E8CE0E;
+  color: #99CC99;
 }
 
 .navbar {
   border-radius: 0;
   margin-bottom: 0;
-  background: #000066;
+  background: #003366;
   padding: 15px 0;
   padding-bottom: 0;
 }
@@ -258,7 +259,7 @@ ul.social-share li a:hover {
 }
 
 .navbar-fixed-top .navbar-nav > li > a:hover{
-	background-color: #E8CE0E;
+	background-color: #99CC99;
   color: #fff;
 }
 
@@ -278,7 +279,6 @@ ul.social-share li a:hover {
 .navbar-fixed-top .navbar-nav > .open > a,
 .navbar-fixed-top .navbar-nav > .open > a:hover,
 .navbar-fixed-top .navbar-nav > .open > a:focus {
-  background-color: #E8CE0E;
   color: #fff;
 }
 
@@ -350,12 +350,14 @@ width:100%;
 margin:0 auto; /* center your carousel if other than 100% */ 
 }
 
-.container {
-width: 100%
+
+
+.carousel-caption {
+   position: absolute;
+   right: 15%;
+   bottom: 200px;
+   left: 15%;
 }
-
-
-
 
 #carousel-slider .carousel-indicators {
   bottom: -25px;
@@ -459,7 +461,7 @@ width: 100%
   border: 3px solid #E8CE0E;
 }
 
-#recent-works .col-xs-12.col-sm-4.col-md-3{
+recent-works .col-xs-12.col-sm-4.col-md-3{
   padding: 0;
 }
 
@@ -479,7 +481,6 @@ width: 100%
 .recent-work-wrap .recent-work-inner{
   top: 0;
   background: transparent;
-  opacity: .8;
   width: 100%;
   border-radius: 0;
   margin-bottom: 0;

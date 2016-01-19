@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
-@import url(http://fonts.googleapis.com/css?family=Oswald:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
+@import url(http://fonts.googleapis.com/css?family=PT+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
 
 /*************************
 *******Typography******
@@ -7,7 +7,7 @@
 
 body {
   background: #fff;
-  font-family:Oswald, sans-serif;
+  font-family: PT Sans, sans-serif;
   color:#333;
   line-height:14px;
 }

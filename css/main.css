@@ -36,7 +36,7 @@ h2{
 }
 
 h3{
-  font-size: 12px;
+  font-size: 18px;
   color: #787878;
   font-weight: 400;
   line-height: 24px;
@@ -1328,7 +1328,7 @@ ul.social_icons li  a i{
 .portfolio-filter {
   list-style: none outside none;
   margin: 0 0 40px 0;
-  padding: 0;
+  padding: 0p;
 }
 
 .portfolio-filter > li {
@@ -1369,7 +1369,7 @@ ul.social_icons li  a i{
 
 .portfolio-item {
   margin: 0;
-  padding:0;
+  padding:30px;
 }
 
 /* Start: Recommended Isotope styles */
@@ -2199,7 +2199,28 @@ div.product-chooser{
 			visibility:hidden;
 		}
 
+.panel-image img.panel-image-preview {
+    width: 100%;
+    border-radius: 4px 4px 0px 0px;
+}
 
+.panel-heading ~ .panel-image img.panel-image-preview {
+	border-radius: 0px;
+}
+
+.panel-image ~ .panel-body, .panel-image.hide-panel-body ~ .panel-body {
+	overflow: hidden;
+}
+.panel-image ~ .panel-footer a {
+	padding: 0px 10px;
+	font-size: 1.3em;
+	color: rgb(100, 100, 100);
+}
+
+.panel-image.hide-panel-body ~ .panel-body {
+	height: 0px;
+	padding: 0px;
+}
 
 
 

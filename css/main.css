@@ -1,15 +1,25 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
+@import url(http://fonts.googleapis.com/css?family=Cabin:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
 
 /*************************
 *******Typography******
 **************************/
 
 body {
-  background: #fff;
-  font-family: PT Sans, sans-serif;
-  color:#333;
-  line-height:14px;
+	background: url(http://wallpapersdesk.net/wp-content/uploads/2015/03/1484_space.jpg)
+	no-repeat fixed;
+
+	    -moz-background-size: cover;
+
+	    -o-background-size: cover;
+
+	    -webkit-background-size: cover;
+
+	    background-size: cover;
+	font-family: Cabin, sans-serif;
+	color:#333;
+	line-height:16px;
 }
 
 h1,
@@ -19,7 +29,7 @@ h4,
 h5,
 h6 {
     font-weight:500; 
-    font-family: Oswald, sans-serif;
+    font-family: Cabin, sans-serif;
     line-height:26.4px;
     color: #ecf0f1;
     font-size: 3em;
@@ -43,8 +53,9 @@ h3{
 }
 
 h4{
-  font-size: 12px;
-  color: #787878;
+  font-size: 14px;
+  color: #000000;
+  font-weight:800; 
 }
 
 a {
@@ -238,7 +249,7 @@ ul.social-share li a:hover {
   border-radius: 0;
   margin-bottom: 0;
   background: #003366;
-  padding: 15px 0;
+  padding: 0px 0;
   padding-bottom: 0;
 }
 
@@ -247,8 +258,8 @@ ul.social-share li a:hover {
  }
 
 .navbar-nav>li{
-  margin-left: 35px;
-  padding-bottom: 28px;
+  margin-left: 0px;
+  padding-bottom: 0px;
 }
 
 .navbar-fixed-top .navbar-nav > li > a {
@@ -2033,7 +2044,7 @@ ul.sidebar-gallery {
             right: auto;
         }
 }
-body { padding-top: 50px; }
+body { padding-top: 0px; }
 
 #myCarousel .carousel-caption {
     left:0;
@@ -2222,5 +2233,10 @@ div.product-chooser{
 	padding: 0px;
 }
 
-
+.masthead {
+	    color:#FFFFFF;
+    background-image: url(http://wallpapersdesk.net/wp-content/uploads/2015/03/1484_space.jpg);
+    background-repeat:no-repeat;
+    height:100px;
+}
 

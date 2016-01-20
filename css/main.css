@@ -31,8 +31,8 @@ h6 {
     font-weight:500; 
     font-family: Cabin, sans-serif;
     line-height:26.4px;
-    color: #ecf0f1;
-    font-size: 3em;
+    color: #FFFFFF;
+    font-size: 4em;
 
 }
 
@@ -59,7 +59,8 @@ h4{
 }
 
 a {
-  color: #E8CE0E;
+  color: #FFFFFF;
+  font-size: 18px;
   -webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
   -o-transition:  color 300ms, background-color 300ms;
@@ -2239,4 +2240,13 @@ div.product-chooser{
     background-repeat:no-repeat;
     height:100px;
 }
+
+.top5 { margin-top:5%; }
+.top7 { margin-top:7%; }
+.top10 { margin-top:10%; }
+.top15 { margin-top:15%; }
+.top17 { margin-top:17%; }
+.top30 { margin-top:30%; }
+.bottom30{ margin-bottom:30%; }
+.bottom5{ margin-bottom:5%; }
 

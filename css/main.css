@@ -7,16 +7,6 @@
 **************************/
 
 body {
-	background: url(http://wallpapersdesk.net/wp-content/uploads/2015/03/1484_space.jpg)
-	no-repeat fixed;
-
-	    -moz-background-size: cover;
-
-	    -o-background-size: cover;
-
-	    -webkit-background-size: cover;
-
-	    background-size: cover;
 	font-family: Cabin, sans-serif;
 	color:#333;
 	line-height:16px;
@@ -27,12 +17,13 @@ h2,
 h3,
 h4,
 h5,
+
 h6 {
     font-weight:500; 
     font-family: Cabin, sans-serif;
     line-height:26.4px;
     color: #FFFFFF;
-    font-size: 4em;
+    font-size: 3.8em;
 
 }
 
@@ -132,7 +123,7 @@ a:focus {
 }
 
 body > section {
-  padding: 3px 0;
+  padding: 0px 0;
 }
 
 .center {
@@ -255,7 +246,7 @@ ul.social-share li a:hover {
 }
 
  .navbar-nav{
-  margin-top: 12px;
+  margin-top: 0px;
  }
 
 .navbar-nav>li{
@@ -266,7 +257,7 @@ ul.social-share li a:hover {
 .navbar-fixed-top .navbar-nav > li > a {
   padding: 5px 12px;
   margin: 0;
-  border-radius: 3px;
+  border-radius: 0px;
   color: #fff;
   line-height: 24px;
   display: inline-block;
@@ -279,6 +270,14 @@ ul.social-share li a:hover {
 
 .navbar-fixed-top {
   border: none;
+}
+
+
+.navbar-inverted {
+  position: relative;	
+  border: none;
+  min-height: 0px;	
+  border-radius: 0px
 }
 
 .navbar-fixed-top .navbar-brand {
@@ -475,7 +474,7 @@ margin:0 auto; /* center your carousel if other than 100% */
   border: 3px solid #E8CE0E;
 }
 
-#recent-works .col-xs-12.col-sm-4.col-md-3{
+.recent-works .col-xs-12.col-sm-4.col-md-3{
   padding: 0;
 }
 
@@ -486,6 +485,7 @@ margin:0 auto; /* center your carousel if other than 100% */
 
 .recent-work-wrap {
   position: relative;
+  padding: 0;
 }
 
 .recent-work-wrap img{
@@ -2091,8 +2091,9 @@ no-repeat fixed;
     -webkit-background-size: cover;
 
     background-size: cover;
-
-    height: 250px;
+		
+	
+    height: 100px;
 
     margin: 0 auto;
 
@@ -2105,7 +2106,6 @@ no-repeat fixed;
 }
 
 
-
 .ha-bg-parallax .ha-parallax-body {
 
     display: table-cell;
@@ -2113,8 +2113,6 @@ no-repeat fixed;
     vertical-align: middle;
 
 }
-
-
 
 .ha-bg-parallax .ha-content-whitecolor {
 
@@ -2151,6 +2149,109 @@ no-repeat fixed;
     padding-bottom: 0px;
 
 }
+
+
+.ha-bg-parallax-header {
+
+    background: url(http://wallpapersdesk.net/wp-content/uploads/2015/03/1484_space.jpg)
+no-repeat fixed;
+
+    -moz-background-size: cover;
+
+    -o-background-size: cover;
+
+    -webkit-background-size: cover;
+
+    background-size: cover;
+
+    
+    top: 0;
+	
+    height: 100px;
+
+    margin: 0 auto;
+
+    width: 100%;
+
+    display: table;
+
+    vertical-align: middle;
+
+}
+
+.ha-bg-parallax-header .ha-parallax-body-header {
+
+    display: table-cell;
+
+    vertical-align: middle;
+
+}
+
+
+
+.ha-bg-parallax-header .ha-content-whitecolor-header {
+
+    font-size: 17px;
+
+    color: #ffffff;
+
+    width: 45%;
+
+    margin: 15px 0px;;
+
+}
+
+
+
+.ha-bg-parallax-header .ha-diamond-divider-md-header {
+
+    margin: 15px 0px;
+
+}
+
+
+
+.ha-bg-parallax-header .ha-heading-parallax-header {
+
+    font-style: italic;
+
+    font-weight: bold;
+
+    text-transform: none;
+
+    color: #ffffff;
+
+    padding-bottom: 0px;
+
+}
+
+
+
+.col-lg-offset-3-header {
+    margin-left: 25%;
+}
+
+.col-lg-3-header {
+    width: 25%;
+}
+
+.col-md-offset-3-header {
+    margin-left: 25%;
+}
+
+.col-md-3-header {
+    width: 25%;
+}
+
+
+.col-sm-6-header {
+    width: 50%;
+}
+
+.col-xs-12-header {
+    width: 100%;
+}
+
 
 
 div.clear
@@ -2249,4 +2350,5 @@ div.product-chooser{
 .top30 { margin-top:30%; }
 .bottom30{ margin-bottom:30%; }
 .bottom5{ margin-bottom:5%; }
+
 

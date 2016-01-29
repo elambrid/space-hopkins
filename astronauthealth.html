@@ -11,81 +11,128 @@
         <link href="css/prettyPhoto.css" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet">
         <link href="css/responsive.css" rel="stylesheet">
+
 	<link href="css/1-col-portfolio.css" rel="stylesheet">
+   	<!-- Yamm styles-->
+   	<link href="css/yamm.css" rel="stylesheet">
 
         <!--[if lt IE 9]>
             <script src="js/html5shiv.js"></script>
             <script src="js/respond.min.js"></script>
         <![endif]-->
         <link rel="stylesheet" href="css/main.css">
-    </head>
-    <body class="homepage">
-        <header id="header" class="">
-            <nav class="navbar navbar-fixed-top" role="banner">
-                <div class="container">
-                    <div class="navbar-header">
-                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                            <span class="sr-only">Toggle navigation</span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                            <span class="icon-bar"></span>
-                        </button>
-                        <a class="navbar-brand" href="index.html">
-				<img src="images/ulogowhite.png">
-                    </div>
-                    <div class="collapse navbar-collapse navbar-right">
-                        <ul class="nav navbar-nav">
-                            <li class="active">
-                                <a href="index.html">Home</a>
-                            </li>
-                            <li>
-                                <a href="history.html">History</a>
-                            </li>
 
-                            <li>
-                                <a href="grants.html">Collaborations<br></a>
-                            </li>
-                            <li>
-                                <a href="sciencematrix.html">Science Matrix</a>
-                            </li>
-                            <li>
-                                <a href="News.html">News<br></a>
-                            </li>
-                            <li>
-                                <a href="contact-us.html">Contact</a>
-                            </li>
-                            <li class="">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Oppurtunities&amp;Grants&nbsp;<b class="caret"></b></a>
-                                <ul class="dropdown-menu"> 
-                                    <li class="">
-                                        <a href="#">Seed Grants</a>
-                                    </li>                                     
-                                    <li>
-                                        <a href="#">Join the initivative!<br></a>
-                                    </li>                                     
-                                    <li class="divider"></li>                                     
-                                    <li>
-                                        <a href="#">Separated link</a>
-                                    </li>                                     
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <!--/.container-->
-            </nav>
-            <!--/nav-->
-        </header>
-        <!--/header-->
-	<div id="fix-for-navbar-fixed-top-spacing" style="height: 42px;">&nbsp;</div>
+  <body class="homepage">  
+	<section id="parallax-intro"> <!--/#parallax-intro-->  
+		<div class="container-fluid">
+		    <div class="row">
+			<div class="ha-bg-parallax-header block-marginb-none" data-type="background" data-speed="20">	
+			<div class="ha-parallax-body-header">
+				<div class="col-md-4 col"><div class="content"><div class="ha-content ha-content-whitecolor-header"><h6 style="padding-left:50px">Space@Hopkins</h6></div></div></div><div class="col-md-4 col"><div class="content"></div></div><div class="col-md-4 col"><div class="content"><img src="images/ulogowhite.png" alt="Johns Hopkins University" class="img-responsive" style="padding-top:15px;padding-left:60px"></div></div>			     
+			    <div class="ha-parallax-divider-wrapper-header">
+				<span class="ha-diamond-divider-md-header img-responsive"></span>
+			    </div>
+			    <div class="ha-heading-parallax-header"></div>
+			</div>
+		    </div>
+		</div>
+	 </div>
+	</section>
+        <!--/#parallax-intro-->  
+
+	<nav class="navbar navbar-inverted yamm">
+	    <div class="container">
+		<div class="navbar-header">
+		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		    </button>
+		</div>
+	    <div class="collapse navbar-collapse" role="banner">
+		<ul class="nav navbar-nav">
+		    <li class="active">
+		        <a href="index.html">Home</a>
+		    </li>
+		    <li>
+		        <a href="history.html">History</a>
+		    </li>
+      		     <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Our Research<b class="caret"></b></a>
+             		 <ul class="dropdown-menu">
+                	<li>
+		          <!-- Content container to add padding -->
+		          <div class="yamm-content">
+		            <div class="row">
+		              <ul class="col-sm-4 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP">
+		                <li>
+		                  <a href="#" style="font-weight:700;font-size:25px;color:#c3ddeaP"> Research Areas </a>
+		                </li>
+		                <li><a href="astronauthealth.html"> Astronaut Health </a></li>
+		                <li><a href="astrophysics.html"> Astrophysics </a></li>
+		                <li><a href="earthscience.html"> Earth Science </a></li>
+		                <li><a href="planetaryscience.html"> Planetary Science </a></li>
+		                <li><a href="robotics.html"> Robotics </a></li>
+		                <li><a href="sensors.html"> Sensors </a></li>
+		                <li><a href="solarscience.html"> Solar Science </a></li>
+		                <li><a href="spacecraftengineering.html"> Spacecraft Engineering </a></li>
+				 <li class="divider"></li>
+		              </ul>
+		              <ul class="col-sm-4 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP">
+		                <li>
+		                  <a href="#" style="font-weight:700;font-size:25px;color:#c3ddeaP">Institutions</a>
+		                </li>
+		                <li><a href="#"> Applied Physics Lab (APL) </a></li>
+		                <li><a href="#"> Center for Astrophysics (CAS) </a></li>
+		                <li><a href="#"> Earth and Planetary Sciences (EPS) </a></li>
+		                <li><a href="#"> School of Medicine</a></li>
+		                <li><a href="#"> School of Engineering </a></li>
+				 <li class="divider"></li>
+		              </ul>
+
+		              <ul class="col-sm-4 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP;font-size:20px">
+		                <li>
+		                  <a href="#" style="font-weight:700;font-size:25px;line-height:25px;color:#c3ddeaP">Close Collaborators</a>
+		                </li>
+		                <li><a href="#"> Space Telescope Science Institute (STSCI) </a></li>
+		                <li><a href="#"> NASA/Goddard </a></li>
+		                <li><a href="#"> Kavli Institute (IPMU) </a></li>
+		                <li><a href="#"> Sloan Digital Sky Survey (SDSS) </a></li>
+		                <li><a href="#"> Subaru Telescope </a></li>
+		                <li><a href="#"> Panoramic Survey Telescope (PAN-STARRS) </a></li>
+		              </ul>
+		            </div>
+		          </div>
+		        </li>
+		      </ul>
+		    </li>
+		    <li>	
+		        <a href="News.html">News<br></a>
+		    </li>
+		    <li class="">
+		        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Opportunities and Grants <b class="caret"></b></a>
+		        <ul class="dropdown-menu"> 
+		            <li class="">
+		                <a href="#">Seed Grants</a>
+		            </li>                                     
+		            <li>
+		                <a href="#">Join the initivative!<br></a>
+		            </li>                                                                       
+		        </ul>
+		    </li>
+		</ul>
+	    </div>	
+       </div>
+	<!--/.container-->
+    </nav>
+    <!--/nav-->
 	<section id="parallax-intro">
 		<div class="container-fluid">
 		    <div class="row">
 			    <div class="ha-bg-parallax text-center block-marginb-none" data-type="background" data-speed="20">
 			<div class="ha-parallax-body">
 			    <div class="ha-content ha-content-whitecolor">
-				<h6>EarthScience</h6>
-			    </div>
+				<h6>Astronaut Health</h6>
 			    <div class="ha-parallax-divider-wrapper">
 				<span class="ha-diamond-divider-md img-responsive"></span>
 			    </div>
@@ -93,23 +140,24 @@
 			</div>
 		    </div>
 		</div>
+	 </div>
 	</section>
-        <!--/#parallax-intro-->     
+        <!--/#parallax-intro--> 
 
 	<section id="portfolio">
         <div class="container">
             <div class="center">
 
-               <p class="lead">JHU scientists are working to understand the innerworkings of all processes happening on our home planet!</p>
+               <p class="lead">It wasn't too long ago that the first humans went to space, and Johns Hopkins researchers are determined to help astronauts continue to space travel as safely as possible!</p>
             </div>
         
 
             <ul class="portfolio-filter text-center">
                 <li><a class="btn btn-default active" href="#" data-filter="*">All Works</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".atm">Planetary Atmospheres</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".surf">Planetary Surfaces</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".sats">Satellites</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".astrocom">Astroids and Comets</a></li>
+                <li><a class="btn btn-default" href="#" data-filter=".atm"></a></li>
+                <li><a class="btn btn-default" href="#" data-filter=".surf"></a></li>
+                <li><a class="btn btn-default" href="#" data-filter=".sats"></a></li>
+                <li><a class="btn btn-default" href="#" data-filter=".astrocom"></a></li>
             </ul><!--/#portfolio-filter-->
 
             <div class="row">

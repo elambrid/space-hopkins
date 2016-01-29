@@ -51,7 +51,7 @@ h4{
 
 a {
   color: #FFFFFF;
-  font-size: 18px;
+  font-size: 15px;
   -webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
   -o-transition:  color 300ms, background-color 300ms;
@@ -59,7 +59,7 @@ a {
 }
 
 a:hover, a:focus {
-  color: #d43133;
+  color: #b5997a;
 }
 
 hr {
@@ -263,8 +263,22 @@ ul.social-share li a:hover {
   display: inline-block;
 }
 
+.navbar-inverted .navbar-nav > li > a {
+  padding: 5px 12px;
+  margin: 0;
+  border-radius: 0px;
+  color: #fff;
+  line-height: 24px;
+  display: inline-block;
+}
+
 .navbar-fixed-top .navbar-nav > li > a:hover{
 	background-color: #99CC99;
+  color: #fff;
+}
+
+.navbarinverted .navbar-nav > li > a:hover{
+	background-color: #fff;
   color: #fff;
 }
 
@@ -273,14 +287,22 @@ ul.social-share li a:hover {
 }
 
 
+
 .navbar-inverted {
   position: relative;	
   border: none;
   min-height: 0px;	
   border-radius: 0px
+  border: none;
 }
 
 .navbar-fixed-top .navbar-brand {
+  font-size: 36px;
+  line-height: 50px;
+  color: #fff;
+}
+
+.navbar-inverted .navbar-brand {
   font-size: 36px;
   line-height: 50px;
   color: #fff;
@@ -295,6 +317,8 @@ ul.social-share li a:hover {
   color: #fff;
 }
 
+
+
 .navbar-fixed-top .navbar-nav .dropdown-menu {
   background-color: rgba(0,0,0,.85);
   -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
@@ -308,8 +332,20 @@ ul.social-share li a:hover {
   left: 0;
 }
 
+.navbar-inverted .navbar-nav .dropdown-menu {
+  background-color: rgba(0,0,0,.85);
+  -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+  -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+  box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
+}
+
 .navbar-fixed-top .navbar-nav .dropdown-menu:before{
-  position: absolute;
+  position: relative;
+  top:0;
+}
+
+.navbar-inverted .navbar-nav .dropdown-menu:before{
+  position: relative;
   top:0;
 }
 
@@ -325,10 +361,20 @@ ul.social-share li a:hover {
   color: #fff;
 }
 
+.navbar-inverted .navbar-nav .dropdown-menu > li:hover > a,
+.navbar-inverted .navbar-nav .dropdown-menu > li:focus > a,
+.navbar-inverted .navbar-nav .dropdown-menu > li.active > a {
+  background-color: #E8CE0E;
+  color: #fff;
+}
+
 .navbar-fixed-top .navbar-nav .dropdown-menu > li:last-child > a {
   border-radius: 0 0 3px 3px;
 }
 
+.navbar-inverted .navbar-nav .dropdown-menu > li:last-child > a {
+  border-radius: 0 0 3px 3px;
+}
 .navbar-fixed-top .navbar-nav .dropdown-menu > li.divider {
   background-color: transparent;
 }
@@ -339,6 +385,24 @@ ul.social-share li a:hover {
   padding-bottom: 0;
 }
 
+.navbar-inverted .navbar-nav .dropdown-menu > li.divider {
+  background-color: transparent;
+}
+
+.navbar-inverted .navbar-collapse,
+.navbar-inverted .navbar-form {
+  border-top: 0;
+  padding-bottom: 0;
+}
+
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
+}
 
 /*************************
 *******Home Page******
@@ -2351,4 +2415,36 @@ div.product-chooser{
 .bottom30{ margin-bottom:30%; }
 .bottom5{ margin-bottom:5%; }
 
+
+
+
+/*!
+ * Yamm!3 - Yet another megamenu for Bootstrap 3
+ * http://geedmo.github.com/yamm3
+ * 
+ * @geedmo - Licensed under the MIT license
+ */
+.yamm .nav,
+.yamm .collapse,
+.yamm .dropup,
+.yamm .dropdown {
+  position: static;
+}
+.yamm .container {
+  position: relative;
+}
+.yamm .dropdown-menu {
+  left: auto;
+}
+.yamm .yamm-content {
+  padding: 20px 30px;
+}
+.yamm .dropdown.yamm-fw .dropdown-menu {
+  left: 0;
+  right: 0;
+}
+
+/* menu styes */
+.list-unstyled,
+.list-unstyled ul { min-width: 120px }
 

@@ -110,7 +110,6 @@
                 <li><a class="btn btn-default" href="#" data-filter=".mag">Earth's Magnetic Field</a></li>
                 <li><a class="btn btn-default" href="#" data-filter=".upatm">Upper Atmosphere</a></li>
                 <li><a class="btn btn-default" href="#" data-filter=".atmdyn">Atmospheric Dynamics</a></li>
-		<li><a class="btn btn-default" href="#" data-filter=".int">Earth's Interior</a></li>
             </ul><!--/#portfolio-filter-->
 
             <div class="row">
@@ -132,7 +131,7 @@
 
                     <div class="portfolio-item mag col-xs-12 col-sm-4 col-md-3">
 				    <div class="panel panel-default">
-					<div class="panel-heading"><h4>SuperMAG</h4></div>
+					<div class="panel-heading">SuperMAG</div>
 					<div class="panel-image">
 					    <img src="images/magfield.png" class="panel-image-preview" />
 					</div>
@@ -147,7 +146,7 @@
 
                     <div class="portfolio-item atmchem col-xs-12 col-sm-4 col-md-3">
 				    <div class="panel panel-default">
-					<div class="panel-heading"><h4>Modeling atmospheric aerosol</h4></div>
+					<div class="panel-heading">Modeling atmospheric aerosol</div>
 					<div class="panel-image">
 					    <img src="images/volcano.png" class="panel-image-preview" />
 					</div>
@@ -163,7 +162,7 @@
 
                     <div class="portfolio-item atmchem col-xs-12 col-sm-4 col-md-3">
 				    <div class="panel panel-default">
-					<div class="panel-heading"><h4>Early Earth</h4></div>
+					<div class="panel-heading">Early Earth</div>
 					<div class="panel-image">
 					    <img src="images/earlyearth.png" class="panel-image-preview" />
 					</div>
@@ -179,7 +178,7 @@
 
                     <div class="portfolio-item atmchem col-xs-12 col-sm-4 col-md-3">
 				    <div class="panel panel-default">
-					<div class="panel-heading"><h4>Computer Models of atmospheric composition</h4></div>
+					<div class="panel-heading">Computer Models of atmospheric composition</div>
 					<div class="panel-image">
 					    <img src="images/ozone.png" class="panel-image-preview" />
 					</div>
@@ -194,7 +193,7 @@
 
                     <div class="portfolio-item atmdyn col-xs-12 col-sm-4 col-md-3">
 				    <div class="panel panel-default">
-					<div class="panel-heading"><h4>Large-scale dynamics and transport</h4></div>
+					<div class="panel-heading">Large-scale dynamics and transport</div>
 					<div class="panel-image">
 					    <img src="images/atmdyn.png" class="panel-image-preview" />
 					</div>
@@ -209,7 +208,7 @@
 
                     <div class="portfolio-item upatm col-xs-12 col-sm-4 col-md-3">
 				    <div class="panel panel-default">
-					<div class="panel-heading"><h4>Sounding Rockets</h4></div>
+					<div class="panel-heading">Sounding Rockets</div>
 					<div class="panel-image">
 					    <img src="images/soundingrocket.png" class="panel-image-preview" />
 					</div>
@@ -224,28 +223,13 @@
 
                     <div class="portfolio-item atmdyn col-xs-12 col-sm-4 col-md-3">
 				    <div class="panel panel-default">
-					<div class="panel-heading"><h4>Hydroclimate Research Group</h4></div>
+					<div class="panel-heading">Hydroclimate Research Group</div>
 					<div class="panel-image">
 					    <img src="images/climatemodeling.png" class="panel-image-preview" />
 					</div>
 					<div class="panel-body">
 					    <p>Among the study of other hydroclimate processes, the hydroclimate research group aims to develop tools for improved monitoring and prediction of regional atmospheric processes.</p>
 					    <p>People: Benjamin Zaitchik (<a href="http://blaustein.eps.jhu.edu/~zaitchik/">More Info</a>) </p>
-					</div>
-					
-			    </div>
-
-                    </div><!--/.portfolio-item-->
-
-		    <div class="portfolio-item atmdyn int col-xs-12 col-sm-4 col-md-3">
-				    <div class="panel panel-default">
-					<div class="panel-heading"><h4>Open Earth Systems</h4></div>
-					<div class="panel-image">
-					    <img src="images/" class="panel-image-preview" />
-					</div>
-					<div class="panel-body">
-					    <p>Understand the dynamics of Earth's interior, including both the mantle and the core. Combine theory, numerical models, and laboratory fluid dynamics models, and to use these to interpret global geophysical data pertaining to the deep interior of the Earth and other planets. Investigation of the slow carbon cycle, the cycling of carbon through the components of the Earth system that controls our climate on geologic timescales.</p>
-					    <p>People: Peter L. Olson (<a href="http://www.openearthsystems.org/">More Info</a>) </p>
 					</div>
 					
 			    </div>

@@ -312,7 +312,7 @@
 
                     </div><!--/.portfolio-item-->
 
-		    div class="portfolio-item col-xs-12 col-sm-4 col-md-3">
+		    <div class="portfolio-item col-xs-12 col-sm-4 col-md-3">
 				    <div class="panel panel-default">
 					<div class="panel-heading"><h4>Vector Magnetometer on UARS
 </h4></div>

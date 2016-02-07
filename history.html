@@ -127,21 +127,22 @@
 
 	<div id="fix-for-navbar-fixed-top-spacing" style="height:1px;">&nbsp;</div>
 	    <div class="container">
-	              <h1></h1>
-            <h2 class="ss-subtitle">A Rich History of Space Science </h2>
-			<div id="ss-links" class="ss-links">
-				<a href="#1800s">1800s</a>
-				<a href="#1920s">1920s</a>
-				<a href="#1940s">1940s</a>
-				<a href="#1950s">1950s</a>
-				<a href="#1960s">1960s</a>
-				<a href="#1970s">1970s</a>
-				<a href="#1980s">1980s</a>
-				<a href="#1990s">1990s</a>
-				<a href="#2000s">2000s</a>
-				<a href="#2010s">2010s</a>
-	
-			</div>
+            	<h2 class="ss-subtitle">A Rich History of Space Science </h2>
+
+		    <div class="sticky" >
+				<div id="ss-links" class="ss-links">
+					<a href="#1800s">1800s</a>
+					<a href="#1920s">1920s</a>
+					<a href="#1940s">1940s</a>
+					<a href="#1950s">1950s</a>
+					<a href="#1960s">1960s</a>
+					<a href="#1970s">1970s</a>
+					<a href="#1980s">1980s</a>
+					<a href="#1990s">1990s</a>
+					<a href="#2000s">2000s</a>
+					<a href="#2010s">2010s</a>	
+				</div>
+		   </div>
             <div id="ss-container" class="ss-container">
                 <div class="ss-row">
                     <div class="ss-left">
@@ -1185,6 +1186,14 @@
 			
 		});
 		</script>
+	<script src="js/jquery.stickyscroll.js"></script>	
+	<script>
+		$(document).ready(function() {	
+			$('.ss-links').stickyScroll({topBoundary:150, bottomBoundary: 500 });
+		});
+	</script>
+
+
 	</div>            <!--/.top-bar-->
         <footer id="footer" class="midnight-blue">
             <div class="container">

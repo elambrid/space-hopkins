@@ -33,9 +33,11 @@ h2.ss-subtitle:after{
 .ss-links{
 	position: fixed;
 	left: 10px;
-	top: 166px;
+	top: 200px;
 	width: 25%;
 	z-index: 100;
+	
+
 }
 .ss-links a{
 	background: #003366;

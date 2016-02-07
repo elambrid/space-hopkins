@@ -30,22 +30,10 @@ h2.ss-subtitle:after{
 	margin-right: -1px;
 	bottom: -4px;
 }
-
-
-
 .ss-links{
 	position: fixed;
 	left: 10px;
-	top: 260px;
-	width: 25%;
-	z-index: 50;
-}
-
-
-.ss-linkspoop{
-	position: relative;
-	left: 10px;
-	top: 260px;
+	top: 166px;
 	width: 25%;
 	z-index: 100;
 }
@@ -138,8 +126,8 @@ h2.ss-subtitle:after{
 	position: static;
 }
 .ss-small .ss-circle{
-	width: 150px;
-	height: 150px;
+	width: 100px;
+	height: 100px;
 }
 .ss-medium .ss-circle{
 	width: 200px;
@@ -294,7 +282,7 @@ h2.ss-subtitle:after{
     background-image: url(../images/spacecraft/AMPTE.png);
 }
 .ss-circle-23{
-    background-image: url(../images/history/galaxy.jpeg);
+    background-image: url(../images/history/galaxy.jpg);
 }
 .ss-circle-24{
     background-image: url(../images/history/geosat.jpeg);
@@ -315,116 +303,110 @@ h2.ss-subtitle:after{
     background-image: url(../images/planetaryscience/EPD.png);
 }
 .ss-circle-30{
-    background-image: url(../images/history/HST.jpeg);
+    background-image: url(../images/history/30.jpg);
 }
 .ss-circle-31{
-    background-image: url(../images/history/bloomberg.jpg);
+    background-image: url(../images/history/30.jpg);
 }
 .ss-circle-32{
-    background-image: url(../images/history/samdurrance.jpg);
+    background-image: url(../images/history/30.jpg);
 }
 .ss-circle-33{
-    background-image: url(../images/history/observatory.jpeg);
+    background-image: url(../images/history/30.jpg);
 }
 .ss-circle-34{
-    background-image: url(../images/history/costar.jpg);
+    background-image: url(../images/history/30.jpg);
 }
 .ss-circle-35{
-    background-image: url(../images/history/m87.jpg);
+    background-image: url(../images/history/30.jpg);
 }
 .ss-circle-36{
-    background-image: url(../images/history/fuse.jpeg);
+    background-image: url(../images/history/30.jpg);
 }
 .ss-circle-37{
-    background-image: url(../images/history/HUT.jpg);
+    background-image: url(../images/history/30.jpg);
 }
 .ss-circle-38{
-    background-image: url(../images/history/STIS.jpg);
+    background-image: url(../images/history/30.jpg);
 }
 .ss-circle-39{
-    background-image: url(../images/spacecraft/ACE.png);
+    background-image: url(../images/history/30.jpg);
 }
 .ss-circle-40{
-    background-image: url(../images/history/SDSS.jpeg);
+    background-image: url(../images/history/30.jpg);
 }
 .ss-circle-41{
-    background-image: url(../images/history/fuse.jpeg);
+    background-image: url(../images/history/30.jpg);
 }
 .ss-circle-42{
-    background-image: url(../images/spacecraft/MESSANGER.png);
+    background-image: url(../images/history/30.jpg);
 }
 .ss-circle-43{
-    background-image: url(../images/history/sdssmap.jpg);
+    background-image: url(../images/history/30.jpg);
 }
 .ss-circle-44{
-    background-image: url(../images/history/HUT.jpg);
+    background-image: url(../images/history/30.jpg);
 }
 .ss-circle-45{
-    background-image: url(../images/history/giacconi.jpg);
+    background-image: url(../images/history/30.jpg);
+}
+.ss-circle-45{
+    background-image: url(../images/history/30.jpg);
 }
 .ss-circle-46{
-    background-image: url(../images/history/ACS.jpg);
+    background-image: url(../images/history/30.jpg);
 }
 .ss-circle-47{
-    background-image: url(../images/history/giacconi.jpg);
+    background-image: url(../images/history/30.jpg);
 }
 .ss-circle-48{
-    background-image: url(../images/spacecraft/MESSANGER.png);
+    background-image: url(../images/history/30.jpg);
 }
 .ss-circle-49{
-    background-image: url(../images/history/sdssmap.jpg);
+    background-image: url(../images/history/30.jpg);
 }
 .ss-circle-50{
-    background-image: url(../images/history/bennett2.jpg);
+    background-image: url(../images/history/30.jpg);
 }
 .ss-circle-51{
-    background-image: url(../images/history/reiss.jpeg);
+    background-image: url(../images/history/);
 }
 .ss-circle-52{
-    background-image: url(../images/solarscience/STEREO.png);
+    background-image: url(../images/history/);
 }
 .ss-circle-53{
-    background-image: url(../images/history/CRISM.jpg);
+    background-image: url(../images/history/);
 }
 .ss-circle-54{
-    background-image: url(../images/history/reiss.jpeg);
+    background-image: url(../images/history/);
 }
 .ss-circle-55{
-    background-image: url(../images/history/bennett2.jpg);
+    background-image: url(../images/history/);
 }
 .ss-circle-56{
-    background-image: url(../images/history/fuse.jpeg);
+    background-image: url(../images/history/);
 }
 .ss-circle-57{
-    background-image: url(../images/history/reiss.jpeg);
+    background-image: url(../images/history/);
 }
 .ss-circle-58{
-    background-image: url(../images/history/sdssmap.jpg);
+    background-image: url(../images/history/);
 }
 .ss-circle-59{
-    background-image: url(../images/history/mini-rf.jpg);
+    background-image: url(../images/history/);
 }
 .ss-circle-60{
-    background-image: url(../images/history/atlantis.jpg);
+    background-image: url(../images/history/);
 }
 .ss-circle-61{
-    background-image: url(../images/history/CRISM.jpg);
+    background-image: url(../images/history/);
 }
 .ss-circle-62{
-    background-image: url(../images/history/bennett2.jpg);
+    background-image: url(../images/history/);
 }
 .ss-circle-63{
-    background-image: url(../images/spacecraft/MESSANGER.png);
+    background-image: url(../images/history/);
 }
 .ss-circle-64{
-    background-image: url(../images/history/reiss.jpeg);
-}
-.ss-circle-65{
-    background-image: url(../images/history/bennett2.jpg);
-}
-.ss-circle-66{
-    background-image: url(../images/history/wmap_2007.png);
-}
-.ss-circle-67{
-    background-image: url(../images/planetaryscience/newhorizons.png);
+    background-image: url(../images/history/);
 }

@@ -1,0 +1,425 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Space@Hopkins</title>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link href="css/animate.min.css" rel="stylesheet">
+        <link href="css/prettyPhoto.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+<<<<<<< HEAD
+	<link href="css/1-col-portfolio.css" rel="stylesheet">
+   	<!-- Yamm styles-->
+   	<link href="css/yamm.css" rel="stylesheet">
+=======
+>>>>>>> e950c15e10af3fd6ac46a0f31a7b38ed6e6b0c1a
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+            <script src="js/respond.min.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="css/main.css">
+<<<<<<< HEAD
+  <body class="homepage">  
+	<section id="parallax-intro"> <!--/#parallax-intro-->  
+		<div class="container-fluid">
+		    <div class="row">
+			<div class="ha-bg-parallax-header block-marginb-none" data-type="background" data-speed="20">	
+			<div class="ha-parallax-body-header">
+				<div class="col-md-4 col"><div class="content"><div class="ha-content ha-content-whitecolor-header"><h6 style="padding-left:50px">Space@Hopkins</h6></div></div></div><div class="col-md-4 col"><div class="content"></div></div><div class="col-md-4 col"><div class="content"><img src="images/ulogowhite.png" alt="Johns Hopkins University" class="img-responsive" style="padding-top:15px;padding-left:60px"></div></div>			     
+			    <div class="ha-parallax-divider-wrapper-header">
+				<span class="ha-diamond-divider-md-header img-responsive"></span>
+			    </div>
+			    <div class="ha-heading-parallax-header"></div>
+			</div>
+		    </div>
+		</div>
+	 </div>
+	</section>
+        <!--/#parallax-intro-->  
+
+	<nav class="navbar navbar-inverted yamm">
+	    <div class="container">
+		<div class="navbar-header">
+		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		    </button>
+		</div>
+	    <div class="collapse navbar-collapse" role="banner">
+		<ul class="nav navbar-nav">
+		    <li class="active">
+		        <a href="index.html">Home</a>
+		    </li>
+		    <li>
+		        <a href="history.html">History</a>
+		    </li>
+      		     <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Our Research<b class="caret"></b></a>
+             		 <ul class="dropdown-menu">
+                	<li>
+		          <!-- Content container to add padding -->
+		          <div class="yamm-content">
+		            <div class="row">
+		              <ul class="col-sm-4 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP">
+		                <li>
+		                  <a href="#" style="font-weight:700;font-size:25px;color:#c3ddeaP"> Research Areas </a>
+		                </li>
+		                <li><a href="#"> Astronaut Health </a></li>
+		                <li><a href="#"> Astrophysics </a></li>
+		                <li><a href="earthscience.html"> Earth Science </a></li>
+		                <li><a href="#"> Planetary Science </a></li>
+		                <li><a href="#"> Robotics </a></li>
+		                <li><a href="#"> Sensors </a></li>
+		                <li><a href="#"> Solar Science </a></li>
+		                <li><a href="#"> Spacecraft Engineering </a></li>
+				 <li class="divider"></li>
+		              </ul>
+		              <ul class="col-sm-4 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP">
+		                <li>
+		                  <a href="#" style="font-weight:700;font-size:25px;color:#c3ddeaP">Institutions</a>
+		                </li>
+		                <li><a href="#"> Applied Physics Lab (APL) </a></li>
+		                <li><a href="#"> Center for Astrophysics (CAS) </a></li>
+		                <li><a href="#"> Earth and Planetary Sciences (EPS) </a></li>
+		                <li><a href="#"> School of Medicine</a></li>
+		                <li><a href="#"> School of Engineering </a></li>
+				 <li class="divider"></li>
+		              </ul>
+
+		              <ul class="col-sm-4 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP;font-size:20px">
+		                <li>
+		                  <a href="#" style="font-weight:700;font-size:25px;line-height:25px;color:#c3ddeaP">Close Collaborators</a>
+		                </li>
+		                <li><a href="#"> Space Telescope Science Institute (STSCI) </a></li>
+		                <li><a href="#"> NASA/Goddard </a></li>
+		                <li><a href="#"> Kavli Institute (IPMU) </a></li>
+		                <li><a href="#"> Sloan Digital Sky Survey (SDSS) </a></li>
+		                <li><a href="#"> Subaru Telescope </a></li>
+		                <li><a href="#"> Panoramic Survey Telescope (PAN-STARRS) </a></li>
+		              </ul>
+		            </div>
+		          </div>
+		        </li>
+		      </ul>
+		    </li>
+		    <li>	
+		        <a href="News.html">News<br></a>
+		    </li>
+		    <li class="">
+		        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Opportunities and Grants <b class="caret"></b></a>
+		        <ul class="dropdown-menu"> 
+		            <li class="">
+		                <a href="#">Seed Grants</a>
+		            </li>                                     
+		            <li>
+		                <a href="#">Join the initivative!<br></a>
+		            </li>                                                                       
+		        </ul>
+		    </li>
+		</ul>
+	    </div>	
+       </div>
+	<!--/.container-->
+    </nav>
+    <!--/nav-->
+	<section id="parallax-intro">
+		<div class="container-fluid">
+		    <div class="row">
+			    <div class="ha-bg-parallax text-center block-marginb-none" data-type="background" data-speed="20">
+			<div class="ha-parallax-body">
+			    <div class="ha-content ha-content-whitecolor">
+				<h6>Earth Science</h6>
+=======
+    </head>
+  <body class="homepage">  
+	<section id="parallax-intro"> <!--/#parallax-intro-->  
+		<div class="container-fluid">
+		    <div class="row">
+			<div class="ha-bg-parallax-header block-marginb-none" data-type="background" data-speed="20">	
+			<div class="ha-parallax-body-header">
+				<div class="col-md-4 col"><div class="content"><div class="ha-content ha-content-whitecolor-header"><h6 style="padding-left:50px">Space@Hopkins</h6></div></div></div><div class="col-md-4 col"><div class="content"></div></div><div class="col-md-4 col"><div class="content"><img src="images/ulogowhite.png" alt="Johns Hopkins University" class="img-responsive" style="padding-top:15px;padding-left:60px"></div></div>			     
+			    <div class="ha-parallax-divider-wrapper-header">
+				<span class="ha-diamond-divider-md-header img-responsive"></span>
+>>>>>>> e950c15e10af3fd6ac46a0f31a7b38ed6e6b0c1a
+			    </div>
+			    <div class="ha-heading-parallax-header"></div>
+			</div>
+		    </div>
+		</div>
+	 </div>
+	</section>
+        <!--/#parallax-intro-->  
+
+	<nav class="navbar navbar-inverted">
+	    <div class="container">
+		<div class="navbar-header">
+		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		    </button>
+		</div>
+	    <div class="collapse navbar-collapse navbar-right" role="banner">
+		<ul class="nav navbar-nav">
+		    <li class="active">
+		        <a href="index.html">Home</a>
+		    </li>
+		    <li>
+		        <a href="history.html">History</a>
+		    </li>
+		    <li>
+		        <a href="grants.html">Oppurtunities&amp;Grants&nbsp;</a>
+		    </li>
+		    <li>
+		        <a href="sciencematrix.html">Research Areas</a>
+		    </li>
+		    <li>
+		        <a href="News.html">News<br></a>
+		    </li>
+		    <li>
+		        <a href="contact-us.html">Contact</a>
+		    </li>
+		    <li class="">
+		        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Oppurtunities&amp;Grants&nbsp;<b class="caret"></b></a>
+		        <ul class="dropdown-menu"> 
+		            <li class="">
+		                <a href="#">Seed Grants</a>
+		            </li>                                     
+		            <li>
+		                <a href="#">Join the initivative!<br></a>
+		            </li>                                     
+		            <li class="divider"></li>                                     
+		            <li>
+		                <a href="#">Separated link</a>
+		            </li>                                     
+		        </ul>
+		    </li>
+		</ul>
+	    </div>
+	
+       </div>
+	<!--/.container-->
+    </nav>
+    <!--/nav-->
+
+	<section id="portfolio">
+        <div class="container">
+            <div class="center">
+
+               <p class="lead">JHU scientists are working to understand the innerworkings of all processes happening on our home planet!</p>
+            </div>
+        
+
+            <ul class="portfolio-filter text-center">
+                <li><a class="btn btn-default active" href="#" data-filter="*">All Works</a></li>
+                <li><a class="btn btn-default" href="#" data-filter=".atmchem">Atmospheric Chemistry</a></li>
+                <li><a class="btn btn-default" href="#" data-filter=".mag">Earth's Magnetic Field</a></li>
+                <li><a class="btn btn-default" href="#" data-filter=".upatm">Upper Atmosphere</a></li>
+                <li><a class="btn btn-default" href="#" data-filter=".atmdyn">Atmospheric Dynamics</a></li>
+            </ul><!--/#portfolio-filter-->
+
+            <div class="row">
+                <div class="portfolio-items">
+                    <div class="portfolio-item upatm atmdyn col-xs-12 col-sm-4 col-md-3">
+				    <div class="panel panel-default">
+					<div class="panel-heading"><h4>Global Ultraviolet Imager (GUVI)</h4></div>
+					<div class="panel-image">
+					    <img src="images/guvi.jpg" class="panel-image-preview" />
+					</div>
+					<div class="panel-body">
+					    <p>GUVI is an instrument on the TIMED spacecraft designed to monitor the Earth's upper atmosphere. The GUVI science objectives are to understand the composition, energetics, and dynamics of the Earth's upper atmosphere</p>
+					    <p>People: APL (<a href="http://guvitimed.jhuapl.edu/">More Info </a>) </p>
+					</div>
+					
+			    </div>
+
+                    </div><!--/.portfolio-item-->
+
+                    <div class="portfolio-item mag col-xs-12 col-sm-4 col-md-3">
+				    <div class="panel panel-default">
+					<div class="panel-heading">SuperMAG</div>
+					<div class="panel-image">
+					    <img src="images/magfield.png" class="panel-image-preview" />
+					</div>
+					<div class="panel-body">
+					    <p>SuperMAG is a worldwide collaboration of organizations and national agencies that currently operate more than 300 ground based magnetometers. The purpose of SuperMAG it to help scientists, teachers, students and the general public have easy access to measurements of the Earth's magnetic field.</p>
+					    <p>People: APL (<a href="http://supermag.jhuapl.edu/">More Info </a>) </p>
+					</div>
+					
+			    </div>
+
+                    </div><!--/.portfolio-item-->
+
+                    <div class="portfolio-item atmchem col-xs-12 col-sm-4 col-md-3">
+				    <div class="panel panel-default">
+					<div class="panel-heading">Modeling atmospheric aerosol</div>
+					<div class="panel-image">
+					    <img src="images/volcano.png" class="panel-image-preview" />
+					</div>
+					<div class="panel-body">
+					    <p>Associate Research Scientist in the Department of Earth and Planetary Sciences of Johns Hopkins University and in the Laboratory for Atmospheric Chemistry and Dynamics of NASA Goddard Space Flight Center, Velentina Aquila focuses on modeling atmospheric aerosol and its impact on the climate.</p>
+					    <p>People: Valentina Aquila (<a href="http://acdb-ext.gsfc.nasa.gov/People/Aquila/">More Info</a>) </p>
+					</div>
+					
+			    </div>
+
+                    </div><!--/.portfolio-item-->
+
+
+                    <div class="portfolio-item atmchem col-xs-12 col-sm-4 col-md-3">
+				    <div class="panel panel-default">
+					<div class="panel-heading">Early Earth</div>
+					<div class="panel-image">
+					    <img src="images/earlyearth.png" class="panel-image-preview" />
+					</div>
+					<div class="panel-body">
+					    <p>Understanding the chemical composition of the atmosphere early on when oxygen first appeared.</p>
+					    <p>People: Sarah Horst (<a href="http://www.sarahhorst.com/index.html">More Info </a>) </p>
+					</div>
+					
+			    </div>
+
+                    </div><!--/.portfolio-item-->
+
+
+                    <div class="portfolio-item atmchem col-xs-12 col-sm-4 col-md-3">
+				    <div class="panel panel-default">
+					<div class="panel-heading">Computer Models of atmospheric composition</div>
+					<div class="panel-image">
+					    <img src="images/ozone.png" class="panel-image-preview" />
+					</div>
+					<div class="panel-body">
+					    <p>Richard Stolarski is a Research Professor in the Department of Earth and Planetary Sciences heading several projects focusing on the chemical composition of the atmosphere; what governs the present composition; how does it respond to change and how did it evolve to the present state.</p>
+					    <p>People: Richard Stolarski (<a href="http://blaustein.eps.jhu.edu/~rstolar1/">More Info</a>) </p>
+					</div>
+					
+			    </div>
+
+                    </div><!--/.portfolio-item-->
+
+                    <div class="portfolio-item atmdyn col-xs-12 col-sm-4 col-md-3">
+				    <div class="panel panel-default">
+					<div class="panel-heading">Large-scale dynamics and transport</div>
+					<div class="panel-image">
+					    <img src="images/atmdyn.png" class="panel-image-preview" />
+					</div>
+					<div class="panel-body">
+					    <p>Research projects focused on the dynamics and transport in the atmosphere, and its controls on the distribution of trace constituents. This is important for several different aspects of global change, including stratospheric ozone depletion, air pollution, and global warming.</p>
+					    <p>People: Darryn Waugh (<a href="http://sites.krieger.jhu.edu/waugh/">More Info</a>) </p>
+					</div>
+					
+			    </div>
+
+                    </div><!--/.portfolio-item-->
+
+                    <div class="portfolio-item upatm col-xs-12 col-sm-4 col-md-3">
+				    <div class="panel panel-default">
+					<div class="panel-heading">Sounding Rockets</div>
+					<div class="panel-image">
+					    <img src="images/soundingrocket.png" class="panel-image-preview" />
+					</div>
+					<div class="panel-body">
+					    <p>Among the study of many other astronomical phenomena, sounding rockets can be used to probe the Earth's upper atmosphere, the aurora and the airglow.</p>
+					    <p>People: Paul D. Feldman (<a href="http://physics-astronomy.jhu.edu/directory/paul-d-feldman/">More Info</a>) </p>
+					</div>
+					
+			    </div>
+
+                    </div><!--/.portfolio-item-->
+
+                    <div class="portfolio-item atmdyn col-xs-12 col-sm-4 col-md-3">
+				    <div class="panel panel-default">
+					<div class="panel-heading">Hydroclimate Research Group</div>
+					<div class="panel-image">
+					    <img src="images/climatemodeling.png" class="panel-image-preview" />
+					</div>
+					<div class="panel-body">
+					    <p>Among the study of other hydroclimate processes, the hydroclimate research group aims to develop tools for improved monitoring and prediction of regional atmospheric processes.</p>
+					    <p>People: Benjamin Zaitchik (<a href="http://blaustein.eps.jhu.edu/~zaitchik/">More Info</a>) </p>
+					</div>
+					
+			    </div>
+
+                    </div><!--/.portfolio-item-->
+
+
+                </div>
+            </div>
+        </div>
+    </section><!--/#portfolio-item-->
+
+	<!--/#bottom-->
+	<div class="top-bar">
+	    <div class="container">
+		<div class="row">
+		    <div class="col-lg-12">
+		        <div class="social">
+		            <ul class="social-share">
+		                <li>
+		                    <a href="#"><i class="fa fa-facebook"></i></a>
+		                </li>
+		                <li>
+		                    <a href="#"><i class="fa fa-twitter"></i></a>
+		                </li>
+		                <li>
+		                    <a href="#"><i class="fa fa-linkedin"></i></a>
+		                </li>
+		                <li>
+		                    <a href="#"><i class="fa fa-dribbble"></i></a>
+		                </li>
+		                <li>
+		                    <a href="#"><i class="fa fa-skype"></i></a>
+		                </li>
+		            </ul>
+		        </div>
+		    </div>
+		</div>
+	    </div>
+	    <!--/.container-->
+	</div>
+	<!--/.top-bar-->
+	<footer id="footer" class="midnight-blue">
+	    <div class="container">
+		<div class="row">
+		    <div class="col-sm-6">© 2015
+		        <a target="_blank" href="http://bootstraptaste.com/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">bootstraptaste</a>. All Rights Reserved.
+		    </div>
+		    <!-- All links in the footer should remain
+		    intact. Licenseing information is available at: http://bootstraptaste.com/license/
+		    You can buy this theme without footer links online at: http://bootstraptaste.com/buy/?theme=Gp
+		    -->
+		    <div class="col-sm-6">
+		        <ul class="pull-right">
+		            <li>
+		                <a href="#">Home</a>
+		            </li>
+		            <li>
+		                <a href="#">About Us</a>
+		            </li>
+		            <li>
+		                <a href="#">Faq</a>
+		            </li>
+		            <li>
+		                <a href="#">Contact Us</a>
+		            </li>
+		        </ul>
+		    </div>
+		</div>
+	    </div>
+	</footer>
+        <!--/#footer-->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.prettyPhoto.js"></script>
+        <script src="js/jquery.isotope.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/main.js"></script>
+    </body>
+</html>

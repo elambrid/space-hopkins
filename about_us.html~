@@ -1,0 +1,398 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Space@Hopkins</title>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link href="css/animate.min.css" rel="stylesheet">
+        <link href="css/prettyPhoto.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+   	<!-- Yamm styles-->
+   	 <link href="css/yamm.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+            <script src="js/respond.min.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="css/main.css">
+    </head>
+	<body class="homepage">  
+	<section id="parallax-intro"> <!--/#parallax-intro-->  
+		<div class="container-fluid">
+		    <div class="row">
+			<div class="ha-bg-parallax-header block-marginb-none" data-type="background" data-speed="20">	
+			<div class="ha-parallax-body-header">
+				<div class="col-md-4 col"><div class="content"><div class="ha-content ha-content-whitecolor-header"><h6 style="padding-left:50px;padding-top:10px">Space@Hopkins</h6></div></div></div><div class="col-md-4 col"><div class="content"></div></div><div class="col-md-4 col"><div class="content"><img src="images/ulogowhite.png" alt="Johns Hopkins University" class="img-responsive" style="padding-top:15px;padding-left:60px"></div></div>			     
+			    <div class="ha-parallax-divider-wrapper-header">
+				<span class="ha-diamond-divider-md-header img-responsive"></span>
+			    </div>
+			    <div class="ha-heading-parallax-header"></div>
+			</div>
+		    </div>
+		</div>
+	 </div>
+	</section>
+	<!--/#parallax-intro-->  
+
+	<nav class="navbar navbar-inverted yamm">
+	    <div class="container">
+		<div class="navbar-header">
+		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		    </button>
+		</div>
+	    <div class="collapse navbar-collapse" role="banner">
+		<ul class="nav navbar-nav">
+		    <li class="active">
+			<a href="index.html">Home</a>
+		    </li>
+		    <li>
+			<a href="history.html">History</a>
+		    </li>
+		     <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Our Research<b class="caret"></b></a>
+	     		 <ul class="dropdown-menu">
+			<li>
+			  <!-- Content container to add padding -->
+			  <div class="yamm-content">
+			    <div class="row">
+			      <ul class="col-sm-4 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP">
+			        <li>
+			          <a href="#" style="font-weight:700;font-size:25px;color:#c3ddeaP"> Research Areas </a>
+			        </li>
+			        <li><a href="#"> Astronaut Health </a></li>
+			        <li><a href="#"> Astrophysics </a></li>
+			        <li><a href="earthscience.html"> Earth Science </a></li>
+			        <li><a href="#"> Planetary Science </a></li>
+			        <li><a href="#"> Robotics </a></li>
+			        <li><a href="#"> Sensors </a></li>
+			        <li><a href="#"> Solar Science </a></li>
+			        <li><a href="#"> Spacecraft Engineering </a></li>
+				 <li class="divider"></li>
+			      </ul>
+			      <ul class="col-sm-4 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP">
+			        <li>
+			          <a href="#" style="font-weight:700;font-size:25px;color:#c3ddeaP">Institutions</a>
+			        </li>
+			        <li><a href="#"> Applied Physics Lab (APL) </a></li>
+			        <li><a href="#"> Center for Astrophysics (CAS) </a></li>
+			        <li><a href="#"> Earth and Planetary Sciences (EPS) </a></li>
+			        <li><a href="#"> School of Medicine</a></li>
+			        <li><a href="#"> School of Engineering </a></li>
+				 <li class="divider"></li>
+			      </ul>
+
+			      <ul class="col-sm-4 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP;font-size:20px">
+			        <li>
+			          <a href="#" style="font-weight:700;font-size:25px;line-height:25px;color:#c3ddeaP">Close Collaborators</a>
+			        </li>
+			        <li><a href="#"> Space Telescope Science Institute (STSCI) </a></li>
+			        <li><a href="#"> NASA/Goddard </a></li>
+			        <li><a href="#"> Kavli Institute (IPMU) </a></li>
+			        <li><a href="#"> Sloan Digital Sky Survey (SDSS) </a></li>
+			        <li><a href="#"> Subaru Telescope </a></li>
+			        <li><a href="#"> Panoramic Survey Telescope (PAN-STARRS) </a></li>
+			      </ul>
+			    </div>
+			  </div>
+			</li>
+		      </ul>
+		    </li>
+		    <li>	
+			<a href="News.html">News<br></a>
+		    </li>
+		    <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Oppurtunities and Grants<b class="caret"></b></a>
+	     		 <ul class="dropdown-menu">
+			<li>
+			      <ul class="col-sm-12 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP">
+				<li><a href="#"> Seed Grants </a></li>
+			        <li><a href="#"> External Grants </a></li>
+				<li><a href="#"> Join the Initiative! </a></li>
+			      </ul>
+			</li>
+		      </ul>
+		    </li>
+		    <li>	
+			<a href="events.html">Events<br></a>
+		    </li>		   	
+		    <li>	
+			<a href="about_us.html">About Us<br></a>
+		    </li>		   	
+
+		</ul>
+	    </div>	
+	</div>
+	<!--/.container-->
+	</nav>
+	<!--/nav-->
+	<section id="parallax-intro">
+		<div class="container-fluid">
+		    <div class="row">
+			    <div class="ha-bg-parallax text-center block-marginb-none" data-type="background" data-speed="20">
+			<div class="ha-parallax-body">
+			    <div class="ha-content ha-content-whitecolor top10">
+				<br></br>		
+				<h6>About Us</h6>
+				<div class="navbar-collapse collapse" style="font-weight:bold;">
+					<ul class="nav navbar-nav top5" style ="border-style:dotted;background:rgba(0,0,0,0.5);" data-0="margin-top:50px;" data-300="margin-top:15px;">
+						<li><a href="#section-purpose">Statement of Purpose</a></li>
+						<li><a href="#section-team">Meet the Team</a></li>
+						<li><a href="#section-aff">Affiliated Institutions</a></li>
+					</ul>
+				</div>
+			    <div class="ha-parallax-divider-wrapper">
+				<span class="ha-diamond-divider-md img-responsive"></span>
+			    </div>
+			    <div class="ha-heading-parallax"></div>
+
+			</div>
+		    </div>
+
+		  </div>
+
+		</div>
+	</section>
+	<!--/#parallax-intro--> 
+
+
+	<!-- CHART IMAGE SECTION -->
+
+	<section id="section-purpose">  
+		<div id="chartwrap">
+		    <div class="container">
+		      <div class="row">
+				  <div class="col-lg-4 top5 left5">
+				  	<h1>Statement of Purpose</h1>
+				  	<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.</p> 
+				  	<p>It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software</p>
+				  </div><!-- col-lg-4 -->
+				  <div class="col-sm-6 chart hidden-sm hidden-xs top5 left5 pull-right">
+				  	<img class="img-responsive" src="visual1.png" alt="">
+				  </div><!-- col-lg-8 -->
+		    </div><!-- /row -->
+		  </div><!-- /.container -->	
+		</div><!-- chartwrap -->
+	</section>
+	<!--/#statement-of-purpose-->
+    
+
+
+	<!-- Meet the Team -->
+
+	<section id="section-team">
+			<section id="parallax-intro">
+				<div class="container-fluid top5">
+				    <div class="row">
+					    <div class="ha-bg-parallax text-center block-marginb-none" data-type="background" data-speed="20">
+					<div class="ha-parallax-body">
+					    <div class="ha-content ha-content-whitecolor">
+						<h6>Meet the Team</h6>
+					    <div class="ha-parallax-divider-wrapper">
+						<span class="ha-diamond-divider-md img-responsive"></span>
+					    </div>
+					    <div class="ha-heading-parallax"></div>
+					</div>
+				    </div>
+				  </div>
+				</div>
+			</section>
+			<!--/#parallax-intro--> 
+
+
+	
+			<!-- TEAM INTRODUCTION -->
+			<div class="container">
+				<div class="row mt">
+					<div class="col-lg-8">
+						<h6>Professional Team</h6>
+					</div>
+					<div class="col-lg-4"></div>
+				</div><!-- row -->
+				<div class="row">
+					<div class="col-lg-8">
+						<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+						<p>It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages.</p>
+					</div>
+
+				</div>
+		
+			</div><!-- container -->
+	
+			<div class="container bottom5 top5">
+			    <div class="row">
+				<div class="col-sm-3">
+				    <div class="card hovercard">
+					<img class="cardheader" src="http://hdwallpapersfit.com/wp-content/uploads/2015/01/rosette-hubble-images-wallpaper-galaxy.jpg" />
+					<div class="avatar">
+					    <img src="bennett_thumb.jpg" alt="" />
+					</div>
+					<div class="content">
+					    <p>Web Developer <br>
+					       More description here</p>
+					    <p><button type="button" class="btn btn-default">Contact</button></p>
+					</div>
+				    </div>
+				</div>
+				<div class="col-sm-3">
+				    <div class="card hovercard">
+					<img class="cardheader" src="https://svs.gsfc.nasa.gov/vis/a010000/a011500/a011588/s3-original_heic0707a.jpg" />
+					<div class="avatar">
+					    <img src="erini.jpg" alt="" />
+					</div>
+					<div class="content">
+					    <p>Web Developer <br>
+					       More description here</p>
+					    <p><button type="button" class="btn btn-default">Contact</button></p>
+					</div>
+				    </div>
+				</div>
+				<div class="col-sm-3">
+				    <div class="card hovercard">
+					<img class="cardheader" src= "http://www.pleiade.org/images/hubble-m45.jpg" />
+					<div class="avatar">
+					    <img src="kirsten.hall.jpg" alt="" />
+					</div>
+					<div class="content">
+					    <p>Web Developer <br>
+					       More description here</p>
+					    <p><button type="button" class="btn btn-default">Contact</button></p>
+					</div>
+				    </div>
+				</div>
+				<div class="col-sm-3">
+				    <div class="card hovercard">
+					<img class="cardheader" src= "https://www.nasa.gov/sites/default/files/thumbnails/image/hubble_friday_08212015.jpg" />
+					<div class="avatar">
+					    <img src="jon.jpg" alt="" />
+					</div>
+					<div class="content">
+					    <p>Web Developer <br>
+					       More description here</p>
+					    <p><button type="button" class="btn btn-default">Contact</button></p>
+					</div>
+				    </div>
+				</div>		
+
+			    </div>
+			</div>
+	</section>
+	<!--/#team--> 
+
+
+
+	
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <div class="content-block" id="footer">
+		<div class="container">
+			<div class="row">
+					<div class="col-sm-4 ">
+			
+					    <h2 class="footer-block">About Us</h2>
+					    <p>Praesent lacinia dapibus, accumsan vesti bulum. Pellen tesque molestie mollis.</p>
+					    <br>
+					    <p> <a href="index.html"> Home</a></p>
+					    <p> <a href="#"> History</a></p>
+					    <p> <a href="#"> Research</a></p>
+					    <p> <a href="#"> Opportunities and Grants</a></p>
+					    <p> <a href="#"> News</a></p> 		
+					    <p> <a href="#"> Events</a></p>
+
+					</div>
+					<div class="col-sm-4 blog-post">
+						<h2 class="footer-block">Leave us a message</h2>
+						<form action="contact-form.php" id="contactForm" method="post" name="contactform" class="" role="form">
+							<div class="form-group">
+						    	<input type="text" class="form-control form-control-white" id="name" name="name" placeholder="Your Name" required>
+						  	</div>
+						    <div class="form-group">
+						    	<input type="email" class="form-control form-control-white" id="email" name="email" placeholder="Enter email" required>
+						    </div>
+						    <div class="form-group">
+						    	<textarea class="form-control form-control-white" id="message" name="massage" placeholder="Write Something" required></textarea>
+						    </div>
+						    <div id="contactFormResponse"></div>
+						    <div class="form-group">
+						    	<input id="cfsubmit" type="submit" class="text-center btn btn-o-white" value="Leave A Comment">
+						  	</div>
+						</form>
+					</div>
+					<div class="col-sm-4 blog-post">
+					
+						<h2 class="footer-block">Contact Details</h2>
+						<ul>
+							<li class="address-sub"><i class="fa fa-map-marker"></i>Space@Hopkins</li>
+								<p>
+									Johns Hopkins University, 3400 N. Charles St, Baltimore, MD 21218
+								</p>
+							<li class="address-sub"><i class="fa fa-phone"></i>Phone</li>
+								<p>
+									Local: 1-800-123-hello<br>
+									Mobile: 1-800-123-hello
+								</p>
+							<li class="address-sub"><i class="fa fa-envelope-o"></i>Email Address</li>
+								<p>
+									<a href="mailto:info@spacestudies.jhu.edu">info@SpaceStudies.jhu.edu</a><br>
+									<a href="http://www.SpaceStudies.jhu.edu/">www.SpaceStudies.jhu.edu</a>
+								</p>
+
+
+						</ul>
+						<div class="social">
+							<a href="#"><i class="fa fa-twitter"></i></a>
+							<a href="#"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-linkedin-square"></i></a>
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div><!--/#wrapper-->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.prettyPhoto.js"></script>
+        <script src="js/jquery.isotope.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/main.js"></script>
+        <script src="js/classie.js"></script>   
+	<script src="js/background-blur.min.js"></script>  	
+    </body>
+</html>
+

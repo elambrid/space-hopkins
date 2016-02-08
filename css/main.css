@@ -9,7 +9,7 @@
 body {
 	font-family: Cabin, sans-serif;
 	color:#333;
-	line-height:16px;
+	line-height:20px;
 }
 
 h1,
@@ -136,9 +136,9 @@ body > section {
 }
 
 .lead{
-  font-size: 16px;
-  line-height: 24px;
-  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 500;
 }
 
 .transparent-bg {
@@ -449,7 +449,15 @@ width:228px;
     position: relative;
     display: block;
     padding: 10px 15px;
-    color: #003366;	
+    color: #fff;	
+}
+
+
+.nav .navbar-stacked > li:hover > a,
+.nav .navbar-stacked > li:focus > a,
+.nav .navbar-stacked > li.active > a {
+  background-color: #E8CE0E;
+  color: #fff;
 }
 
 /*************************
@@ -785,8 +793,9 @@ margin:0 auto; /* center your carousel if other than 100% */
 
 .panel-default>.panel-heading,
 .panel{
-  background-color: #e6e6e6; 
+  background-color: #003366; 
   border:0 none;
+  border-radius: 25px;
   box-shadow:none;
 }
 
@@ -813,7 +822,7 @@ margin:0 auto; /* center your carousel if other than 100% */
 }
 
 .panel-title>a{
-  color: #4e4e4e;
+  color: #fff;
 }
 
 .accordion-inner img{
@@ -1460,10 +1469,11 @@ ul.social_icons li  a i{
 }
 
 .portfolio-filter > li a {
-  background: none repeat scroll 0 0 #FFFFFF;
-  font-size: 14px;
+  background: none repeat scroll 0 0 #003366;
+  font-size: 16px;
   font-weight: 400;
   margin-right: 20px;
+  color: #FFFFFF;
   text-transform: uppercase;
   transition: all 0.9s ease 0s;
   -moz-transition: all 0.9s ease 0s;
@@ -2205,7 +2215,7 @@ no-repeat fixed;
     background-size: cover;
 		
 	
-    height: 100px;
+    height: 150px;
 
     margin: 0 auto;
 

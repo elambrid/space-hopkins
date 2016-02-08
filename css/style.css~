@@ -2,6 +2,7 @@ h2.ss-subtitle{
     padding: 10px 10px 40px;
     font-size: 52px;
     text-transform: uppercase;
+    line-height: 50px;
     color: rgba(0,0,0,0.8);
 	position: relative;
 	text-shadow: 1px 1px 2px rgba(0,0,0,0.2);
@@ -32,16 +33,18 @@ h2.ss-subtitle:after{
 .ss-links{
 	position: fixed;
 	left: 10px;
-	top: 166px;
+	top: 180px;
 	width: 25%;
 	z-index: 100;
+	
+
 }
 .ss-links a{
-	background: rgba(0,0,0,0.2);
+	background: #003366;
 	font-size: 16px;
-	width: 40px;
-	height: 40px;
-	line-height: 40px;
+	width: 50px;
+	height: 50px;
+	line-height: 50px;
 	margin: 5px;
 	float: left;
 	border-radius: 50%;
@@ -60,6 +63,7 @@ h2.ss-subtitle:after{
     width: 100%;
     position: relative;
     text-align: left;
+    color: #003366;
     float: left;
 	overflow: hidden;
 	padding-bottom: 500px;
@@ -67,14 +71,14 @@ h2.ss-subtitle:after{
 .ss-container h2{
     font-size: 40px;
     text-transform: uppercase;
-    color: rgba(78,84,123,0.2);
+    color: rgba(78,84,123,0.8);
 	text-shadow: 0px 1px 1px #fff;
 	padding: 20px 0px;
 }
 .ss-container:before{
     position: absolute;
     width: 4px;
-    background: rgba(17,17,22,0.8);
+    background: #003366;
     top: 0px;
     left: 50%;
 	margin-left: -2px;
@@ -107,6 +111,7 @@ h2.ss-subtitle:after{
     display: block;
     text-indent: -9000px;
     text-align: left;
+    color: #003366;
     -webkit-box-shadow: 
 		0px 2px 5px rgba(0,0,0,0.7) inset, 
 		0px 0px 0px 12px rgba(61,64,85,0.3);
@@ -198,8 +203,8 @@ h2.ss-subtitle:after{
 	border-left: 5px solid rgba(164,166,181,0.8);
 }
 .ss-container h3 span{
-    color: rgba(255,255,255,0.8);
-    font-size: 13px;
+    color: rgba(0,0,0,1);
+    font-size: 36px;
     display: block;
     padding-bottom: 5px;
 }
@@ -207,97 +212,203 @@ h2.ss-subtitle:after{
     font-size: 28px;
     color: rgba(255,255,255,0.9);
     display: block;
+    line-height: 30px;
 }
 .ss-container h3 a:hover{
 	color: rgba(255,255,255,1);
 }
 .ss-circle-1{
-    background-image:url(../images/1.jpg);
+    background-image:url(../images/history/220px-Rowland_Henry.jpg);
 }
 .ss-circle-2{
-    background-image: url(../images/2.jpg);
+    background-image: url(../images/history/Simon_Newcomb_01.jpg);
 }
 .ss-circle-3{
-    background-image: url(../images/3.jpg);
+    background-image: url(../images/history/Ames.jpg);
 }
 .ss-circle-4{
-    background-image: url(../images/4.jpg);
+    background-image: url(../images/history/kossi.jpg);
 }
 .ss-circle-5{
-    background-image: url(../images/5.jpg);
+    background-image: url(../images/history/1946.jpg);
 }
 .ss-circle-6{
-    background-image: url(../images/6.jpg);
+    background-image: url(../images/history/1stphoto.jpg);
 }
 .ss-circle-7{
-    background-image: url(../images/7.jpg);
+    background-image: url(../images/history/cmb.png);
 }
 .ss-circle-8{
-    background-image: url(../images/8.jpg);
+    background-image: url(../images/history/1955.jpg);
 }
 .ss-circle-9{
-    background-image: url(../images/9.jpg);
+    background-image: url(../images/history/Sputnik-516.jpg);
 }
 .ss-circle-10{
-    background-image: url(../images/10.jpg);
+    background-image: url(../images/history/navsystem.jpg);
 }
 .ss-circle-11{
-    background-image: url(../images/11.jpg);
+    background-image: url(../images/history/apollo17.jpg);
 }
 .ss-circle-12{
-    background-image: url(../images/12.jpg);
+    background-image: url(../images/history/transit-5a-3.jpg);
 }
 .ss-circle-13{
-    background-image: url(../images/13.jpg);
+    background-image: url(../images/history/beacon.jpg);
 }
 .ss-circle-14{
-    background-image: url(../images/14.jpg);
+    background-image: url(../images/history/Explorer-29_image.jpg);
 }
 .ss-circle-15{
-    background-image: url(../images/15.jpg);
+    background-image: url(../images/history/GEOS.jpeg);
 }
 .ss-circle-16{
-    background-image: url(../images/16.jpg);
+    background-image: url(../images/history/LECP.jpeg);
 }
 .ss-circle-17{
-    background-image: url(../images/17.jpg);
+    background-image: url(../images/history/IUE.jpg);
 }
 .ss-circle-18{
-    background-image: url(../images/18.jpg);
+    background-image: url(../images/history/A1_AFD.JPG);
 }
 .ss-circle-19{
-    background-image: url(../images/19.jpg);
+    background-image: url(../images/history/HUT.jpg);
 }
 .ss-circle-20{
-    background-image: url(../images/20.jpg);
+    background-image: url(../images/history/stsci.jpg);
 }
 .ss-circle-21{
-    background-image: url(../images/21.jpg);
+    background-image: url(../images/history/spacetelescope.jpg);
 }
 .ss-circle-22{
-    background-image: url(../images/22.jpg);
+    background-image: url(../images/spacecraft/AMPTE.png);
 }
 .ss-circle-23{
-    background-image: url(../images/23.jpg);
+    background-image: url(../images/history/galaxy.jpg);
 }
 .ss-circle-24{
-    background-image: url(../images/24.jpg);
+    background-image: url(../images/history/geosat.jpeg);
 }
 .ss-circle-25{
-    background-image: url(../images/25.jpg);
+    background-image: url(../images/spacecraft/FUSE.png);
 }
 .ss-circle-26{
-    background-image: url(../images/26.jpg);
+    background-image: url(../images/history/iau.jpeg);
 }
 .ss-circle-27{
-    background-image: url(../images/27.jpg);
+    background-image: url(../images/history/spacegrant.jpg);
 }
 .ss-circle-28{
-    background-image: url(../images/28.jpg);
+    background-image: url(../images/history/msx.png);
 }
 .ss-circle-29{
-    background-image: url(../images/29.jpg);
+    background-image: url(../images/planetaryscience/EPD.png);
 }
 .ss-circle-30{
-    background-image: url(../images/30.jpg);
+    background-image: url(../images/history/30.jpg);
+}
+.ss-circle-31{
+    background-image: url(../images/history/30.jpg);
+}
+.ss-circle-32{
+    background-image: url(../images/history/30.jpg);
+}
+.ss-circle-33{
+    background-image: url(../images/history/30.jpg);
+}
+.ss-circle-34{
+    background-image: url(../images/history/30.jpg);
+}
+.ss-circle-35{
+    background-image: url(../images/history/30.jpg);
+}
+.ss-circle-36{
+    background-image: url(../images/history/30.jpg);
+}
+.ss-circle-37{
+    background-image: url(../images/history/30.jpg);
+}
+.ss-circle-38{
+    background-image: url(../images/history/30.jpg);
+}
+.ss-circle-39{
+    background-image: url(../images/history/30.jpg);
+}
+.ss-circle-40{
+    background-image: url(../images/history/30.jpg);
+}
+.ss-circle-41{
+    background-image: url(../images/history/30.jpg);
+}
+.ss-circle-42{
+    background-image: url(../images/history/30.jpg);
+}
+.ss-circle-43{
+    background-image: url(../images/history/30.jpg);
+}
+.ss-circle-44{
+    background-image: url(../images/history/30.jpg);
+}
+.ss-circle-45{
+    background-image: url(../images/history/30.jpg);
+}
+.ss-circle-45{
+    background-image: url(../images/history/30.jpg);
+}
+.ss-circle-46{
+    background-image: url(../images/history/30.jpg);
+}
+.ss-circle-47{
+    background-image: url(../images/history/30.jpg);
+}
+.ss-circle-48{
+    background-image: url(../images/history/30.jpg);
+}
+.ss-circle-49{
+    background-image: url(../images/history/30.jpg);
+}
+.ss-circle-50{
+    background-image: url(../images/history/30.jpg);
+}
+.ss-circle-51{
+    background-image: url(../images/history/);
+}
+.ss-circle-52{
+    background-image: url(../images/history/);
+}
+.ss-circle-53{
+    background-image: url(../images/history/);
+}
+.ss-circle-54{
+    background-image: url(../images/history/);
+}
+.ss-circle-55{
+    background-image: url(../images/history/);
+}
+.ss-circle-56{
+    background-image: url(../images/history/);
+}
+.ss-circle-57{
+    background-image: url(../images/history/);
+}
+.ss-circle-58{
+    background-image: url(../images/history/);
+}
+.ss-circle-59{
+    background-image: url(../images/history/);
+}
+.ss-circle-60{
+    background-image: url(../images/history/);
+}
+.ss-circle-61{
+    background-image: url(../images/history/);
+}
+.ss-circle-62{
+    background-image: url(../images/history/);
+}
+.ss-circle-63{
+    background-image: url(../images/history/);
+}
+.ss-circle-64{
+    background-image: url(../images/history/);
 }

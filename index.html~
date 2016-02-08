@@ -25,7 +25,7 @@
 		    <div class="row">
 			<div class="ha-bg-parallax-header block-marginb-none" data-type="background" data-speed="20">	
 			<div class="ha-parallax-body-header">
-				<div class="col-md-4 col"><div class="content"><div class="ha-content ha-content-whitecolor-header"><h6 style="padding-left:50px">Space@Hopkins</h6></div></div></div><div class="col-md-4 col"><div class="content"></div></div><div class="col-md-4 col"><div class="content"><img src="images/ulogowhite.png" alt="Johns Hopkins University" class="img-responsive" style="padding-top:15px;padding-left:60px"></div></div>			     
+				<div class="col-md-4 col"><div class="content"><div class="ha-content ha-content-whitecolor-header"><h6 style="padding-left:50px;padding-top:10px">Space@Hopkins</h6></div></div></div><div class="col-md-4 col"><div class="content"></div></div><div class="col-md-4 col"><div class="content"><img src="images/ulogowhite.png" alt="Johns Hopkins University" class="img-responsive" style="padding-top:15px;padding-left:60px"></div></div>			     
 			    <div class="ha-parallax-divider-wrapper-header">
 				<span class="ha-diamond-divider-md-header img-responsive"></span>
 			    </div>
@@ -61,43 +61,17 @@
 		          <!-- Content container to add padding -->
 		          <div class="yamm-content">
 		            <div class="row">
-		              <ul class="col-sm-4 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP">
-		                <li>
-		                  <a href="#" style="font-weight:700;font-size:25px;color:#c3ddeaP"> Research Areas </a>
-		                </li>
-		                <li><a href="#"> Astronaut Health </a></li>
-		                <li><a href="#"> Astrophysics </a></li>
-		                <li><a href="earthscience.html"> Earth Science </a></li>
-		                <li><a href="#"> Planetary Science </a></li>
-		                <li><a href="#"> Robotics </a></li>
-		                <li><a href="#"> Sensors </a></li>
-		                <li><a href="#"> Solar Science </a></li>
-		                <li><a href="#"> Spacecraft Engineering </a></li>
-				 <li class="divider"></li>
-		              </ul>
-		              <ul class="col-sm-4 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP">
-		                <li>
-		                  <a href="#" style="font-weight:700;font-size:25px;color:#c3ddeaP">Institutions</a>
-		                </li>
-		                <li><a href="#"> Applied Physics Lab (APL) </a></li>
-		                <li><a href="#"> Center for Astrophysics (CAS) </a></li>
-		                <li><a href="#"> Earth and Planetary Sciences (EPS) </a></li>
-		                <li><a href="#"> School of Medicine</a></li>
-		                <li><a href="#"> School of Engineering </a></li>
-				 <li class="divider"></li>
-		              </ul>
+		              <ul class="col-lg-12 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP">
 
-		              <ul class="col-sm-4 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP;font-size:20px">
-		                <li>
-		                  <a href="#" style="font-weight:700;font-size:25px;line-height:25px;color:#c3ddeaP">Close Collaborators</a>
-		                </li>
-		                <li><a href="#"> Space Telescope Science Institute (STSCI) </a></li>
-		                <li><a href="#"> NASA/Goddard </a></li>
-		                <li><a href="#"> Kavli Institute (IPMU) </a></li>
-		                <li><a href="#"> Sloan Digital Sky Survey (SDSS) </a></li>
-		                <li><a href="#"> Subaru Telescope </a></li>
-		                <li><a href="#"> Panoramic Survey Telescope (PAN-STARRS) </a></li>
-		              </ul>
+		                <li><a href="astronauthealth.html"> Astronaut Health </a></li>
+		                <li><a href="astrophysics.html"> Astrophysics </a></li>
+		                <li><a href="earthscience.html"> Earth Science </a></li>
+		                <li><a href="planetaryscience.html"> Planetary Science </a></li>
+		                <li><a href="robotics.html"> Robotics </a></li>
+		                <li><a href="sensors.html"> Sensors </a></li>
+		                <li><a href="solarscience.html"> Solar Science </a></li>
+		                <li><a href="spacecraftengineering.html"> Spacecraft Engineering </a></li>
+
 		            </div>
 		          </div>
 		        </li>
@@ -106,17 +80,24 @@
 		    <li>	
 		        <a href="News.html">News<br></a>
 		    </li>
-		    <li class="">
-		        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Oppurtunities and Grants <b class="caret"></b></a>
-		        <ul class="dropdown-menu"> 
-		            <li class="">
-		                <a href="#">Seed Grants</a>
-		            </li>                                     
-		            <li>
-		                <a href="#">Join the initivative!<br></a>
-		            </li>                                                                       
-		        </ul>
+		    <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Oppurtunities and Grants<b class="caret"></b></a>
+             		 <ul class="dropdown-menu">
+                	<li>
+		              <ul class="col-sm-12 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP">
+				<li><a href="#"> Seed Grants </a></li>
+		                <li><a href="#"> External Grants </a></li>
+				<li><a href="#"> Join the Initiative! </a></li>
+			      </ul>
+		        </li>
+		      </ul>
 		    </li>
+		    <li>	
+		        <a href="events.html">Events<br></a>
+		    </li>		   	
+		    <li>	
+		        <a href="about_us.html">About Us<br></a>
+		    </li>		   	
+
 		</ul>
 	    </div>	
        </div>
@@ -127,83 +108,122 @@
 
 	<div id="fix-for-navbar-fixed-top-spacing" style="height: 42px;">&nbsp;</div>
 
+	<div class = "container-fluid">
+		<div class="col-md-4 text-center" >
+			<section id="carousel">    				
+				<div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
+						<div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+						  <!-- Carousel indicators -->
+				  <ol class="carousel-indicators">
+						    <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
+						    <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+						    <li data-target="#fade-quote-carousel" data-slide-to="2"></li>
+						  </ol>
+						  <!-- Carousel items -->
+						  <div class="carousel-inner">
+						    <div class="active item">
+						    	<blockquote>
+						    		<p>"From our founding over 139 years ago, Johns Hopkins' students and faculty have pursued knowledge—in the classroom, in the laboratory, and in the farthest reaches of space—with a restless curiosity, intellectual courage, and undaunted determination." - Ronald J Daniels, 14th President of The Johns Hopkins University</p>
+						    	</blockquote>
+						    	<div class="profile-circle" style="background-color: rgba(0,0,0,.2);background-image:url('ron.jpg')"></div>
+						    </div>
+						    <div class="item">
+						    	<blockquote>
+						    		<p>"From our founding over 139 years ago, Johns Hopkins' students and faculty have pursued knowledge—in the classroom, in the laboratory, and in the farthest reaches of space—with a restless curiosity, intellectual courage, and undaunted determination." - Ronald J Daniels, 14th President of The Johns Hopkins University</p>
+						    	</blockquote>
+						    	<div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
+						    </div>
+						    <div class="item">
+						    	<blockquote>
+						    		<p>"From our founding over 139 years ago, Johns Hopkins' students and faculty have pursued knowledge—in the classroom, in the laboratory, and in the farthest reaches of space—with a restless curiosity, intellectual courage, and undaunted determination." - Ronald J Daniels, 14th President of The Johns Hopkins University</p>
+						    	</blockquote>
+						    	<div class="profile-circle" style="background-color: rgba(145,169,216,.2);"></div>
+						    </div>
+					</div>						
+				</div>
+			</section>
+		        <a class = "btn btn-primary btn-lg btn-responsive text-center bottom5" href="seedform.html"> Apply for a Seed Grant Now! </a>
+		</div><!-- End Column -->
 
 
-        <section id="news">
-            <div class="container">
-                <div id="myCarousel" class="carousel slide" data-ride="carousel">
-                    <!-- Wrapper for slides -->
-                    <div class="carousel-inner">
-                        <div class="item active">
-                            <img src="images/portfolio/full/apl.jpg">
-                            <div class="carousel-caption">
-                                <h4><a href="#">New Horizons: NASA's first mission to Pluto and the Kuiper Belt</a></h4>
-                                <p>New Horizons launched on Jan. 19, 2006; it swung past Jupiter for a gravity boost and scientific studies in February 2007, and conducted a six-month-long reconnaissance flyby study of Pluto and its moons in summer 2015, culminating with Pluto closest approach on July 14, 2015. As part of an extended mission, pending NASA approval, the spacecraft is expected to head farther into the Kuiper Belt to examine another of the ancient, icy mini-worlds in that vast region, at least a billion miles beyond Neptune’s orbit. <a class="label label-primary" href="News.html" target="_blank">Read More</a></p>
-                            </div>
-                        </div>
-                        <!-- End Item -->
-                        <div class="item">
-                            <img src="images/blog/chuck.jpg">
-                            <div class="carousel-caption">
-                                <h4><a href="#">JHU's Charles Bennett and Andrew Feinberg named Bloomberg Distinguished Professors</a></h4>
-                                <p>One is exploring the origin and evolution of all of space; the other is floating in its simulated conditions to develop pioneering genetic sequencing techniques at zero gravity. Johns Hopkins' two newest Bloomberg Distinguished Professors are definitely out of this world. <a class="label label-primary" href="News.html" target="_blank">Read More</a></p>
-                            </div>
-                        </div>
-                        <!-- End Item -->
-                        <div class="item">
-                            <img src="images/blog/20150408_ObservingSun.jpg">
-                            <div class="carousel-caption">
-                                <h4><a href="#">NASA Gives Green Light for Johns Hopkins APL to Begin Building Solar Probe Plus Spacecraft</a></h4>
-                                <p>NASA’s Solar Probe Plus mission — which will fly closer to the Sun than any spacecraft has before — reached a major milestone last month when it successfully completed its Critical Design Review (CDR). <a class="label label-primary" href="News.html" target="_blank">Read More</a></p>
-                            </div>
-                        </div>
-                        <!-- End Item -->
-                        <div class="item">
-                            <img src="images/blog/NGC-1365-Great-Barred-Spiral-Galaxy.jpg">
-                            <div class="carousel-caption">
-                                <h4><a href="#">Johns Hopkins Rocketeers Launch Their Most Sensitive Instrument Yet</a></h4>
-                                <p>Rocketeers led by Johns Hopkins University astrophysicist Stephan R. McCandliss launched the most sensitive instrument they’ve ever used to explore outer space, seeking clues to how galaxies grow with the birth of new stars, and how they stop growing. <a class="label label-primary" href="News.html" target="_blank">Read More</a></p>
-                            </div>
-                        </div>
-                        <!-- End Item -->
-                        <div class="item">
-                            <img src="images/blog/europaprobe.jpg">
-                            <div class="carousel-caption">
-                                <h4><a href="#">Two JHU APL instruments chosen for NASA mission to Jupiter moon Europa</a></h4>
-                                <p>Two instruments designed by the Johns Hopkins University Applied Physics Laboratory are among nine instruments selected for flight aboard a proposed NASA mission to explore Jupiter's moon Europa and investigate its habitability.<a class="label label-primary" href="News.html" target="_blank">Read More</a></p>
-                            </div>
-                        </div>
-                        <!-- End Item -->
-                    </div>
-                    <!-- End Carousel Inner -->
-                    <ul class="list-group col-sm-4">
-                        <li data-target="#myCarousel" data-slide-to="0" class="list-group-item active">
-                            <h4>New Horizons: NASA's first mission to Pluto and the Kuiper Belt</h4>
-                        </li>
-                        <li data-target="#myCarousel" data-slide-to="1" class="list-group-item">
-                            <h4>JHU's Charles Bennett and Andrew Feinberg named Bloomberg Distinguished Professors</h4>
-                        </li>
-                        <li data-target="#myCarousel" data-slide-to="2" class="list-group-item">
-                            <h4>NASA Gives Green Light for Johns Hopkins APL to Begin Building Solar Probe Plus Spacecraft</h4>
-                        </li>
-                        <li data-target="#myCarousel" data-slide-to="3" class="list-group-item">
-                            <h4>Johns Hopkins Rocketeers Launch Their Most Sensitive Instrument Yet</h4>
-                        </li>
-                        <li data-target="#myCarousel" data-slide-to="4" class="list-group-item">
-                            <h4>Two JHU APL instruments chosen for NASA mission to Jupiter moon Europa</h4>
-                        </li>
-                    </ul>
-                    <!-- Controls -->
-                    <div class="carousel-controls">
-                        <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
-                        <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
-                    </div>
-                </div>
-                <!-- End Carousel -->
-            </div>
-        </section><!-- End News -->
-
-	<div id="fix-for-navbar-fixed-top-spacing" style="height: 42px;">&nbsp;</div>     
+		<div class ="col-md-8">
+			<section id="news">
+			    <div class="container">
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				    <!-- Wrapper for slides -->
+				    <div class="carousel-inner">
+				        <div class="item active">
+				            <img src="images/portfolio/full/apl.jpg">
+				            <div class="carousel-caption">
+				                <h4><a href="#">New Horizons: NASA's first mission to Pluto and the Kuiper Belt</a></h4>
+				                <p>New Horizons launched on Jan. 19, 2006; it swung past Jupiter for a gravity boost and scientific studies in February 2007, and conducted a six-month-long reconnaissance flyby study of Pluto and its moons in summer 2015, culminating with Pluto closest approach on July 14, 2015. As part of an extended mission, pending NASA approval, the spacecraft is expected to head farther into the Kuiper Belt to examine another of the ancient, icy mini-worlds in that vast region, at least a billion miles beyond Neptune’s orbit. <a class="label label-primary" href="News.html" target="_blank">Read More</a></p>
+				            </div>
+				        </div>
+				        <!-- End Item -->
+				        <div class="item">
+				            <img src="images/blog/chuck.jpg">
+				            <div class="carousel-caption">
+				                <h4><a href="#">JHU's Charles Bennett and Andrew Feinberg named Bloomberg Distinguished Professors</a></h4>
+				                <p>One is exploring the origin and evolution of all of space; the other is floating in its simulated conditions to develop pioneering genetic sequencing techniques at zero gravity. Johns Hopkins' two newest Bloomberg Distinguished Professors are definitely out of this world. <a class="label label-primary" href="News.html" target="_blank">Read More</a></p>
+				            </div>
+				        </div>
+				        <!-- End Item -->
+				        <div class="item">
+				            <img src="images/blog/20150408_ObservingSun.jpg">
+				            <div class="carousel-caption">
+				                <h4><a href="#">NASA Gives Green Light for Johns Hopkins APL to Begin Building Solar Probe Plus Spacecraft</a></h4>
+				                <p>NASA’s Solar Probe Plus mission — which will fly closer to the Sun than any spacecraft has before — reached a major milestone last month when it successfully completed its Critical Design Review (CDR). <a class="label label-primary" href="News.html" target="_blank">Read More</a></p>
+				            </div>
+				        </div>
+				        <!-- End Item -->
+				        <div class="item">
+				            <img src="images/blog/NGC-1365-Great-Barred-Spiral-Galaxy.jpg">
+				            <div class="carousel-caption">
+				                <h4><a href="#">Johns Hopkins Rocketeers Launch Their Most Sensitive Instrument Yet</a></h4>
+				                <p>Rocketeers led by Johns Hopkins University astrophysicist Stephan R. McCandliss launched the most sensitive instrument they’ve ever used to explore outer space, seeking clues to how galaxies grow with the birth of new stars, and how they stop growing. <a class="label label-primary" href="News.html" target="_blank">Read More</a></p>
+				            </div>
+				        </div>
+				        <!-- End Item -->
+				        <div class="item">
+				            <img src="images/blog/europaprobe.jpg">
+				            <div class="carousel-caption">
+				                <h4><a href="#">Two JHU APL instruments chosen for NASA mission to Jupiter moon Europa</a></h4>
+				                <p>Two instruments designed by the Johns Hopkins University Applied Physics Laboratory are among nine instruments selected for flight aboard a proposed NASA mission to explore Jupiter's moon Europa and investigate its habitability.<a class="label label-primary" href="News.html" target="_blank">Read More</a></p>
+				            </div>
+				        </div>
+				        <!-- End Item -->
+				    </div>
+				    <!-- End Carousel Inner -->
+				    <ul class="list-group col-sm-4" >
+				        <li data-target="#myCarousel" data-slide-to="0" class="list-group-item active">
+				            <h4 style="color:#000;font-size:16px;">New Horizons: NASA's first mission to Pluto and the Kuiper Belt</h4>
+				        </li>
+				        <li data-target="#myCarousel" data-slide-to="1" class="list-group-item">
+				            <h4 style="color:#000;font-size:16px;">JHU's Charles Bennett and Andrew Feinberg named Bloomberg Distinguished Professors</h4>
+				        </li>
+				        <li data-target="#myCarousel" data-slide-to="2" class="list-group-item">
+				            <h4 style="color:#000;font-size:16px;">NASA Gives Green Light for Johns Hopkins APL to Begin Building Solar Probe Plus Spacecraft</h4>
+				        </li>
+				        <li data-target="#myCarousel" data-slide-to="3" class="list-group-item">
+				            <h4 style="color:#000;font-size:16px;">Johns Hopkins Rocketeers Launch Their Most Sensitive Instrument Yet</h4>
+				        </li>
+				        <li data-target="#myCarousel" data-slide-to="4" class="list-group-item">
+				            <h4 style="color:#000;font-size:16px;">Two JHU APL instruments chosen for NASA mission to Jupiter moon Europa</h4>
+				        </li>
+				    </ul>
+				    <!-- Controls -->
+				    <div class="carousel-controls">
+				        <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+				        <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+				    </div>
+				</div>
+				<!-- End Carousel -->
+			    </div>
+			</section><!-- End News -->
+			<div id="fix-for-navbar-fixed-top-spacing" style="height: 42px;">&nbsp;</div> 
+		</div><!-- End Column -->
+	</div> <!-- End Section -->
+	    
 	<section id="parallax-intro">
 		<div class="container-fluid">
 		    <div class="row">
@@ -243,7 +263,7 @@
                             <img class="img-responsive bottom5" src="images/frontpage/astronaut.png" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h4><a href="#">Astronaut Health</a></h4>
+                                    <h4><a href="astronauthealth.html">Astronaut Health</a></h4>
                                     <p>It wasn't too long ago that the first humans went to space, and Johns Hopkins researchers are determined to help astronauts continue to space travel as safely as possible!</p>
                                     <a class="preview" href="images/frontpage/astronaut.png" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                                     <a class="preview" href="images/frontpage/astronaut.png" rel="prettyPhoto"></a>
@@ -256,7 +276,7 @@
                             <img class="img-responsive bottom5" src="images/frontpage/sun.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h4><a href="#">Solar Science</a></h4>
+                                    <h4><a href="solarscience.html">Solar Science</a></h4>
                                     <p class="">The Sun is our lifeforce, and JHU scientists want to know all there is to know about it!</p>
                                     <a class="preview" href="images/frontpage/sun.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                                     <a class="preview" href="images/frontpage/sun.jpg" rel="prettyPhoto"></a>
@@ -269,7 +289,7 @@
                             <img class="img-responsive bottom5" src="images/frontpage/planets.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h4><a href="#">Planetary Sciences</a></h4>
+                                    <h4><a href="planetaryscience.html">Planetary Science</a></h4>
                                     <p>From Mercury to Pluto to the outer edge of the solar system, Johns Hopkins Scientists are studying it all!</p>
                                     <p class=""><a class="preview" href="images/frontpage/planets.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a></p>
                                 </div>                                 
@@ -282,7 +302,7 @@
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h4><a href="earthscience.html">Earth Science</a></h4>
-                                    <p>JHU scientists are working to understand the interworkings of all processes happening on our home planet!</p>
+                                    <p>JHU scientists are working to understand the innerworkings of all processes happening on our home planet!</p>
                                     <a class="preview" href="images/frontpage/earth.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                                     <a class="preview" href="images/frontpage/earth.jpg" rel="prettyPhoto"></a>
                                 </div>                                 
@@ -294,7 +314,7 @@
                             <img class="img-responsive bottom5" src="images/frontpage/spaceengineer.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h4><a href="#">Spacecraft Engineering</a></h4>
+                                    <h4><a href="spacecraftengineering.html">Spacecraft Engineering</a></h4>
                                     <p>Spacecraft Engineers at John Hopkins work to build spacecraft that will fly both near and far!</p>
                                     <p><a class="preview" href="images/frontpage/spaceengineer.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a></p>
                                 </div>                                 
@@ -306,7 +326,7 @@
                             <img class="img-responsive bottom5" src="images/frontpage/astro.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h4><a href="#">Astrophysics</a></h4>
+                                    <h4><a href="astrophysics.html">Astrophysics</a></h4>
                                     <p>JHU Astrophysicists are investigating the universe from exoplanets to galaxies to the cosmic microwave background!</p>
                                     <a class="preview" href="images/frontpage/astro.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                                     <a class="preview" href="images/frontpage/astro.jpg" rel="prettyPhoto"></a>
@@ -319,7 +339,7 @@
                             <img class="img-responsive bottom5" src="images/frontpage/sensor.jpg" alt="">
                             <div class="overlay">
                                 <div class="recent-work-inner">
-                                    <h4><a href="#">Sensors</a></h4>
+                                    <h4><a href="sensors.html">Sensors</a></h4>
                                     <p>JHU scientists build cutting edge sensors for everything from spacecrafts to space telescopes to ground-based telescopes!</p>
                                     <p class=""><a class="preview" href="images/frontpage/sensor.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a><a class="preview" href="images/frontpage/sensor.jpg" rel="prettyPhoto">&nbsp;View</a></p>
                                     <a class="preview" href="images/frontpage/sensor.jpg" rel="prettyPhoto"></a>
@@ -332,69 +352,77 @@
             </div>
         </section>
         <!--/#recent-works-->    
-
+	
      
         <!--/#news-->         
         <!--/#bottom-->
-        <div class="top-bar">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="social">
-                            <ul class="social-share">
-                                <li>
-                                    <a href="#"><i class="fa fa-facebook"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fa fa-twitter"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fa fa-linkedin"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fa fa-dribbble"></i></a>
-                                </li>
-                                <li>
-                                    <a href="#"><i class="fa fa-skype"></i></a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!--/.container-->
-        </div>
-        <!--/.top-bar-->
-        <footer id="footer" class="midnight-blue">
-            <div class="container">
-                <div class="row">
-                    <div class="col-sm-6">© 2015
-                        <a target="_blank" href="http://bootstraptaste.com/" title="Free Twitter Bootstrap WordPress Themes and HTML templates">bootstraptaste</a>. All Rights Reserved.
-                    </div>
-                    <!-- All links in the footer should remain
-                    intact. Licenseing information is available at: http://bootstraptaste.com/license/
-                    You can buy this theme without footer links online at: http://bootstraptaste.com/buy/?theme=Gp
-                    -->
-                    <div class="col-sm-6">
-                        <ul class="pull-right">
-                            <li>
-                                <a href="#">Home</a>
-                            </li>
-                            <li>
-                                <a href="#">About Us</a>
-                            </li>
-                            <li>
-                                <a href="#">Faq</a>
-                            </li>
-                            <li>
-                                <a href="#">Contact Us</a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-        </footer>
-        <!--/#footer-->
+<div class="content-block" id="footer">
+		<div class="container">
+			<div class="row">
+					<div class="col-sm-4 ">
+			
+					    <h2 class="footer-block">About Us</h2>
+					    <p>Space@Hopkins unifies space-related activities across the institution in robotics, astronaut health, planetary sciences, solar physics, Earth science, spacecraft engineering, sensors, and astrophysics.</p>
+					    <br>
+					    <p> <a href="index.html"> Home</a></p>
+					    <p> <a href="history.html"> History</a></p>
+					    <p> <a href="#"> Research</a></p>
+					    <p> <a href="#"> Opportunities and Grants</a></p>
+					    <p> <a href="#"> News</a></p> 		
+					    <p> <a href="#"> Events</a></p>
+
+					</div>
+					<div class="col-sm-4 blog-post">
+						<h2 class="footer-block">Leave us a message</h2>
+						<form action="contact-form.php" id="contactForm" method="post" name="contactform" class="" role="form">
+							<div class="form-group">
+						    	<input type="text" class="form-control form-control-white" id="name" name="name" placeholder="Your Name" required>
+						  	</div>
+						    <div class="form-group">
+						    	<input type="email" class="form-control form-control-white" id="email" name="email" placeholder="Enter email" required>
+						    </div>
+						    <div class="form-group">
+						    	<textarea class="form-control form-control-white" id="message" name="massage" placeholder="Write Something" required></textarea>
+						    </div>
+						    <div id="contactFormResponse"></div>
+						    <div class="form-group">
+						    	<input id="cfsubmit" type="submit" class="text-center btn btn-o-white" value="Leave A Comment">
+						  	</div>
+						</form>
+					</div>
+					<div class="col-sm-4 blog-post">
+					
+						<h2 class="footer-block">Contact Details</h2>
+						<ul>
+							<li class="address-sub"><i class="fa fa-map-marker"></i>Space@Hopkins</li>
+								<p>
+									Johns Hopkins University, 3400 N. Charles St, Baltimore, MD 21218
+								</p>
+							<li class="address-sub"><i class="fa fa-phone"></i>Phone</li>
+								<p>
+									Local: 1-800-123-hello<br>
+									Mobile: 1-800-123-hello
+								</p>
+							<li class="address-sub"><i class="fa fa-envelope-o"></i>Email Address</li>
+								<p>
+									<a href="mailto:info@spacestudies.jhu.edu">info@SpaceStudies.jhu.edu</a><br>
+									<a href="http://www.SpaceStudies.jhu.edu/">www.SpaceStudies.jhu.edu</a>
+								</p>
+
+
+						</ul>
+						<div class="social">
+							<a href="https://twitter.com/SpaceAtHopkins"><i class="fa fa-twitter"></i></a>
+							<a href="https://www.facebook.com/SpaceAtHopkins"><i class="fa fa-facebook"></i></a>
+							<a href="#"><i class="fa fa-linkedin-square"></i></a>
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div><!--/#wrapper-->
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
         <script src="js/jquery.js"></script>
         <script src="js/bootstrap.min.js"></script>

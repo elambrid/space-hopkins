@@ -13,19 +13,19 @@
         <link href="css/responsive.css" rel="stylesheet">
         <link rel="stylesheet" type="text/css" href="css/demo.css" />
         <link rel="stylesheet" type="text/css" href="css/style.css" />
-	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/main.css">
         <!--[if lt IE 9]>
             <script src="js/html5shiv.js"></script>
             <script src="js/respond.min.js"></script>
         <![endif]-->
     </head>
-  <body class="homepage">  
+	<body class="homepage">  
 	<section id="parallax-intro"> <!--/#parallax-intro-->  
 		<div class="container-fluid">
 		    <div class="row">
 			<div class="ha-bg-parallax-header block-marginb-none" data-type="background" data-speed="20">	
 			<div class="ha-parallax-body-header">
-				<div class="col-md-4 col"><div class="content"><div class="ha-content ha-content-whitecolor-header"><h6 style="padding-left:50px">Space@Hopkins</h6></div></div></div><div class="col-md-4 col"><div class="content"></div></div><div class="col-md-4 col"><div class="content"><img src="images/ulogowhite.png" alt="Johns Hopkins University" class="img-responsive" style="padding-top:15px;padding-left:60px"></div></div>			     
+				<div class="col-md-4 col"><div class="content"><div class="ha-content ha-content-whitecolor-header"><h6 style="padding-left:50px;padding-top:10px">Space@Hopkins</h6></div></div></div><div class="col-md-4 col"><div class="content"></div></div><div class="col-md-4 col"><div class="content"><img src="images/ulogowhite.png" alt="Johns Hopkins University" class="img-responsive" style="padding-top:15px;padding-left:60px"></div></div>			     
 			    <div class="ha-parallax-divider-wrapper-header">
 				<span class="ha-diamond-divider-md-header img-responsive"></span>
 			    </div>
@@ -35,7 +35,7 @@
 		</div>
 	 </div>
 	</section>
-        <!--/#parallax-intro-->  
+	<!--/#parallax-intro-->  
 
 	<nav class="navbar navbar-inverted yamm">
 	    <div class="container">
@@ -50,96 +50,105 @@
 	    <div class="collapse navbar-collapse" role="banner">
 		<ul class="nav navbar-nav">
 		    <li class="active">
-		        <a href="index.html">Home</a>
+			<a href="index.html">Home</a>
 		    </li>
 		    <li>
-		        <a href="history.html">History</a>
+			<a href="history.html">History</a>
 		    </li>
-      		     <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Our Research<b class="caret"></b></a>
-             		 <ul class="dropdown-menu">
-                	<li>
-		          <!-- Content container to add padding -->
-		          <div class="yamm-content">
-		            <div class="row">
-		              <ul class="col-sm-4 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP">
-		                <li>
-		                  <a href="#" style="font-weight:700;font-size:25px;color:#c3ddeaP"> Research Areas </a>
-		                </li>
-		                <li><a href="#"> Astronaut Health </a></li>
-		                <li><a href="#"> Astrophysics </a></li>
-		                <li><a href="earthscience.html"> Earth Science </a></li>
-		                <li><a href="#"> Planetary Science </a></li>
-		                <li><a href="#"> Robotics </a></li>
-		                <li><a href="#"> Sensors </a></li>
-		                <li><a href="#"> Solar Science </a></li>
-		                <li><a href="#"> Spacecraft Engineering </a></li>
+		     <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Our Research<b class="caret"></b></a>
+	     		 <ul class="dropdown-menu">
+			<li>
+			  <!-- Content container to add padding -->
+			  <div class="yamm-content">
+			    <div class="row">
+			      <ul class="col-sm-4 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP">
+			        <li>
+			          <a href="#" style="font-weight:700;font-size:25px;color:#c3ddeaP"> Research Areas </a>
+			        </li>
+			        <li><a href="astronauthealth.html"> Astronaut Health </a></li>
+			        <li><a href="astrophysics.html"> Astrophysics </a></li>
+			        <li><a href="earthscience.html"> Earth Science </a></li>
+			        <li><a href="planetaryscience.html"> Planetary Science </a></li>
+			        <li><a href="robotics.html"> Robotics </a></li>
+			        <li><a href="sensors.html"> Sensors </a></li>
+			        <li><a href="solarscience.html"> Solar Science </a></li>
+			        <li><a href="spacecraftengineering.html"> Spacecraft Engineering </a></li>
 				 <li class="divider"></li>
-		              </ul>
-		              <ul class="col-sm-4 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP">
-		                <li>
-		                  <a href="#" style="font-weight:700;font-size:25px;color:#c3ddeaP">Institutions</a>
-		                </li>
-		                <li><a href="#"> Applied Physics Lab (APL) </a></li>
-		                <li><a href="#"> Center for Astrophysics (CAS) </a></li>
-		                <li><a href="#"> Earth and Planetary Sciences (EPS) </a></li>
-		                <li><a href="#"> School of Medicine</a></li>
-		                <li><a href="#"> School of Engineering </a></li>
+			      </ul>
+			      <ul class="col-sm-4 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP">
+			        <li>
+			          <a href="#" style="font-weight:700;font-size:25px;color:#c3ddeaP">Institutions</a>
+			        </li>
+			        <li><a href="#"> Applied Physics Lab (APL) </a></li>
+			        <li><a href="#"> Center for Astrophysics (CAS) </a></li>
+			        <li><a href="#"> Earth and Planetary Sciences (EPS) </a></li>
+			        <li><a href="#"> School of Medicine</a></li>
+			        <li><a href="#"> School of Engineering </a></li>
 				 <li class="divider"></li>
-		              </ul>
+			      </ul>
 
-		              <ul class="col-sm-4 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP;font-size:20px">
-		                <li>
-		                  <a href="#" style="font-weight:700;font-size:25px;line-height:25px;color:#c3ddeaP">Close Collaborators</a>
-		                </li>
-		                <li><a href="#"> Space Telescope Science Institute (STSCI) </a></li>
-		                <li><a href="#"> NASA/Goddard </a></li>
-		                <li><a href="#"> Kavli Institute (IPMU) </a></li>
-		                <li><a href="#"> Sloan Digital Sky Survey (SDSS) </a></li>
-		                <li><a href="#"> Subaru Telescope </a></li>
-		                <li><a href="#"> Panoramic Survey Telescope (PAN-STARRS) </a></li>
-		              </ul>
-		            </div>
-		          </div>
-		        </li>
+			      <ul class="col-sm-4 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP;font-size:20px">
+			        <li>
+			          <a href="#" style="font-weight:700;font-size:25px;line-height:25px;color:#c3ddeaP">Close Collaborators</a>
+			        </li>
+			        <li><a href="#"> Space Telescope Science Institute (STSCI) </a></li>
+			        <li><a href="#"> NASA/Goddard </a></li>
+			        <li><a href="#"> Kavli Institute (IPMU) </a></li>
+			        <li><a href="#"> Sloan Digital Sky Survey (SDSS) </a></li>
+			        <li><a href="#"> Subaru Telescope </a></li>
+			        <li><a href="#"> Panoramic Survey Telescope (PAN-STARRS) </a></li>
+			      </ul>
+			    </div>
+			  </div>
+			</li>
 		      </ul>
 		    </li>
 		    <li>	
-		        <a href="News.html">News<br></a>
+			<a href="News.html">News<br></a>
 		    </li>
-		    <li class="">
-		        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Opportunities and Grants <b class="caret"></b></a>
-		        <ul class="dropdown-menu"> 
-		            <li class="">
-		                <a href="#">Seed Grants</a>
-		            </li>                                     
-		            <li>
-		                <a href="#">Join the initivative!<br></a>
-		            </li>                                                                       
-		        </ul>
+		    <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Oppurtunities and Grants<b class="caret"></b></a>
+	     		 <ul class="dropdown-menu">
+			<li>
+			      <ul class="col-sm-12 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP">
+				<li><a href="#"> Seed Grants </a></li>
+			        <li><a href="#"> External Grants </a></li>
+				<li><a href="#"> Join the Initiative! </a></li>
+			      </ul>
+			</li>
+		      </ul>
 		    </li>
+		    <li>	
+			<a href="events.html">Events<br></a>
+		    </li>		   	
+		    <li>	
+			<a href="about_us.html">About Us<br></a>
+		    </li>		   	
+
 		</ul>
 	    </div>	
-       </div>
+	</div>
 	<!--/.container-->
-    </nav>
-    <!--/nav-->
-
+	</nav>
+	<!--/nav-->
 
 	<div id="fix-for-navbar-fixed-top-spacing" style="height:1px;">&nbsp;</div>
 	    <div class="container">
-            <h2 class="ss-subtitle">A Rich History of Space Science </h2>
-			<div id="ss-links" class="ss-links">
-				<a href="#1800s">1800s</a>
-				<a href="#1920s">1920s</a>
-				<a href="#1940s">1940s</a>
-				<a href="#1950s">1950s</a>
-				<a href="#1960s">1960s</a>
-				<a href="#1970s">1970s</a>
-				<a href="#1980s">1980s</a>
-				<a href="#1990s">1990s</a>
-				<a href="#2000s">2000s</a>
-				<a href="#2010s">2010s</a>
-			</div>
+            	<h2 class="ss-subtitle">A Rich History of Space Science </h2>
+
+		    <div class="sticky" >
+				<div id="ss-links" class="ss-links">
+					<a href="#1800s">1800s</a>
+					<a href="#1920s">1920s</a>
+					<a href="#1940s">1940s</a>
+					<a href="#1950s">1950s</a>
+					<a href="#1960s">1960s</a>
+					<a href="#1970s">1970s</a>
+					<a href="#1980s">1980s</a>
+					<a href="#1990s">1990s</a>
+					<a href="#2000s">2000s</a>
+					<a href="#2010s">2010s</a>	
+				</div>
+		   </div>
             <div id="ss-container" class="ss-container">
                 <div class="ss-row">
                     <div class="ss-left">
@@ -482,12 +491,12 @@
                         </h3>
                     </div>
                     <div class="ss-right">
-						<a class="ss-circle ss-circle-30"></a>
+						<a class="ss-circle ss-circle-28"></a>
                     </div>
                 </div>
 				<div class="ss-row ss-large">
                     <div class="ss-left">
-                        <a class="ss-circle ss-circle-28"></a>
+                        <a class="ss-circle ss-circle-29"></a>
                     </div>
                     <div class="ss-right">
                         <h3>
@@ -509,9 +518,420 @@
                         </h3>
                     </div>
                     <div class="ss-right">
-						<a class="ss-circle ss-circle-29"></a>
+						<a class="ss-circle ss-circle-30"></a>
                     </div>
                 </div>
+
+				                <div class="ss-row ss-medium">
+                    <div class="ss-left">
+                        <a class="ss-circle ss-circle-31"></a>
+                    </div>
+                    <div class="ss-right">
+                        <h3>
+                            <span>1990</span>
+                            <a>In June, the department left its Rowland Hall home and moved into the Bloomberg Center for Physics and Astronomy, across San Martin Drive from the STScI.  The $35M building more than doubled the space available for labs and offices and included a high bay and clean room facility for handling space payloads.  To keep the “Rowland” name associated with the department, the name was officially changed to the Henry A. Rowland Department of Physics and Astronomy.</a>
+                        </h3>
+                    </div>
+                </div>
+				<div class="ss-row ss-large">
+                    <div class="ss-left">
+                        <h3>
+                            <span>1990</span>
+                            <a>On December 2, space shuttle Columbia rocketed into orbit carrying two important JHU contributions on STS-35, the Astro-1 mission.  The first was the Hopkins Ultraviolet Telescope, and the second was Samuel T. Durrance, a payload specialist and JHU research scientist and HUT team member.</a>
+                        </h3>
+                    </div>
+					<div class="ss-right">
+                        <a class="ss-circle ss-circle-32"></a>
+                    </div>
+                </div>
+                <div class="ss-row ss-small">
+                    <div class="ss-left">
+						<a class="ss-circle ss-circle-33"></a>
+                    </div>
+                    <div class="ss-right">
+                        <h3>
+                            <span>1993</span>
+                            <a>The Morris W. Offit telescope, named for a former chairman of the JHU board of trustees, takes its place atop of the Bloomberg building, as part of the Maryland Space Grant Observatory.</a>
+                        </h3>
+                    </div>
+                </div>
+				<div class="ss-row ss-medium">
+                    <div class="ss-left">
+                        <h3>
+                            <span>1993</span>
+                            <a>On December 2, space shuttle Endeavour launched on the first Hubble Servicing Mission (STS-61).  JHU professor Holland Ford was the project scientist of COSTAR, the corrective optics package that restored Hubble’s image clarity.</a>
+                        </h3>
+                    </div>
+					<div class="ss-right">
+                        <a class="ss-circle ss-circle-34"></a>
+                    </div>
+                </div>
+				<div class="ss-row ss-large">
+                    <div class="ss-left">
+                        <a class="ss-circle ss-circle-35"></a>
+                    </div>
+                    <div class="ss-right">
+                        <h3>
+                            <span>1994</span>
+                            <a>Holland Ford and colleagues use the repaired Hubble and the FOS instrument to confirm the presence of a supermassive black hole in the center of elliptical galaxy M87.</a>
+                        </h3>
+                    </div>
+                </div>
+				<div class="ss-row ss-small">
+                    <div class="ss-left">
+                        <a class="ss-circle ss-circle-36"></a>
+                    </div>
+                    <div class="ss-right">
+                        <h3>
+                            <span>1994</span>
+                            <a>The FUSE mission was restructured, and the new FUSE mission was accepted and fast-tracked by NASA.</a>
+                        </h3>
+                    </div>
+                </div>
+				<div class="ss-row ss-medium">
+                    <div class="ss-left">
+                        <h3>
+                            <span>1995</span>
+                            <a>After Astro-1, the HUT telescope and spectrograph were refurbished at JHU and on March 2, space shuttle Endeavour launched on STS-67, the Astro-2 mission, again carrying HUT and payload specialist Samuel Durrance.  The 16-day mission was nearly flawless, quite in contrast to Astro-1, and resulted in a treasure trove of data, including an exceptional observation that resulted in a unique measurement of the characteristics of the intergalactic medium, a long-sought prize of PI Arthur Davidsen.  (Interestingly, this was also John Grunsfeld’s first flight.  John went on the fly several of the subsequent Hubble servicing missions, including SM4; see 2009.)</a>
+                        </h3>
+                    </div>
+					<div class="ss-right">
+                        <a class="ss-circle ss-circle-37"></a>
+                    </div>
+                </div>
+				<div class="ss-row ss-small">
+                    <div class="ss-left">
+                        <h3>
+                            <span>1997</span>
+                            <a>STS-82 (shuttle Discovery) launched on Feb. 11th on the second Hubble servicing mission.  This mission carried the Space Telescope Imaging Spectrograph to Hubble, and professor Warren Moos was a co-investigator.</a>
+                        </h3>
+                    </div>
+                    <div class="ss-right">
+						<a class="ss-circle ss-circle-38"></a>
+                    </div>
+                </div>
+				<div class="ss-row ss-large">
+                    <div class="ss-left">
+                        <a class="ss-circle ss-circle-39"></a>
+                    </div>
+                    <div class="ss-right">
+                        <h3>
+                            <span>1997</span>
+                            <a>APL’s Advanced Composition Explorer (ACE) spacecraft is launched</a>
+                        </h3>
+                    </div>
+                </div>
+				<div class="ss-row ss-medium">
+                    <div class="ss-left">
+                        <a class="ss-circle ss-circle-40"></a>
+                    </div>
+                    <div class="ss-right">
+                        <h3>
+                            <span>1998</span>
+                            <a>May saw the official “first light” of the Sloan Digital Sky Survey (SDSS) telescope at the Apache Point Observatory in New Mexico.  SDSS has gone on to become a central focus of research throughout the astronomical community over the last decade.  JHU’s key contributions included a multi-fiber spectrograph, key elements of the database and software to archive and mine the data, and the calibration telescope (which began life in the observatory on top of Bloomberg).</a>
+                        </h3>
+                    </div>
+                </div>
+				<div class="ss-row ss-large">
+                    <div class="ss-left">
+                        <h3>
+                            <span>1999</span>
+                            <a>June 24th saw the launch of the Far Ultraviolet Spectroscopic Explorer (FUSE) mission on a Delta-II rocket from Cape Canaveral.  Warren Moos was the PI, and the mission operations were directed from the Bloomberg Center control room on the Homewood campus. For much of this time, research professor William Blair was the Chief of FUSE Operations. FUSE operated for 8 years, with a team of anywhere from 45 to 25 JHU scientists and engineers controlling all aspects of the mission.</a>
+                        </h3>
+                    </div>
+                    <div class="ss-right">
+						<a class="ss-circle ss-circle-41"></a>
+                    </div>
+                </div>
+				<div class="ss-row ss-small">
+                    <div class="ss-left">
+                        <a class="ss-circle ss-circle-42"></a>
+                    </div>
+                    <div class="ss-right">
+                        <h3>
+                            <span>1999</span>
+                            <a>APL is awarded the NASA Mercury Surface, Space Environment, Geochemistry, and Ranging (MESSENGER) mission to Mercury</a>
+                        </h3>
+                    </div>
+                </div>
+
+					<div class="ss-row">
+                    <div class="ss-left">
+                        <h2 id="2000s">2000's</h2>
+                    </div>
+                </div>
+				<div class="ss-row ss-medium">
+                    <div class="ss-left">
+                        <h3>
+                            <span>2000</span>
+                            <a>October 5th marked the dedication and official start of the Sloan Digital Sky Survey, part 1 (SDSS-I, 2000 – 2005)</a>
+                        </h3>
+                    </div>
+                    <div class="ss-right">
+						<a class="ss-circle ss-circle-43"></a>
+                    </div>
+                </div>
+				<div class="ss-row ss-large">
+                    <div class="ss-left">
+                        <a class="ss-circle ss-circle-44"></a>
+                    </div>
+                    <div class="ss-right">
+                        <h3>
+                            <span>2001</span>
+                            <a>In March, the Hopkins Ultraviolet Telescope was moved to the National Air & Space museum in Washington DC, as part of a permanent exhibit called, “Exploring the Universe.”</a>
+                        </h3>
+                    </div>
+                </div>
+				<div class="ss-row ss-large">
+                    <div class="ss-left">
+                        <h3>
+                            <span>2002</span>
+                            <a>JHU Professor Riccardo Giacconi of Physics and Astronomy is awarded the Nobel Prize for, “for pioneering contributions to astrophysics, which have led to the discovery of cosmic X-ray sources.”</a>
+                        </h3>
+                    </div>
+                    <div class="ss-right">
+						<a class="ss-circle ss-circle-45"></a>
+                    </div>
+                </div>
+				<div class="ss-row ss-medium">
+                    <div class="ss-left">
+                        <a  class="ss-circle ss-circle-46"></a>
+                    </div>
+                    <div class="ss-right">
+                        <h3>
+                            <span>2002</span>
+                            <a>STS-109 (Columbia) launched on Hubble Servicing Mission 3B, carrying the Advanced Camera for Surveys (ACS) to Hubble. Principal investigator professor Holland Ford led the team that developed the ACS, which increased Hubble’s “discovery space” by a factor of 10.  ACS experienced an electrical failure on Jan. 27, 2007, but was ultimately repaired on-orbit during STS-125 (May 2009).  At this writing, ACS continues to be a key instrument in Hubble’s arsenal of scientific instruments.</a>
+                        </h3>
+                    </div>
+                </div>
+				<div class="ss-row ss-small">
+                    <div class="ss-left">
+						<h3>
+                            <span>2004</span>
+                            <a>APL launches MESSENGER, the first Mercury-orbiting spacecraft</a>
+                        </h3>
+                    </div>
+                    <div class="ss-right">
+						<a class="ss-circle ss-circle-48"></a>
+                    </div>
+                </div>
+
+				<div class="ss-row ss-medium">
+                    <div class="ss-left">
+                        <a class="ss-circle ss-circle-49"></a>
+                    </div>
+                    <div class="ss-right">
+                        <h3>
+                            <span>2005</span>
+                            <a>July marked the official start of the Sloan Digital Sky Survey, part 2 (SDSS-II, 2005 – 2008).  Professor Alex Szalay and CAS manager James Crocker played key roles in SDSS, one of the most successful sky surveys performed to date.</a>
+                        </h3>
+                    </div>
+                </div>
+				<div class="ss-row ss-large">
+                    <div class="ss-left">
+						<h3>
+                            <span>2005</span>
+                            <a>Charles L. Bennett joins the Johns Hopkins faculty, bringing with him the leadership of the Wilkinson Microwave Anisotropy (WMAP) space mission.</a>
+                        </h3>
+                    </div>
+                    <div class="ss-right">
+						<a class="ss-circle ss-circle-50"></a>
+                    </div>
+                </div>
+				<div class="ss-row ss-medium">
+                    <div class="ss-left">
+                        <a class="ss-circle ss-circle-51"></a>
+                    </div>
+                    <div class="ss-right">
+                        <h3>
+                            <span>2005</span>
+                            <a>Adam Riess joins the JHU Department of Physics and Astronomy and goes on to win the Nobel Prize in 2011.</a>
+                        </h3>
+                    </div>
+                </div>
+				<div class="ss-row ss-small">
+                    <div class="ss-left">
+						<h3>
+                            <span>2006</span>
+                            <a>APL Solar Terrestrial Relations Observatory (STEREO) spacecraft launches on a mission to image the Sun in 3-D</a>
+                        </h3>
+                    </div>
+                    <div class="ss-right">
+		      <a class="ss-circle ss-circle-52"></a>
+                    </div>
+				</div>
+				<div class="ss-row ss-large">
+				  <div class="ss-left">
+				    <a class="ss-circle ss-circle-53"></a>
+				  </div>
+				  <div class="ss-right">
+                        <h3>
+                            <span>2006</span>
+                            <a>APL's Compact Reconnaissance Imaging Spectrometer for Mars (CRISM) instrument looks for water on Mars</a>
+                        </h3>
+                    </div>
+                </div>
+				<div class="ss-row ss-medium">
+				  <div class="ss-left">
+						<h3>
+                            <span>2006</span>
+                            <a>Adam Riess, JHU Professor of Physics and Astronomy, is awarded the Shaw Prize in Astronomy for providing evidence that the expansion of the universe is accelerating.</a>
+                        </h3>
+                    </div>
+                    <div class="ss-right">
+						<a class="ss-circle ss-circle-54"></a>
+                    </div>
+                </div>
+				<div class="ss-row ss-small">
+                    <div class="ss-left">
+                        <a class="ss-circle ss-circle-55"></a>
+                    </div>
+                    <div class="ss-right">
+                        <h3>
+                            <span>2006</span>
+                            <a>Charles L. Bennett, JHU Professor of Physics and Astronomy, is awarded a portion of the Gruber Cosmology Prize for his part in the NASA Cosmic Background Explorer (COBE) measurements of the early universe.</a>
+                        </h3>
+                    </div>
+                </div>
+				<div class="ss-row ss-large">
+                    <div class="ss-left">
+						<h3>
+                            <span>2007</span>
+                            <a>FUSE was decommissioned in October.</a>
+                        </h3>
+                    </div>
+                    <div class="ss-right">
+						<a class="ss-circle ss-circle-56"></a>
+                    </div>
+                </div>
+				<div class="ss-row ss-medium">
+                    <div class="ss-left">
+                        <a class="ss-circle ss-circle-57"></a>
+                    </div>
+                    <div class="ss-right">
+                        <h3>
+                            <span>2007</span>
+                            <a>Adam Riess, JHU Professor of Physics and Astronomy, is awarded the Gruber Cosmology Prize for providing evidence that the expansion of the universe is accelerating.</a>
+                        </h3>
+                    </div>
+                </div>
+				<div class="ss-row ss-small">
+                    <div class="ss-left">
+						<h3>
+                            <span>2008</span>
+                            <a>July marked the official start of the Sloan Digital Sky Survey, part 3 (SDSS-III, 2008 – 2014).</a>
+                        </h3>
+                    </div>
+                    <div class="ss-right">
+						<a class="ss-circle ss-circle-58"></a>
+                    </div>
+                </div>
+				<div class="ss-row ss-large">
+                    <div class="ss-left">
+                        <a class="ss-circle ss-circle-59"></a>
+                    </div>
+                    <div class="ss-right">
+                        <h3>
+                            <span>2009</span>
+                            <a>APL's Mini-RF instrument on the Chandrayaan-1 spacecraft maps the Moon's poles</a>
+                        </h3>
+                    </div>
+                </div>
+				<div class="ss-row ss-medium">
+				  <div class="ss-left">
+				    <a class="ss-circle ss-circle-60"></a>
+				  </div>
+				  <div class="ss-right">
+                        <h3>
+                            <span>2009</span>
+                            <a>After years of delay and uncertainty, STS-125 (Atlantis) launched on Hubble Servicing Mission 4.  Numerous JHU research staff were key players in preparations for the mission, real-time support activities, and post-installation calibration of the instruments, and John Grunsfeld performed three long space walks as part of on-orbit operations.  In 2010, Grunsfeld became deputy director of STScI and was appointed a research professor in the department.</a>
+                        </h3>
+                    </div>
+                </div>
+				<div class="ss-row">
+                    <div class="ss-left">
+                        <h2 id="2010s">2010's</h2>
+                    </div>
+                </div>
+				<div class="ss-row ss-small">
+                    <div class="ss-left">
+                       <h3>
+                            <span>2010</span>
+                            <a>APL's Compact Reconnaissance Imaging Spectrometer for Mars (CRISM) instrument points NASA's Mars Rovers to mineral deposits</a>
+                        </h3>
+                    </div>
+                    <div class="ss-right">
+						<a class="ss-circle ss-circle-61"></a>
+                    </div>
+                </div>
+				<div class="ss-row ss-medium">
+                    <div class="ss-left">
+                        <h3>
+                            <span>2010</span>
+                            <a>Charles L. Bennett, JHU Professor of Physics and Astronomy, is awarded the Shaw Prize in Astronomy for establishing the standard model of cosmology.</a>
+                        </h3>
+                    </div>
+                    <div class="ss-right">
+						<a class="ss-circle ss-circle-62"></a>
+                    </div>
+                </div>
+				<div class="ss-row ss-large">
+                    <div class="ss-left">
+                        <a class="ss-circle ss-circle-63"></a>
+                    </div>
+                    <div class="ss-right">
+                        <h3>
+                            <span>2011</span>
+                            <a>APL’s MESSENGER spacecraft goes into orbit around Mercury</a>
+                        </h3>
+                    </div>
+                </div>
+				<div class="ss-row ss-small">
+                    <div class="ss-left">
+                        <h3>
+                            <span>2011</span>
+                            <a>Adam Riess, JHU Professor of Physics and Astronomy, is awarded the Nobel Prize for providing evidence that the expansion of the universe is accelerating.</a>
+                        </h3>
+                    </div>
+                    <div class="ss-right">
+						<a class="ss-circle ss-circle-64"></a>
+                    </div>
+                </div>
+				<div class="ss-row ss-medium">
+                    <div class="ss-left">
+                        <a  class="ss-circle ss-circle-65"></a>
+                    </div>
+                    <div class="ss-right">
+                        <h3>
+                            <span>2012</span>
+                            <a>Charles L. Bennett, JHU Professor of Physics and Astronomy, is awarded the Gruber Cosmology Prize for the NASA WMAP space mission’s standard model of cosmology.</a>
+                        </h3>
+                    </div>
+                </div>
+				<div class="ss-row ss-large">
+                    <div class="ss-left">
+                        <a class="ss-circle ss-circle-66"></a>
+                    </div>
+                    <div class="ss-right">
+                        <h3>
+                            <span>2013</span>
+                            <a>Final results of the WMAP space mission are issued from the Homewood campus</a>
+                        </h3>
+                    </div>
+                </div>
+				<div class="ss-row ss-medium">
+                    <div class="ss-left">
+						<h3>
+                            <span>2015</span>
+                            <a>APL’s New Horizons missions takes first close up pictures of Pluto</a>
+                        </h3>
+                    </div>
+                    <div class="ss-right">
+						<a class="ss-circle ss-circle-67"></a>
+                    </div>
+                </div>
+            </div>
+        </div>
             </div>
         </div>
         <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
@@ -772,6 +1192,14 @@
 			
 		});
 		</script>
+	<script src="js/jquery.stickyscroll.js"></script>	
+	<script>
+		$(document).ready(function() {	
+			$('.ss-links').stickyScroll({topBoundary:150, bottomBoundary: 500 });
+		});
+	</script>
+
+
 	</div>            <!--/.top-bar-->
         <footer id="footer" class="midnight-blue">
             <div class="container">
@@ -804,11 +1232,5 @@
         </footer>
         <!--/#footer-->
         <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-	<script src="js/jquery.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/jquery.prettyPhoto.js"></script>
-        <script src="js/jquery.isotope.min.js"></script>
-        <script src="js/wow.min.js"></script>
-        <script src="js/main.js"></script>
     </body>
 </html>

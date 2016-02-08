@@ -68,7 +68,7 @@
 		                <li>
 		                  <a href="#" style="font-weight:700;font-size:25px;color:#c3ddeaP"> Research Areas </a>
 		                </li>
-				<li><a href="astronauthealth.html"> Astronaut Health </a></li>
+		                <li><a href="astronauthealth.html"> Astronaut Health </a></li>
 		                <li><a href="astrophysics.html"> Astrophysics </a></li>
 		                <li><a href="earthscience.html"> Earth Science </a></li>
 		                <li><a href="planetaryscience.html"> Planetary Science </a></li>
@@ -76,7 +76,7 @@
 		                <li><a href="sensors.html"> Sensors </a></li>
 		                <li><a href="solarscience.html"> Solar Science </a></li>
 		                <li><a href="spacecraftengineering.html"> Spacecraft Engineering </a></li>
-				<li class="divider"></li>
+				 <li class="divider"></li>
 		              </ul>
 		              <ul class="col-sm-4 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP">
 		                <li>
@@ -132,7 +132,7 @@
 			    <div class="ha-bg-parallax text-center block-marginb-none" data-type="background" data-speed="20">
 			<div class="ha-parallax-body">
 			    <div class="ha-content ha-content-whitecolor">
-				<h6>Robotics</h6>
+				<h6>Astronaut Health</h6>
 			    <div class="ha-parallax-divider-wrapper">
 				<span class="ha-diamond-divider-md img-responsive"></span>
 			    </div>
@@ -162,61 +162,59 @@
         <div class="container">
             <div class="center">
 
-               <p class="lead">Space robotics at Johns Hopkins means everything from building robotic lunar probes to researching telerobotic on-orbit servicing of spacecraft!</p>
+               <p class="lead">It wasn't too long ago that the first humans went to space, and Johns Hopkins researchers are determined to help astronauts continue to space travel as safely as possible!</p>
             </div>
         
 
             <ul class="portfolio-filter text-center">
                 <li><a class="btn btn-default active" href="#" data-filter="*">All Works</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".sats">Satellites</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".moon">The Moon</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".earth">Earth</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".asteroids">Asteroids</a></li>
+                <li><a class="btn btn-default" href="#" data-filter=".atm"></a></li>
+                <li><a class="btn btn-default" href="#" data-filter=".surf"></a></li>
+                <li><a class="btn btn-default" href="#" data-filter=".sats"></a></li>
+                <li><a class="btn btn-default" href="#" data-filter=".astrocom"></a></li>
             </ul><!--/#portfolio-filter-->
 
             <div class="row">
                 <div class="portfolio-items">
                     <div class="portfolio-item atm sats col-xs-12 col-sm-4 col-md-3">
 				    <div class="panel panel-default">
-					<div class="panel-heading"><h4>Robotic Telemanipulation with Time Delay ("Satellite Surgery")
-
-</h4></div>
+					<div class="panel-heading"><h4>Epigenetics</h4></div>
 					<div class="panel-image">
-					    <img src="images/robotics/telerobotsats.png" class="panel-image-preview" />
+					    <img src="images/" class="panel-image-preview" />
 					</div>
 					<div class="panel-body">
-					    <p>This research project in the Sensing, Manipulation, and Real-Time Systems lab is aiming to delevop methods for telerobotic on-orbit servicing of spacecraft under ground-based supervisory control of human operators.</p>
-					    <p>People/Location: Peter Kazanzides/Laboratory for Computational Sensing and Robotics (<a href= "https://smarts.lcsr.jhu.edu/dokuwiki/doku.php?id=research#robotictelemanipulationwithtimedelaysatellitesurgery">More Info</a>) </p>
+					    <p>Andy Feinberg and his research group are studying the effects of space flight on the human body, using a set of twins. They  will explore whether and how spending a year on the International Space Station changes an astronaut’s epigenetic markers — the reversible chemical modifications to a person’s DNA that affect how genes act on the body — over time.</p>
+					    <p>People/Location: Andrew Feinberg/Center for Epigenetics (<a href= "http://www.hopkinsmedicine.org/institute_basic_biomedical_sciences/news_events/announcements/2014_03_Feinberg.html">More Info</a>) </p>
 					</div>
 					
 			    </div>
 
                     </div><!--/.portfolio-item-->
 
-                    <div class="portfolio-item sats earth surf col-xs-12 col-sm-4 col-md-3">
+                    <div class="portfolio-item atm surf col-xs-12 col-sm-4 col-md-3">
 				    <div class="panel panel-default">
-					<div class="panel-heading"><h4>Nanosatellite Guidance, Navigation, and Control</h4></div>
+					<div class="panel-heading"><h4>Space Stethoscope</h4></div>
 					<div class="panel-image">
-					    <img src="images/robotics/nanosats.png" class="panel-image-preview" />
+					    <img src="images/astronauthealth/spacesteth.jpg" class="panel-image-preview" />
 					</div>
 					<div class="panel-body">
-					    <p>This work focuses on guidance and control of small satellites such as cubesats performing proximity operations in a several meters range of a target object. The main goal is to develop a principled methodology for handling the coupled effects of orbital dynamics, rotational and translational rigid body dynamics, underactuation and control bounds, and obstacle avoidance constraints.</p>
-					    <p>People/Location: Marin Kobilarov/Laboratory for Computational Sensing and Robotics (<a href="https://asco.lcsr.jhu.edu/nanosatellite-guidance-navigation-and-control/">More Info </a>) </p>
+					    <p>A team of students at the Johns Hopkins University’s Whiting School of Engineering has designed for NASA a new stethoscope that delivers accurate heart- and body-sounds to medics who are trying to assess astronauts’ health on long missions in noisy spacecraft.</p>
+					    <p>People/Location: James West & Team of undergraduates/Department of Mechanical Engineering (<a href="http://releases.jhu.edu/2013/05/20/new-out-of-this-world-space-stethoscope-valuable-here-on-earth-too/">More Info </a>) </p>
 					</div>
 					
 			    </div>
 
                     </div><!--/.portfolio-item-->
 
-                    <div class="portfolio-item moon col-xs-12 col-sm-4 col-md-3">
+                    <div class="portfolio-item  col-xs-12 col-sm-4 col-md-3">
 				    <div class="panel panel-default">
-					<div class="panel-heading"><h4>Robotic Lunar Lander</h4></div>
+					<div class="panel-heading"><h4></h4></div>
 					<div class="panel-image">
-					    <img src="images/robotics/lunarlander.png" class="panel-image-preview" />
+					    <img src="images/" class="panel-image-preview" />
 					</div>
 					<div class="panel-body">
-					    <p>The International Lunar Network (ILN) will establish a network of robotic geophysical monitoring stations on the surface of the Moon in order to improve our understanding of lunar interior structure and composition.</p>
-					    <p>People: APL (<a href="http://nasa.jhuapl.edu/programs/programtitle.php?id=5">More Info</a>) </p>
+					    <p>.</p>
+					    <p>People: (<a href="">More Info</a>) </p>
 					</div>
 					
 			    </div>
@@ -224,15 +222,15 @@
                     </div><!--/.portfolio-item-->
 
 
-                    <div class="portfolio-item asteroids col-xs-12 col-sm-4 col-md-3">
+                    <div class="portfolio-item atmchem col-xs-12 col-sm-4 col-md-3">
 				    <div class="panel panel-default">
-					<div class="panel-heading"><h4>NEAR Shoemaker</h4></div>
+					<div class="panel-heading"><h4></h4></div>
 					<div class="panel-image">
-					    <img src="images/robotics/nearshoemaker.png" class="panel-image-preview" />
+					    <img src="images/" class="panel-image-preview" />
 					</div>
 					<div class="panel-body">
-					    <p>Near Earth Asteroid Rendezvous (NEAR) Shoemaker was a robotic space probe that conducted in-depth studies of the near-Earth asteroids 433-Eros and Mathilde. It was the first spacecraft to orbit and land on an asteroid.</p>
-					    <p>People: APL (<a href="http://nasa.jhuapl.edu/programs/programtitle.php?id=22">More Info </a>) </p>
+					    <p></p>
+					    <p>People: (<a href="">More Info </a>) </p>
 					</div>
 					
 			    </div>

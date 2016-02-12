@@ -487,9 +487,9 @@ margin:0 auto; /* center your carousel if other than 100% */
 
 .carousel-caption {
    position: absolute;
-   right: 15%;
+   width: 760px;
    bottom: 200px;
-   left: 15%;
+
 }
 
 #carousel-slider .carousel-indicators {
@@ -2169,10 +2169,12 @@ ul.sidebar-gallery {
             right: auto;
         }
 }
-body { padding-top: 0px; }
 
+/*#####################
+Additional Styles (required)
+#####################*/
 #myCarousel .carousel-caption {
-    left:0;
+	left:0;
 	right:0;
 	bottom:0;
 	text-align:left;
@@ -2180,29 +2182,25 @@ body { padding-top: 0px; }
 	background:rgba(0,0,0,0.6);
 	text-shadow:none;
 }
-
 #myCarousel .list-group {
 	position:absolute;
 	top:0;
 	right:0;
-        color:#000;	
-	padding-top: 5px;
+	padding:0;
 }
 #myCarousel .list-group-item {
-	border-radius:1px;
+	border-radius:0px;
 	cursor:pointer;
-	color:#000000;
 }
 #myCarousel .list-group .active {
 	background-color:#eee;	
 }
-
-@media (min-width: 992px) { 
-	#myCarousel {padding-right:33.3333%;}
-	#myCarousel .carousel-controls {display:none;} 	
+@media (min-width: 991px) { 
+	#myCarousel .carousel-controls {display:none;}
+	.carousel-caption p {width:auto;} 
 }
-@media (max-width: 991px) { 
-	.carousel-caption p,
+@media (max-width: 992px) { 
+	
 	#myCarousel .list-group {display:none;} 
 }
 

@@ -181,8 +181,7 @@
 
 		<div class ="col-md-8">
 			<section id="news">
-			    <div class="container">
-                                  <h6 style="color:#000;margin:20px">Recent News</h6>
+			    <div class="container" style="width:100%">
 				<div id="myCarousel" class="carousel slide" data-ride="carousel">
 				    <!-- Wrapper for slides -->
 				    <div class="carousel-inner">
@@ -491,5 +490,38 @@
         <script src="js/wow.min.js"></script>
         <script src="js/main.js"></script>
      	
+	<script>	
+/*#####################
+Additional jQuery (required)
+#####################*/
+		$(document).ready(function(){
+		    
+			var clickEvent = false;
+			$('#myCarousel').carousel({
+				interval:   4000	
+			}).on('click', '.list-group li', function() {
+					clickEvent = true;
+					$('.list-group li').removeClass('active');
+					$(this).addClass('active');		
+			}).on('slid.bs.carousel', function(e) {
+				if(!clickEvent) {
+					var count = $('.list-group').children().length -1;
+					var current = $('.list-group li.active');
+					current.removeClass('active').next().addClass('active');
+					var id = parseInt(current.data('slide-to'));
+					if(count == id) {
+						$('.list-group li').first().addClass('active');	
+					}
+				}
+				clickEvent = false;
+			});
+		})
+		$(window).load(function() {
+		    var boxheight = $('#myCarousel .carousel-inner').innerHeight();
+		    var itemlength = $('#myCarousel .item').length;
+		    var triggerheight = Math.round(boxheight/itemlength+1);
+			$('#myCarousel .list-group-item').outerHeight(triggerheight);
+		});
+	</script>
     </body>
 </html>

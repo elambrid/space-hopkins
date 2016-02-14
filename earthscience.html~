@@ -28,7 +28,7 @@
 		    <div class="row">
 			<div class="ha-bg-parallax-header block-marginb-none" data-type="background" data-speed="20">	
 			<div class="ha-parallax-body-header">
-				<div class="col-md-4 col"><div class="content"><div class="ha-content ha-content-whitecolor-header"><h6 style="padding-left:50px">Space@Hopkins</h6></div></div></div><div class="col-md-4 col"><div class="content"></div></div><div class="col-md-4 col"><div class="content"><img src="images/ulogowhite.png" alt="Johns Hopkins University" class="img-responsive" style="padding-top:15px;padding-left:60px"></div></div>			     
+				<div class="col-md-4 col"><div class="content"><div class="ha-content ha-content-whitecolor-header"><h6 style="padding-left:50px;padding-top:10px">Space@Hopkins</h6></div></div></div><div class="col-md-4 col"><div class="content"></div></div><div class="col-md-4 col"><div class="content"><img src="images/ulogowhite.png" alt="Johns Hopkins University" class="img-responsive" style="padding-top:15px;padding-left:60px"></div></div>			     
 			    <div class="ha-parallax-divider-wrapper-header">
 				<span class="ha-diamond-divider-md-header img-responsive"></span>
 			    </div>
@@ -56,7 +56,7 @@
 		        <a href="index.html">Home</a>
 		    </li>
 		    <li>
-		        <a href="history.html">History</a>
+		        <a href="history.html">Our History</a>
 		    </li>
       		     <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Our Research<b class="caret"></b></a>
              		 <ul class="dropdown-menu">
@@ -64,43 +64,17 @@
 		          <!-- Content container to add padding -->
 		          <div class="yamm-content">
 		            <div class="row">
-		              <ul class="col-sm-4 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP">
-		                <li>
-		                  <a href="#" style="font-weight:700;font-size:25px;color:#c3ddeaP"> Research Areas </a>
-		                </li>
-		                <li><a href="#"> Astronaut Health </a></li>
-		                <li><a href="#"> Astrophysics </a></li>
-		                <li><a href="earthscience.html"> Earth Science </a></li>
-		                <li><a href="#"> Planetary Science </a></li>
-		                <li><a href="#"> Robotics </a></li>
-		                <li><a href="#"> Sensors </a></li>
-		                <li><a href="#"> Solar Science </a></li>
-		                <li><a href="#"> Spacecraft Engineering </a></li>
-				 <li class="divider"></li>
-		              </ul>
-		              <ul class="col-sm-4 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP">
-		                <li>
-		                  <a href="#" style="font-weight:700;font-size:25px;color:#c3ddeaP">Institutions</a>
-		                </li>
-		                <li><a href="#"> Applied Physics Lab (APL) </a></li>
-		                <li><a href="#"> Center for Astrophysics (CAS) </a></li>
-		                <li><a href="#"> Earth and Planetary Sciences (EPS) </a></li>
-		                <li><a href="#"> School of Medicine</a></li>
-		                <li><a href="#"> School of Engineering </a></li>
-				 <li class="divider"></li>
-		              </ul>
+		              <ul class="col-lg-12 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP">
 
-		              <ul class="col-sm-4 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP;font-size:20px">
-		                <li>
-		                  <a href="#" style="font-weight:700;font-size:25px;line-height:25px;color:#c3ddeaP">Close Collaborators</a>
-		                </li>
-		                <li><a href="#"> Space Telescope Science Institute (STSCI) </a></li>
-		                <li><a href="#"> NASA/Goddard </a></li>
-		                <li><a href="#"> Kavli Institute (IPMU) </a></li>
-		                <li><a href="#"> Sloan Digital Sky Survey (SDSS) </a></li>
-		                <li><a href="#"> Subaru Telescope </a></li>
-		                <li><a href="#"> Panoramic Survey Telescope (PAN-STARRS) </a></li>
-		              </ul>
+		                <li><a href="astronauthealth.html"> Astronaut Health </a></li>
+		                <li><a href="astrophysics.html"> Astrophysics </a></li>
+		                <li><a href="earthscience.html"> Earth Science </a></li>
+		                <li><a href="planetaryscience.html"> Planetary Science </a></li>
+		                <li><a href="robotics.html"> Robotics </a></li>
+		                <li><a href="sensors.html"> Sensors </a></li>
+		                <li><a href="solarscience.html"> Solar Science </a></li>
+		                <li><a href="spacecraftengineering.html"> Spacecraft Engineering </a></li>
+
 		            </div>
 		          </div>
 		        </li>
@@ -109,30 +83,41 @@
 		    <li>	
 		        <a href="News.html">News<br></a>
 		    </li>
-		    <li class="">
-		        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Opportunities and Grants <b class="caret"></b></a>
-		        <ul class="dropdown-menu"> 
-		            <li class="">
-		                <a href="#">Seed Grants</a>
-		            </li>                                     
-		            <li>
-		                <a href="#">Join the initivative!<br></a>
-		            </li>                                                                       
-		        </ul>
+		    <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Oppurtunities and Grants<b class="caret"></b></a>
+             		 <ul class="dropdown-menu">
+                	<li>
+		              <ul class="col-sm-12 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP">
+				<li><a href="#"> Seed Grants </a></li>
+		                <li><a href="#"> External Grants </a></li>
+				<li><a href="#"> Join the Initiative! </a></li>
+			      </ul>
+		        </li>
+		      </ul>
 		    </li>
+		    <li>	
+		        <a href="events.html">Events<br></a>
+		    </li>		   	
+		    <li>	
+		        <a href="about_us.html">About Us<br></a>
+		    </li>		   	
+
 		</ul>
 	    </div>	
        </div>
 	<!--/.container-->
     </nav>
     <!--/nav-->
+
 	<section id="parallax-intro">
 		<div class="container-fluid">
 		    <div class="row">
 			    <div class="ha-bg-parallax text-center block-marginb-none" data-type="background" data-speed="20">
-			<div class="ha-parallax-body">
-			    <div class="ha-content ha-content-whitecolor">
+			<div class="ha-parallax-body" style="background:rgba(0,0,0,0.5)">
+			    <div class="ha-content ha-content-whitecolor" style="width:75%">
+			      <br></br>
 				<h6>Earth Science</h6>
+				<br></br>
+				<h4><i>JHU scientists and engineers are working to understand the innerworkings of all processes happening on our home planet!</i></h4>
 			    <div class="ha-parallax-divider-wrapper">
 				<span class="ha-diamond-divider-md img-responsive"></span>
 			    </div>
@@ -143,7 +128,9 @@
 	 </div>
 	</section>
         <!--/#parallax-intro-->  
-  	<div class="col-md-3" id="leftCol">
+ 
+
+ 	<div class="col-xs-6 col-sm-3 id="leftCol">
               
 	      	<ul class="nav nav-stacked" style ="border-style:solid;background:rgba(0,51,102,.9);" id="sidebar">
 		  <li><a href="planetaryscience.html">Planetary Science</a></li>
@@ -158,12 +145,53 @@
 	      
       	</div>  			
 
-	<section id="portfolio">
-        <div class="container">
-            <div class="center">
 
-               <p class="lead">JHU scientists are working to understand the innerworkings of all processes happening on our home planet!</p>
-            </div>
+
+    <div class="col-xs-12 col-md-8 col-sm-6 col-lg-8">
+	<div class="container-large bottom5 top5">
+		<div id="myCarousel-research" class="carousel slide">
+		  <div class="carousel-inner">           
+		    <div class="item active">
+		      <img src="http://placehold.it/1200x440/cccccc/ffffff" alt="Slide1">
+		      <div class="carousel-caption">
+		        <h2>Headline</h2>
+		        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+		      </div>
+		    </div>
+		    
+		    <div class="item">
+		      <img src="http://placehold.it/1200x440/999999/cccccc" alt="Slide2">
+		      <div class="carousel-caption">
+		        <h2>Headline</h2>
+		        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+		      </div>
+		    </div>
+		     
+		     <div class="item">
+		      <img src="http://placehold.it/1200x440/dddddd/333333" alt="Slide3">
+		      <div class="carousel-caption">
+		        <h2>Headline</h2>
+		        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+		      </div>
+		    </div>                                 
+		  </div>          
+		      <div class="carousel-controls">
+		      	<a class="left carousel-control" href="#myCarousel" data-slide="prev"><i class="fa fa-angle-double-left fa-lg"></i></a>
+		      	<a class="right carousel-control" href="#myCarousel" data-slide="next"><i class="fa fa-angle-double-right fa-lg"></i></a>
+		      </div>
+		  
+		</div>   
+	</div>
+
+   </div><!-- /.column -->
+
+
+
+
+
+
+ <section id="portfolio">
+        <div class="container">
         
 
             <ul class="portfolio-filter text-center">
@@ -462,7 +490,6 @@
 			    </div>
 
                     </div><!--/.portfolio-item-->
-
                 </div>
             </div>
         </div>
@@ -475,7 +502,7 @@
 					<div class="col-sm-4 ">
 			
 					    <h2 class="footer-block">About Us</h2>
-					    <p>Space@Hopkins will unify space-related activities across the institution in robotics, astronaut health, planetary sciences, solar physics, Earth science, spacecraft engineering, sensors, and astrophysics.</p>
+					    <p>Space@Hopkins unifies space-related activities across the institution including research in robotics, astronaut health, planetary sciences, solar physics, Earth science, spacecraft engineering, sensors, and astrophysics.</p>
 					    <br>
 					    <p> <a href="index.html"> Home</a></p>
 					    <p> <a href="history.html"> History</a></p>
@@ -509,17 +536,14 @@
 						<ul>
 							<li class="address-sub"><i class="fa fa-map-marker"></i>Space@Hopkins</li>
 								<p>
-									Johns Hopkins University, 3400 N. Charles St, Baltimore, MD 21218
+									3701 San Martin Dr., Baltimore, MD 21218
 								</p>
-							<li class="address-sub"><i class="fa fa-phone"></i>Phone</li>
+						
+							<li class="address-sub"><i class="fa fa-envelope-o"></i>Contact Us</li>
 								<p>
-									Local: 1-800-123-hello<br>
-									Mobile: 1-800-123-hello
-								</p>
-							<li class="address-sub"><i class="fa fa-envelope-o"></i>Email Address</li>
-								<p>
-									<a href="mailto:info@spacestudies.jhu.edu">info@SpaceStudies.jhu.edu</a><br>
-									<a href="http://www.SpaceStudies.jhu.edu/">www.SpaceStudies.jhu.edu</a>
+								  Space Fellows: Kirsten Hall and Erini Lambrides
+									<a href="mailto:info@spacestudies.jhu.edu">Email: info@SpaceStudies.jhu.edu</a><br>
+							
 								</p>
 
 
@@ -543,5 +567,7 @@
         <script src="js/jquery.isotope.min.js"></script>
         <script src="js/wow.min.js"></script>
         <script src="js/main.js"></script>
+	<script>$('#myCarousel').carousel({interval:4000});</script>
+
     </body>
 </html>

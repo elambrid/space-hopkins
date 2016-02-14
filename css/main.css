@@ -3300,7 +3300,7 @@ hr {
 
 #myCarousel-research {
 	padding:5px;
-	background: #428BCA;
+	background: #003366;
 }
 #myCarousel-research  .carousel-caption {
 	top:auto;
@@ -3313,17 +3313,17 @@ hr {
 	text-align:center;
   	height:auto;
 	width:100%;
-	color:#432A18;/*#FFF*/
+	color:#003366;/*#FFF*/
 	text-shadow:none;
 }
 #myCarousel-research  .carousel-caption h2 {
-	color:#428BCA;
+	color:#000336;
 	margin-top:0;
 }
 .carousel-control {
 	color:#fff;
 	top:44%;
-	background:#428BCA;
+	background:#003366;
 	bottom:auto;
 	padding-top:8px;
 	width:36px;

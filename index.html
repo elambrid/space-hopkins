@@ -533,13 +533,13 @@
 		 
 	   var mainNote = svg.append("text")
 	    .attr("id", "bubbleItemNote")
-	    .attr("x", 10)
-	    .attr("y", w/2-15)
-	    .attr("font-size", 12)
+	    .attr("x", 500)
+	    .attr("y", w/2-100)
+	    .attr("font-size", 18)
 	    .attr("dominant-baseline", "middle")
 	    .attr("alignment-baseline", "middle")
 	    .style("fill", "#888888")
-	    .text(function(d) {return "D3.js bubble menu developed by Shipeng Sun (sunsp.gis@gmail.com), Institute of Environment, University of Minnesota, and University of Springfield, Illinois.";});   
+	    .text(function(d) {return "test";});   
 	 
 	 
 	    d3.json("main_bubble.json", function(error, root) {

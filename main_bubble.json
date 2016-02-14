@@ -1,9 +1,10 @@
 {"name":"bubble", "children": [
-{"name":"Atlas","description":"Atlas of Global Agriculture",
+{"name":"JHU","description":"Institutes, Departments and Schools that comprise the Space@Hopkins Network",
 "children":[
-    {"name": "Geography","address":"http://gli.environment.umn.edu", "note":"Global crop geography, including precipitation, temperature, crop area, etc."},
-    {"name": "Crop Land","address":"http://d3js.org"},
-    {"name": "Crop Yields","address":"http://environment.umn.edu", "note":"Maize, wheat, rice, and soybean yields in 2000"}
+    {"name": "APL","address":"http://gli.environment.umn.edu", "note":"Global crop geography, including precipitation, temperature, crop area, etc."},
+    {"name": "Whiting","address":"http://d3js.org"},
+    {"name": "Medical","address":"http://d3js.org"},	
+    {"name": "Krieger","address":"http://environment.umn.edu", "note":"Maize, wheat, rice, and soybean yields in 2000"}
 ]},
 {"name": "AgLab", "description": "Virtual Lab of Global Agriculture",
 "children":[

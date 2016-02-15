@@ -6,20 +6,20 @@
     {"name": "Medical","address":"http://d3js.org"},	
     {"name": "Krieger","address":"http://environment.umn.edu", "note":"Maize, wheat, rice, and soybean yields in 2000"}
 ]},
-{"name": "AgLab", "description": "Virtual Lab of Global Agriculture",
+{"name": "Collabs", "description": "We have close relationships blah",
 "children":[
-    {"name":"Excess Nutrient","address":"http://d3js.org","note":"Prototype Infographics on Excess Fertilizer Nutrients"},
+    {"name":"STSCI","address":"http://d3js.org","note":"Info about our relationship with them"},
     {"name":"Yield Gap","address":"http://d3js.org", "note":"The gap between attainable yields and actual yields, with modeled yields assuming the percentage of gap closed."},
     {"name":"Fertilizer","address":"http://sunsp.net"}
 ]},
-{"name":"Nutshell", "description":"Profiles of Country",
+{"name":"Orgs", "description":"Profiles of Country",
 "children":[
     {"name":"Efficiency","address":"http://d3js.org"},
     {"name":"Excess Nutrient","address":"http://d3js.org"},
     {"name":"Economy","address":"http://d3js.org"},
     {"name":"Agriculture","address":"http://uis.edu/ens"}
 ]},
-{"name":"Data", "description":"Crop Data in 5 minutes grid",
+{"name":"Projects ", "description":"Crop Data in 5 minutes grid",
 "children":[
     {"name":"Geography","address":"http://www.earthstat.org/"},
     {"name":"Crop Land","address":"http://www.earthstat.org/"},

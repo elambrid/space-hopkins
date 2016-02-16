@@ -130,7 +130,7 @@
         <!--/#parallax-intro-->  
  
 
- 	<div class="col-xs-6 col-sm-3 id="leftCol">
+ 	<div class="col-xs-6 col-sm-3" id="leftCol">
               
 	      	<ul class="nav nav-stacked" style ="border-style:solid;background:rgba(0,51,102,.9);" id="sidebar">
 		  <li><a href="planetaryscience.html">Planetary Science</a></li>
@@ -148,30 +148,31 @@
 
 
     <div class="col-xs-12 col-md-8 col-sm-6 col-lg-8">
-	<div class="container-large bottom5 top5">
+	<div> <h6 style="color:#000;margin-top:2%;margin-bottom:2%;font-size:1.875em;">Research Highlights</h6></div>
+	<div class="container-large bottom5">
 		<div id="myCarousel-research" class="carousel slide">
 		  <div class="carousel-inner">           
 		    <div class="item active">
-		      <img src="http://placehold.it/1200x440/cccccc/ffffff" alt="Slide1">
+		      <img src="images/earthscience/vanallen_large.png" alt="Slide1">
 		      <div class="carousel-caption">
-		        <h2>Headline</h2>
-		        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+		        <h2>Van Allen Probes</h2>
+		        <p>The Van Allen Mission, part of NASA's Living With a Star program, provide unprecedented insight into the physical dynamics of the radiation belts and to give since of changes in this critical region of space. Launched August 30, 2012, the two spacecraft orbit the Earth to sample the harsh radiation belt environment where major space weather activity occurs and many spacecraft operate. See below for a link to more info!</p>
 		      </div>
 		    </div>
 		    
 		    <div class="item">
-		      <img src="http://placehold.it/1200x440/999999/cccccc" alt="Slide2">
+		      <img src="images/earthscience/supermag_large.png" alt="Slide2">
 		      <div class="carousel-caption">
-		        <h2>Headline</h2>
-		        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+		        <h2>SuperMAG</h2>
+		        <p>SuperMAG is a worldwide collaboration of organizations and national agencies that currently operate more than 300 ground based magnetometers. The purpose of SuperMAG it to help scientists, teachers, students and the general public have easy access to measurements of the Earth's magnetic field. See below for a link to more info!</p>
 		      </div>
 		    </div>
 		     
 		     <div class="item">
-		      <img src="http://placehold.it/1200x440/dddddd/333333" alt="Slide3">
+		      <img src="images/earthscience/stratosphere.png" alt="Slide3">
 		      <div class="carousel-caption">
-		        <h2>Headline</h2>
-		        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+		        <h2>The Role of Stratospheric Aerosol in the Earth's Climate</h2>
+		        <p>Associate Research Scientist in the Department of Earth and Planetary Sciences of Johns Hopkins University and in the Laboratory for Atmospheric Chemistry and Dynamics of NASA Goddard Space Flight Center, Velentina Aquila focuses on modeling atmospheric aerosol and its impact on the climate. See below for a link to more info!</p>
 		      </div>
 		    </div>                                 
 		  </div>          

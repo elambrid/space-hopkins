@@ -18,7 +18,8 @@
             <script src="js/respond.min.js"></script>
         <![endif]-->
         <link rel="stylesheet" href="css/main.css">
-    </head>
+	<script type="text/javascript" src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  </head>
   <body class="homepage">  
 	<section id="parallax-intro"> <!--/#parallax-intro-->  
 		<div class="container-fluid">
@@ -181,7 +182,7 @@
 
 		<div class ="col-md-8">
 			<section id="news">
-			    <div class="container">
+			    <div class="container" style="width:100%">
 				<div id="myCarousel" class="carousel slide" data-ride="carousel">
 				    <!-- Wrapper for slides -->
 				    <div class="carousel-inner">
@@ -276,15 +277,9 @@
 	</section>
         <!--/#parallax-intro--> 
 
-
-
-
-
-
-
-
-
-
+	<div style="text-align:center;width:100%;">
+		<iframe src="science_bubble.html" width="700" height="700" seamless frameBorder="0" scrolling="no" align="middle"></iframe>
+	</div>
 
 	<section id="parallax-intro">
 		<div class="container-fluid">
@@ -489,11 +484,7 @@
         <script src="js/jquery.isotope.min.js"></script>
         <script src="js/wow.min.js"></script>
         <script src="js/main.js"></script>
-     	
 	<script>	
-/*#####################
-Additional jQuery (required)
-#####################*/
 		$(document).ready(function(){
 		    
 			var clickEvent = false;

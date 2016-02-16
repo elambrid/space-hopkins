@@ -14,13 +14,17 @@
 	<script type="text/javascript" src="http://assets.openspending.org/openspendingjs/master/lib/aggregator.js"></script>
 	<link rel="stylesheet" type="text/css" href="bubble/assets/styles/bubbletree.css" />
 	<script type="text/javascript" src="bubble/assets/styles/cofog.js"></script>
-
+	<style type="text/css">
+		body {background:none transparent;
+			}
+	</style>
 	<script type="text/javascript">
 
 	  $(function() {
 	  var data = {
 	  label: 'Johns Hopkins',
-	  amount: 100,
+	  label2:'test',
+	  amount:100,
 	  color: '#0066bb',  // color for root node, will be inherited by children
 	  children: [
 	  { label: 'Krieger School of Arts and Sciences', amount: 30,color: '#ff997f', 

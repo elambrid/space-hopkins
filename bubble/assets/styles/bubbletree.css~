@@ -32,7 +32,7 @@
 
 .bubbletree .bubbletree-label2 {
 	position: absolute;
-	color: #fff;
+	color: #000;
 	text-align: center;
 	cursor: default;
 	font-size: 11px;

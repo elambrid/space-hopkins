@@ -2104,7 +2104,7 @@ BubbleTree.Bubbles.Plain = function(node, bubblechart, origin, radius, angle, co
 	 * Erini - trying to remove printing of amounts
 	 */
 
-		me.label = $('<div class="bubbletree-label '+me.node.id+'">'+'<div class="bubbletree-desc">'+me.node.shortLabel+'</div></div>');
+		me.label = $('<div class="bubbletree-label '+me.node.id+'">'+'</div><div class="bubbletree-desc">'+me.node.shortLabel+'</div></div>');
 		me.container.append(me.label);
 
 		if (me.node.children.length > 0) {

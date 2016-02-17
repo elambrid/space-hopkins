@@ -639,3 +639,9 @@ $body.scrollspy({
 	target: '#leftCol',
 	offset: navHeight
 });
+
+$(document).ready(function() {
+  $('.carousel').carousel({
+  interval: 6000
+  })
+});

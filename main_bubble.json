@@ -1,0 +1,23 @@
+{"name":"bubble", "children": [
+{"name":"JHU","description":"Institutes, Departments and Schools that comprise the Space@Hopkins Network",
+"children":[
+    {"name": "APL","address":"http://civspace.jhuapl.edu/index.php", "note":"The Johns Hopkins University Applied Physics Laboratory (APL) has built pioneering missions to the frontiers of space since its inception in the 1940s. From the early sounding rocket days to the discovery of the radiation belts, from the launching of some of the nation's first spacecraft to the first landing on an asteroid, APL has made extensive contributions to our nation's space program."},
+    {"name": "Whiting School of Engineering","address":"http://engineering.jhu.edu/","note":"Several Departments, Labs, and Programs within the Whiting School are actively participating in space-related research, including data science, robotics, engineering of spacecraft, and much more!"},
+    {"name": "School of Medicine","address":"http://www.hopkinsmedicine.org/institute_basic_biomedical_sciences/research_centers/epigenetics/", "note":"Specifically within the Institute for Basic Biomedical Sciences in the Center for Epigenetics, researchers are contributing to space-related activities by studying astronaut health."},	
+    {"name": "Krieger School of Arts and Sciences","address":"http://krieger.jhu.edu/", "note":"The Departments of Physics and Astronomy and Earth and Planetary Sciences hosts hundreds of Faculty, Post-Docs, and Graduate students eager to uncover the secrets of space."}
+]},
+{"name": "JHU Close Collaborators", "description": "We have close relationships blah",
+"children":[
+    {"name":"STScI","address":"http://www.stsci.edu/portal/","note":"The Johns Hopkins University is the host institution for the Space Telescope Science Institute (STScI), which is housed in the University's Steven Muller Building on the Homewood Campus in Baltimore, Maryland. The scientific and technical staff of the Institute benefit from their immediate proximity to a University that is vitally involved in astronomy and space research, while faculty and students at JHU similarly benefit from their close interactions with the staff and visitors to the STScI."},
+    {"name":"NASA Goddard","address":"", "note":""},
+    {"name":"NASA Houston","address":"", "note":""}
+]},
+{"name":"Member Organizations", "description":"Profiles of Country",
+"children":[
+    {"name":"AURA","address":"http://www.aura-astronomy.org/", "note":"The Association of Universities for Research in Astronomy (AURA) is a consortium of 40 US institutions and 4 international affiliates that operates world-class astronomical observatories. AURA’s role is to establish, nurture, and promote public observatories and facilities that advance innovative astronomical research. In addition, AURA is deeply committed to public and educational outreach, and to diversity throughout the astronomical and scientific workforce. AURA carries out its role through its astronomical facilities."},
+    {"name":"IAU","address":"http://www.iau.org/", "note":"The International Astronomical Union (IAU) was founded in 1919. Its mission is to promote and safeguard the science of astronomy in all its aspects through international cooperation. Its individual members are professional astronomers from all over the world, at the Ph.D. level and beyond, who are active in professional research and education in astronomy."},
+    {"name":"","address":""},
+    {"name":"","address":""}
+]}
+]}
+ 

@@ -18,7 +18,8 @@
             <script src="js/respond.min.js"></script>
         <![endif]-->
         <link rel="stylesheet" href="css/main.css">
-    </head>
+	<script type="text/javascript" src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  </head>
   <body class="homepage">  
 	<section id="parallax-intro"> <!--/#parallax-intro-->  
 		<div class="container-fluid">
@@ -53,8 +54,9 @@
 		        <a href="index.html">Home</a>
 		    </li>
 		    <li>
-		        <a href="history.html">History</a>
+		        <a href="history.html">Our History</a>
 		    </li>
+	
       		     <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Our Research<b class="caret"></b></a>
              		 <ul class="dropdown-menu">
                 	<li>
@@ -76,6 +78,9 @@
 		          </div>
 		        </li>
 		      </ul>
+		    </li>
+		    <li>
+		        <a href="spaceminor.html">Our Space Minor</a>
 		    </li>
 		    <li>	
 		        <a href="News.html">News<br></a>
@@ -106,8 +111,40 @@
     <!--/nav-->
 
 
-	<div id="fix-for-navbar-fixed-top-spacing" style="height: 42px;">&nbsp;</div>
+    <section id="parallax-intro">
+		<div class="container-fluid">
+		    <div class="row">
+			    <div class="ha-bg-parallax text-center block-marginb-none" data-type="background" data-speed="20">
+			<div class="ha-parallax-body" style="background:rgba(0,0,0,0.5)">
+			    <div class="ha-content ha-content-whitecolor top10" style="width:75%">
+				<br></br>
+			
+				<h4 style="font-size:30;"><i>Space@Hopkins is comprised of an array of Johns Hopkins University divisions, schools, departments, and collaborative institutions that are all connected by their participation in space-related research. </i></h4>
+		
+				<div class="navbar-collapse collapse" style="font-weight:bold;">
+					<ul class="nav navbar-nav top5" style ="border-style:solid;background:rgba(0,0,0,0.5);" data-0="margin-top:50px;" data-300="margin-top:15px;">
+						<li><a href="#section-universe">Hopkins Universe</a></li>
+						<li><a href="#section-news">In the News</a></li>
+						<li><a href="#section-research">Research Areas</a></li>
+					</ul>
+				</div>
+			    <div class="ha-parallax-divider-wrapper">
+				<span class="ha-diamond-divider-md img-responsive"></span>
+			    </div>
+			    <div class="ha-heading-parallax"></div>
 
+			</div>
+		    </div>
+
+		  </div>
+
+		</div>
+	</section>
+	<!--/#parallax-intro--> 
+
+
+	<div id="fix-for-navbar-fixed-top-spacing" style="height: 42px;">&nbsp;</div>
+	<section id="section-news">
 	<div class = "container-fluid">
 		<div class="col-md-4 text-center" >
 			<section id="carousel">    				
@@ -131,13 +168,13 @@
 						    	<blockquote>
 						    		<p>"From our founding over 139 years ago, Johns Hopkins' students and faculty have pursued knowledge—in the classroom, in the laboratory, and in the farthest reaches of space—with a restless curiosity, intellectual courage, and undaunted determination." - Ronald J Daniels, 14th President of The Johns Hopkins University</p>
 						    	</blockquote>
-						    	<div class="profile-circle" style="background-color: rgba(77,5,51,.2);"></div>
+						    	<div class="profile-circle" style="background-color: rgba(77,5,51,.2);background-image:url('ron.jpg')"></div>
 						    </div>
 						    <div class="item">
 						    	<blockquote>
 						    		<p>"From our founding over 139 years ago, Johns Hopkins' students and faculty have pursued knowledge—in the classroom, in the laboratory, and in the farthest reaches of space—with a restless curiosity, intellectual courage, and undaunted determination." - Ronald J Daniels, 14th President of The Johns Hopkins University</p>
 						    	</blockquote>
-						    	<div class="profile-circle" style="background-color: rgba(145,169,216,.2);"></div>
+						    	<div class="profile-circle" style="background-color: rgba(145,169,216,.2);background-image:url('ron.jpg')"></div>
 						    </div>
 					</div>						
 				</div>
@@ -146,9 +183,11 @@
 		</div><!-- End Column -->
 
 
+
 		<div class ="col-md-8">
 			<section id="news">
-			    <div class="container">
+			    <div class="container" style="width:100%">
+				<h6> Recent News </h6>
 				<div id="myCarousel" class="carousel slide" data-ride="carousel">
 				    <!-- Wrapper for slides -->
 				    <div class="carousel-inner">
@@ -223,10 +262,42 @@
 			<div id="fix-for-navbar-fixed-top-spacing" style="height: 42px;">&nbsp;</div> 
 		</div><!-- End Column -->
 	</div> <!-- End Section -->
+	</section>
 	    
+	<section id="section-universe">
 	<section id="parallax-intro">
 		<div class="container-fluid">
 		    <div class="row">
+			    <div class="ha-bg-parallax text-center block-marginb-none" data-type="background" data-speed="20">
+			<div class="ha-parallax-body">
+			    <div class="ha-content ha-content-whitecolor">
+				<h6>Hopkins Universe</h6>
+			    </div>
+			    <div class="ha-parallax-divider-wrapper">
+				<span class="ha-diamond-divider-md img-responsive"></span>
+			    </div>
+			    <div class="ha-heading-parallax"></div>
+			</div>
+		    </div>
+		</div>
+	</section>
+	</section>
+        <!--/#parallax-intro--> 
+	
+	<div style="text-align:center;width:100%;">
+		<div class="tinted-image">
+			<hr style="background:#003366;margin-top:0;margin-bottom:0;border:none;height:20px">
+			<iframe src="science_bubble.html" width="100%" height="700" seamless frameBorder="0" scrolling="no" align="middle" allowtransparency="true"></iframe>
+		</div>
+	</div>
+	
+	
+	<section id="section-research">
+	<section id="parallax-intro">
+		<div class="container-fluid">
+		     
+		    <div class="row">
+			<hr style="background:#003366;margin-top:0;margin-bottom:0;border:none;height:20px">
 			    <div class="ha-bg-parallax text-center block-marginb-none" data-type="background" data-speed="20">
 			<div class="ha-parallax-body">
 			    <div class="ha-content ha-content-whitecolor">
@@ -239,6 +310,7 @@
 			</div>
 		    </div>
 		</div>
+	</section>
 	</section>
         <!--/#parallax-intro--> 
 	<div id="fix-for-navbar-fixed-top-spacing" style="height: 30px;">&nbsp;</div> 
@@ -277,7 +349,7 @@
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h4><a href="solarscience.html">Solar Science</a></h4>
-                                    <p class="">The Sun is our lifeforce, and JHU scientists want to know all there is to know about it!</p>
+                                    <p class="">The Sun is our lifeforce, and JHU scientists and engineers want to know all there is to know about it!</p>
                                     <a class="preview" href="images/frontpage/sun.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                                     <a class="preview" href="images/frontpage/sun.jpg" rel="prettyPhoto"></a>
                                 </div>                                 
@@ -290,7 +362,7 @@
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h4><a href="planetaryscience.html">Planetary Science</a></h4>
-                                    <p>From Mercury to Pluto to the outer edge of the solar system, Johns Hopkins Scientists are studying it all!</p>
+                                    <p>From Mercury to Pluto to the outer edge of the solar system, Johns Hopkins Scientists and engineers are studying it all!</p>
                                     <p class=""><a class="preview" href="images/frontpage/planets.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a></p>
                                 </div>                                 
                             </div>
@@ -302,7 +374,7 @@
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h4><a href="earthscience.html">Earth Science</a></h4>
-                                    <p>JHU scientists are working to understand the innerworkings of all processes happening on our home planet!</p>
+                                    <p>JHU scientists and engineers are working to understand the innerworkings of all processes happening on our home planet!</p>
                                     <a class="preview" href="images/frontpage/earth.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i> View</a>
                                     <a class="preview" href="images/frontpage/earth.jpg" rel="prettyPhoto"></a>
                                 </div>                                 
@@ -340,7 +412,7 @@
                             <div class="overlay">
                                 <div class="recent-work-inner">
                                     <h4><a href="sensors.html">Sensors</a></h4>
-                                    <p>JHU scientists build cutting edge sensors for everything from spacecrafts to space telescopes to ground-based telescopes!</p>
+                                    <p>JHU scientists and engineers build cutting edge sensors for everything from spacecrafts to space telescopes to ground-based telescopes!</p>
                                     <p class=""><a class="preview" href="images/frontpage/sensor.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a><a class="preview" href="images/frontpage/sensor.jpg" rel="prettyPhoto">&nbsp;View</a></p>
                                     <a class="preview" href="images/frontpage/sensor.jpg" rel="prettyPhoto"></a>
                                 </div>                                 
@@ -362,7 +434,7 @@
 					<div class="col-sm-4 ">
 			
 					    <h2 class="footer-block">About Us</h2>
-					    <p>Space@Hopkins unifies space-related activities across the institution in robotics, astronaut health, planetary sciences, solar physics, Earth science, spacecraft engineering, sensors, and astrophysics.</p>
+					    <p>Space@Hopkins unifies space-related activities across the institution including research in robotics, astronaut health, planetary sciences, solar physics, Earth science, spacecraft engineering, sensors, and astrophysics.</p>
 					    <br>
 					    <p> <a href="index.html"> Home</a></p>
 					    <p> <a href="history.html"> History</a></p>
@@ -396,17 +468,14 @@
 						<ul>
 							<li class="address-sub"><i class="fa fa-map-marker"></i>Space@Hopkins</li>
 								<p>
-									Johns Hopkins University, 3400 N. Charles St, Baltimore, MD 21218
+									3701 San Martin Dr., Baltimore, MD 21218
 								</p>
-							<li class="address-sub"><i class="fa fa-phone"></i>Phone</li>
+						
+							<li class="address-sub"><i class="fa fa-envelope-o"></i>Contact Us</li>
 								<p>
-									Local: 1-800-123-hello<br>
-									Mobile: 1-800-123-hello
-								</p>
-							<li class="address-sub"><i class="fa fa-envelope-o"></i>Email Address</li>
-								<p>
-									<a href="mailto:info@spacestudies.jhu.edu">info@SpaceStudies.jhu.edu</a><br>
-									<a href="http://www.SpaceStudies.jhu.edu/">www.SpaceStudies.jhu.edu</a>
+								  Space Fellows: Kirsten Hall and Erini Lambrides
+									<a href="mailto:info@spacestudies.jhu.edu">Email: info@SpaceStudies.jhu.edu</a><br>
+							
 								</p>
 
 
@@ -430,6 +499,35 @@
         <script src="js/jquery.isotope.min.js"></script>
         <script src="js/wow.min.js"></script>
         <script src="js/main.js"></script>
-     	
+	<script>	
+		$(document).ready(function(){
+		    
+			var clickEvent = false;
+			$('#myCarousel').carousel({
+				interval:   4000	
+			}).on('click', '.list-group li', function() {
+					clickEvent = true;
+					$('.list-group li').removeClass('active');
+					$(this).addClass('active');		
+			}).on('slid.bs.carousel', function(e) {
+				if(!clickEvent) {
+					var count = $('.list-group').children().length -1;
+					var current = $('.list-group li.active');
+					current.removeClass('active').next().addClass('active');
+					var id = parseInt(current.data('slide-to'));
+					if(count == id) {
+						$('.list-group li').first().addClass('active');	
+					}
+				}
+				clickEvent = false;
+			});
+		})
+		$(window).load(function() {
+		    var boxheight = $('#myCarousel .carousel-inner').innerHeight();
+		    var itemlength = $('#myCarousel .item').length;
+		    var triggerheight = Math.round(boxheight/itemlength+1);
+			$('#myCarousel .list-group-item').outerHeight(triggerheight);
+		});
+	</script>
     </body>
 </html>

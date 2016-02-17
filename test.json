@@ -1,0 +1,11 @@
+{
+    label: "Total budget",
+    amount: 1000000,
+    children: [{
+        label: "Health",
+        amount: 650000
+    }, {
+        label: "Government",
+        amount: 350000
+    }]
+}

@@ -22,8 +22,8 @@
 .bubbletree .bubbletree-amount {
 	font-family: Cabin, sans-serif;
 	font-size: 16px;
+	margin-top:0;
 }
-
 .bubbletree .bubbletree-desc {
 	font-family: sans-serif;
 	font-size: 16px;
@@ -32,7 +32,7 @@
 
 .bubbletree .bubbletree-label2 {
 	position: absolute;
-	color: #000;
+	color: #fff;
 	text-align: center;
 	cursor: default;
 	font-size: 11px;

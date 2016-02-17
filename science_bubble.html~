@@ -22,12 +22,13 @@
 
 	  $(function() {
 	  var data = {
-	  label: 'Johns Hopkins',
-	  amount:100,
+	  label: '<b>Our Unique Hopkins Universe</b><br> A unique combination of Schools, Divisions and Institutes of Johns Hopkins University, as well as collaborations and memberships with prominent institutions and space organizations across the world.</br>',
+	  amount:100,	/*
+	 * adds all visible elements to the page
+	 */
 	  color: '#0066bb',  // color for root node, will be inherited by children
 	  children: [
-	  { label: 'Krieger School of Arts and Sciences', amount: 30,color: '#ff997f', 
-	  
+	  { label: 'Krieger School of Arts and Sciences', amount: 30,color: '#ff997f', 	  
 	     children:[{label: 'Department of Physics and Astronomy',amount:20},
 	     {label: 'Department of Earth and Planetary Science',amount:20}]},
 	  {label: 'Whiting School of Engineering', amount: 30,color:'#75AF1D',
@@ -35,16 +36,26 @@
 	     {label: 'Department of Mechanical Engineering',amount:20},
 	     {label: 'Space Systems Engineering', amount:20},
 	     {label: 'Department of Applied Mathematics and Statistics', amount:20}]},
-	  { label: 'Applied Physics Laboratory', amount: 30,color: '#3b757a'},
+	  { label: 'Applied Physics Laboratory', amount: 30,color: '#3b757a',
+		children: [{label: 'Space Flight Engineering', amount:20},
+		{label: 'Space Research and Instrumentation', amount:20},
+		{label: 'Space Systems Implementation', amount:20},
+		{label: 'Space Systems and Analysis', amount:20}]},
 	  { label: 'JHU School of Medicine', amount: 30,color: '#fa8072',
 	     children: [{label: 'Center for Epigenetics', amount: 20},
 	     {label: 'Institute for Basic Biomedical Sciences', amount:20}]},
 	  { label: 'Close Collaborators', amount: 30,
 	     children: [{label: 'Space Telescope Science Institute', amount:20},
-	     {label: 'NASA Goddard Space Flight Center', amount:20}]},
+	     {label: 'NASA Goddard Space Flight Center', amount:20},
+		{label: 'Institute for the Physics and Mathematics of the Universe', amount: 20}]},
 	  { label: 'Member Organizations', amount: 30, color: '#ff3300',
 	     children: [{label: 'The Association of Universities for Research in Astronomy', amount:20},
-	     {label: 'The International Astronomical Union', amount:20}]}
+	     {label: 'The International Astronomical Union', amount:20}]},
+	   { label: 'Large Project Collaborations', amount: 30,
+		children:[{label: "Sloan Digital Sky Survey", amount:30},
+		{label: "LSST", amount:30},{label: "PAN-STARRS", amount:30}		
+		]
+		}
 	  ]
 	  };
 	  new BubbleTree({

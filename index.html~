@@ -56,6 +56,7 @@
 		    <li>
 		        <a href="history.html">Our History</a>
 		    </li>
+	
       		     <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Our Research<b class="caret"></b></a>
              		 <ul class="dropdown-menu">
                 	<li>
@@ -77,6 +78,9 @@
 		          </div>
 		        </li>
 		      </ul>
+		    </li>
+		    <li>
+		        <a href="spaceminor.html">Our Space Minor</a>
 		    </li>
 		    <li>	
 		        <a href="News.html">News<br></a>
@@ -183,6 +187,7 @@
 		<div class ="col-md-8">
 			<section id="news">
 			    <div class="container" style="width:100%">
+				<h6> Recent News </h6>
 				<div id="myCarousel" class="carousel slide" data-ride="carousel">
 				    <!-- Wrapper for slides -->
 				    <div class="carousel-inner">
@@ -281,7 +286,7 @@
 	
 	<div style="text-align:center;width:100%;">
 		<div class="tinted-image">
-			<hr style="background:#003366;margin-top:0;border:none;height:20px">
+			<hr style="background:#003366;margin-top:0;margin-bottom:0;border:none;height:20px">
 			<iframe src="science_bubble.html" width="100%" height="700" seamless frameBorder="0" scrolling="no" align="middle" allowtransparency="true"></iframe>
 		</div>
 	</div>
@@ -292,7 +297,7 @@
 		<div class="container-fluid">
 		     
 		    <div class="row">
-			<hr style="background:#003366;margin-bottom:0;border:none;height:20px">
+			<hr style="background:#003366;margin-top:0;margin-bottom:0;border:none;height:20px">
 			    <div class="ha-bg-parallax text-center block-marginb-none" data-type="background" data-speed="20">
 			<div class="ha-parallax-body">
 			    <div class="ha-content ha-content-whitecolor">

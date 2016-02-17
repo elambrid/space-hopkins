@@ -643,7 +643,7 @@ var BubbleTree = function(config, onHover, onUnHover) {
 		// hide labels at all for bubbles with min radius of 0 (deactivated by def)
 		minRadiusHideLabels: 0,
 		// trim labels after 50 characters
-		cutLabelsAt: 50
+		cutLabelsAt: 300
 	}, config);
 
 	/*

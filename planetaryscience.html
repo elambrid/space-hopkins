@@ -11,17 +11,15 @@
         <link href="css/prettyPhoto.css" rel="stylesheet">
         <link href="css/main.css" rel="stylesheet">
         <link href="css/responsive.css" rel="stylesheet">
-
-	<link href="css/1-col-portfolio.css" rel="stylesheet">
    	<!-- Yamm styles-->
-   	<link href="css/yamm.css" rel="stylesheet">
-
+   	 <link href="css/yamm.css" rel="stylesheet">
         <!--[if lt IE 9]>
             <script src="js/html5shiv.js"></script>
             <script src="js/respond.min.js"></script>
         <![endif]-->
         <link rel="stylesheet" href="css/main.css">
-
+	<script type="text/javascript" src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  </head>
   <body class="homepage">  
 	<section id="parallax-intro"> <!--/#parallax-intro-->  
 		<div class="container-fluid">
@@ -37,8 +35,7 @@
 		    </div>
 		</div>
 	 </div>
-	</section>
-        <!--/#parallax-intro-->  
+	</section>        <!--/#parallax-intro-->  
 
 	<nav class="navbar navbar-inverted yamm">
 	    <div class="container">
@@ -58,6 +55,7 @@
 		    <li>
 		        <a href="history.html">Our History</a>
 		    </li>
+	
       		     <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Our Research<b class="caret"></b></a>
              		 <ul class="dropdown-menu">
                 	<li>
@@ -80,14 +78,17 @@
 		        </li>
 		      </ul>
 		    </li>
+		    <li>
+		        <a href="spaceminor.html">Our Space Minor</a>
+		    </li>
 		    <li>	
 		        <a href="News.html">News<br></a>
 		    </li>
-		    <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Oppurtunities and Grants<b class="caret"></b></a>
+		    <li class="dropdown"><a href="seedgrants.html" data-toggle="dropdown" class="dropdown-toggle">Oppurtunities and Seed Grants<b class="caret"></b></a>
              		 <ul class="dropdown-menu">
                 	<li>
 		              <ul class="col-sm-12 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP">
-				<li><a href="#"> Seed Grants </a></li>
+				<li><a href="seedgrants.html"> Seed Grants </a></li>
 		                <li><a href="#"> External Grants </a></li>
 				<li><a href="#"> Join the Initiative! </a></li>
 			      </ul>
@@ -401,19 +402,20 @@
         </div>
     </section><!--/#portfolio-item-->
 
-	<!--/#bottom-->
-	<div class="content-block" id="footer">
+        <!--/#bottom-->
+<div class="content-block" id="footer">
 		<div class="container">
 			<div class="row">
 					<div class="col-sm-4 ">
 			
 					    <h2 class="footer-block">About Us</h2>
-					    <p>Space@Hopkins unifies space-related activities across the institution including research in robotics, astronaut health, planetary sciences, solar physics, Earth science, spacecraft engineering, sensors, and astrophysics.</p>
+
+					    <p>Space@Hopkins connects the array of Johns Hopkins University divisions, departments, and collaborative institutions in their common pursuit of civilian space research.</p>
 					    <br>
 					    <p> <a href="index.html"> Home</a></p>
 					    <p> <a href="history.html"> History</a></p>
 					    <p> <a href="#"> Research</a></p>
-					    <p> <a href="#"> Opportunities and Grants</a></p>
+					    <p> <a href="seedgrants.html"> Opportunities and Seed Grants</a></p>
 					    <p> <a href="#"> News</a></p> 		
 					    <p> <a href="#"> Events</a></p>
 
@@ -442,7 +444,9 @@
 						<ul>
 							<li class="address-sub"><i class="fa fa-map-marker"></i>Space@Hopkins</li>
 								<p>
-									3701 San Martin Dr., Baltimore, MD 21218
+									Johns Hopkins University<br>
+									3701 San Martin Drive<br>
+									Baltimore, MD 21218
 								</p>
 						
 							<li class="address-sub"><i class="fa fa-envelope-o"></i>Contact Us</li>
@@ -457,7 +461,7 @@
 						<div class="social">
 							<a href="https://twitter.com/SpaceAtHopkins"><i class="fa fa-twitter"></i></a>
 							<a href="https://www.facebook.com/SpaceAtHopkins"><i class="fa fa-facebook"></i></a>
-							<a href="#"><i class="fa fa-linkedin-square"></i></a>
+							<a href="https://www.linkedin.com/groups/8478131"><i class="fa fa-linkedin-square"></i></a>
 						</div>
 					
 					</div>
@@ -473,5 +477,35 @@
         <script src="js/jquery.isotope.min.js"></script>
         <script src="js/wow.min.js"></script>
         <script src="js/main.js"></script>
+	<script>	
+		$(document).ready(function(){
+		    
+			var clickEvent = false;
+			$('#myCarousel').carousel({
+				interval:   4000	
+			}).on('click', '.list-group li', function() {
+					clickEvent = true;
+					$('.list-group li').removeClass('active');
+					$(this).addClass('active');		
+			}).on('slid.bs.carousel', function(e) {
+				if(!clickEvent) {
+					var count = $('.list-group').children().length -1;
+					var current = $('.list-group li.active');
+					current.removeClass('active').next().addClass('active');
+					var id = parseInt(current.data('slide-to'));
+					if(count == id) {
+						$('.list-group li').first().addClass('active');	
+					}
+				}
+				clickEvent = false;
+			});
+		})
+		$(window).load(function() {
+		    var boxheight = $('#myCarousel .carousel-inner').innerHeight();
+		    var itemlength = $('#myCarousel .item').length;
+		    var triggerheight = Math.round(boxheight/itemlength+1);
+			$('#myCarousel .list-group-item').outerHeight(triggerheight);
+		});
+	</script>
     </body>
 </html>

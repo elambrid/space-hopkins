@@ -100,7 +100,7 @@
 	      .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
 	      .style("display", function(d) { return d.parent === root ? "inline" : "none"; }) 
 	      .attr("dx", function(d){return -25})		      	     
-              .style("font-size", "1px")
+              .style("font-size", "20px")
 	      .each(getSize)
 	      .style("font-size", function(d) { return d.scale + "px"; })
 	      .text(function(d) { return d.name; });

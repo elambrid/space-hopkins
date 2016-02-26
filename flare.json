@@ -48,10 +48,11 @@
 		    "children": [
 			{"name": "Institute for Basic Biomedical Sciences",
 			 "children":[	      	
-			     {"name": "Center for Epigences", "size": 17500},
-			     {"name": "Test", "size": 17500}
+			     {"name": "Center for Epigences", "size": 12000}
  			 ]
-			}
+			},
+			{"name": "Department of Otolaryngology - Head and Neck Surgery", "size": 12000},
+			{"name": "Biomedical Engineering", "size": 11000}
 		    ]
 		},	
 		{
@@ -66,11 +67,12 @@
 		{
 		    "name": "Whiting School of Engineering",
 		    "children": [
-			{"name": "Laboratory for Computational Sensing and Robotics", "size": 7000},
-			{"name": "Dept. of Applied Mathematics and Statistics", "size": 7000},
-			{"name": "Masters in Space Systems Engineering", "size": 7000},
-			{"name": "Department of Mechanical Engineering", "size": 7000},
-			{"name": "Space Minor", "size": 7000}
+			{"name": "Laboratory for Computational Sensing and Robotics", "size": 6000},
+			{"name": "Dept. of Applied Mathematics and Statistics", "size": 6000},
+			{"name": "Masters in Space Systems Engineering", "size": 6000},
+			{"name": "Department of Mechanical Engineering", "size": 6000},
+			{"name": "Biomedical Engineering", "size": 6000},
+			{"name": "Space Minor", "size": 5000}
 		    ]
 		}
 	    ]

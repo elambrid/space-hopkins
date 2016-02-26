@@ -1,13 +1,13 @@
 @import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
 @import url(http://fonts.googleapis.com/css?family=PT+Sans:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
 @import url(http://fonts.googleapis.com/css?family=Cabin:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
-
+@import url(http://fonts.googleapis.com/css?family=Roboto+Slab:300italic,400italic,600italic,700italic,800italic,400,600,700,300,800);
 /*************************
 *******Typography******
 **************************/
 
 body {
-	font-family: Cabin, sans-serif;
+	font-family: Roboto Slab, sans-serif;
 	color:#333;
 	line-height:20px;
 	padding-top: 0px;
@@ -21,7 +21,7 @@ h5,
 
 h6 {
     font-weight:500; 
-    font-family: Cabin, sans-serif;
+    font-family: Roboto Slab, sans-serif;
     line-height:26.4px;
     color: #FFFFFF;
     font-size: 3.8em;
@@ -2140,7 +2140,7 @@ no-repeat fixed;
 
 .ha-bg-parallax-header {
 
-    background: url(http://wallpapersdesk.net/wp-content/uploads/2015/03/1484_space.jpg)
+    background: url(http://imgsrc.hubblesite.org/hu/db/images/hs-1995-45-a-2560x1024_wallpaper.jpg)
 no-repeat fixed;
 
     -moz-background-size: cover;
@@ -2507,7 +2507,7 @@ div.product-chooser{
 
 h2.footer-block {
     color: white;
-    font-family: "Cabin" , sans-serif;
+    font-family: "Roboto Slab" , sans-serif;
     font-size: 24px;
 }
 .form-control{

@@ -75,7 +75,8 @@
 	    .enter().append("text")
 	      .attr("class", "label")	
 	      .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
-	      .style("display", function(d) { return d.parent === root ? "inline" : "none"; })      
+	      .style("display", function(d) { return d.parent === root ? "inline" : "none"; }) 
+	      .attr("dx", function(d){return -20})	      	     
 	      .text(function(d) { return d.name; });
 	      	
 

@@ -19,7 +19,7 @@
 	}
 
 	.label {
-	  font: 30px "Helvetica Neue", Helvetica, Arial, sans-serif;
+	  font: 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
 	  text-anchor: middle;
 	  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
 	}
@@ -30,6 +30,21 @@
 	  pointer-events: none;
 	}
 
+	body {background:none transparent;
+		}
+	svg{
+    	position:absolute;
+    	width:100%;
+    	left:25%;
+	}
+
+	.root-node {
+	  cursor: pointer;
+	  fill: #fff;
+	  stroke: green;
+	  stroke-width: 3.5px;
+	}	
+	
 	</style>
 	<body>
 	<script src="js/d3.min.js" charset="utf-8"></script>
@@ -66,24 +81,38 @@
 	    .enter().append("circle")
 	      .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
 	      .style("fill", function(d) { return d.children ? color(d.depth) : null; })
+	      .style("fill", function(d) { return d.parent? "color" : "transparent"; })
 	      .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
 
+	function getSize(d) {
+	  var bbox = this.getBBox(),
+	      cbbox = this.parentNode.getBBox(),
+	      scale = Math.min(cbbox.width/bbox.width, cbbox.height/bbox.height);
+	  d.scale = scale;
+	}
 
+	   
 	  var text = svg.selectAll("text")
 	      .data(nodes)
 	    .enter().append("text")
 	      .attr("class", "label")	
 	      .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
-	      .style("display", function(d) { return d.parent === root ? "inline" : "none"; })      
+	      .style("display", function(d) { return d.parent === root ? "inline" : "none"; }) 
+	      .attr("dx", function(d){return -25})		      	     
+              .style("font-size", "1px")
+	      .each(getSize)
+	      
 	      .text(function(d) { return d.name; });
 	      	
 
+
+
+
 	  var node = svg.selectAll("circle,text");
-	  	
+	  
 
 	  d3.select("body")
-	      .style("background", color(-1))
 	      .on("click", function() { zoom(root); });
 
 	  zoomTo([root.x, root.y, root.r * 2 + margin]);
@@ -113,7 +142,6 @@
 	});
 
 	d3.select(self.frameElement).style("height", diameter + "px");
-
 	</script>
 	</body>
 </html>

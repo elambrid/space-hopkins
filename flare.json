@@ -1,5 +1,6 @@
 {
     "name": "flare",
+    "root": "true",	
     "children": [
 	{
 	    "name": "External Relationships",

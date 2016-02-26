@@ -1,61 +1,78 @@
 {
- "name": "flare",
- "children": [
-  {
-   "name": "External Relationships",
-   "children": [
-    {"name": "Member Organizations", "size": 15354},
-    {"name": "Close Collaborations", "size": 18993},
-    {"name": "Large Project Collaborations", "size": 20555}
-    ] 	
-  },
-  {
-   "name": "Johns Hopkins",
-   "children": [
-    {
-     "name": "Krieger School of Arts and Science",
-     "children": [
-      {"name": "Dept. of Physics and Astronomy", "size": 30000,
-     "children":[	      	
-	{"name": "Center for Astrophysical Sciences", "size": 24593},
-	{"name": "Instrument Development Group", "size": 20593}
-       ]
-      },		
-      {"name": "Dept. of Earth and Planetary Sciences", "size": 7000},
-      {"name": "Space Minor", "size": 6703}
-     ]
-    },
-    {
-     "name": "School of Medicine",
-     "children": [
-      {"name": "Institute for Basic Biomedical Sciences", "size": 24593,
-     "children":[	      	
-	{"name": "Center for Epigences", "size": 15000},
-	{"name": "Test", "size": 11000}
- 	]
+    "name": "flare",
+    "children": [
+	{
+	    "name": "External Relationships",
+	    "children": [
+		{"name": "Member Organizations", "size": 20000,
+		 "children": [
+		     {"name": "International Astronomical Union", "size": 10000},
+		     {"name": "Association of Universities for Research in Astronomy", "size": 10000}
+		     ]
+		},
+		{"name": "Close Collaborations", "size": 20000,
+		 "children": [
+		     {"name": "Space Telescope Science Institute", "size": 7000},
+		     {"name": "NASA Goddard Space Flight Center", "size": 7000},
+		     {"name": "Institute for the Physics and Mathematics of the Universe", "size": 6000}
+		     ]
+		},
+		{"name": "Large Project Collaborations", "size": 20000,
+		 "children": [
+		     {"name": "Sloan Digital Sky Survey", "size": 7000},
+		     {"name": "PAN-STARRS", "size": 7000},
+		     {"name": "LSST", "size": 6000}
+		     ]
+		}
+	    ] 	
+	},
+	{
+	    "name": "Johns Hopkins",
+	    "children": [
+		{
+		    "name": "Krieger School of Arts and Science",
+		    "children": [
+			{"name": "Dept. of Physics and Astronomy",
+			 "children":[	      	
+			     {"name": "Center for Astrophysical Sciences", "size": 7000},
+			     {"name": "Instrument Development Group", "size": 7000}
+			 ]
+			},		
+			{"name": "Dept. of Earth and Planetary Sciences", "size": 14000},
+			{"name": "Space Minor", "size": 7000}
+		    ]
+		},
+		{
+		    "name": "School of Medicine",
+		    "children": [
+			{"name": "Institute for Basic Biomedical Sciences",
+			 "children":[	      	
+			     {"name": "Center for Epigences", "size": 17500},
+			     {"name": "Test", "size": 17500}
+ 			 ]
+			}
+		    ]
+		},	
+		{
+		    "name": "Applied Physics Laboratory",
+		    "children": [
+			{"name": "Space Systems and Analysis", "size": 8750},
+			{"name": "Space Systems Implementation", "size": 8750},
+			{"name": "Space Research and Instrumentation", "size": 8750},
+			{"name": "Space Flight Engineering", "size": 8750}
+		    ]
+		},
+		{
+		    "name": "Whiting School of Engineering",
+		    "children": [
+			{"name": "Laboratory for Computational Sensing and Robotics", "size": 7000},
+			{"name": "Dept. of Applied Mathematics and Statistics", "size": 7000},
+			{"name": "Masters in Space Systems Engineering", "size": 7000},
+			{"name": "Department of Mechanical Engineering", "size": 7000},
+			{"name": "Space Minor", "size": 7000}
+		    ]
+		}
+	    ]
 	}
-     ]
-    },	
-    {
-     "name": "Applied Physics Laboratory",
-     "children": [
-      {"name": "Space Systems and Analysis", "size": 20544},
-      {"name": "Space Systems Implementation", "size": 19788},
-      {"name": "Space Research and Instrumentation", "size": 10349},
-      {"name": "Space Flight Engineering", "size": 19382}
-     ]
-    },
-    {
-     "name": "Whiting School of Engineering",
-     "children": [
-      {"name": "Laboratory for Computational Sensing and Robotics", "size": 20859},
-      {"name": "Dept. of Applied Mathematics and Statistics", "size": 4614},
-      {"name": "Masters in Space Systems Engineering", "size": 4614},
-      {"name": "Department of Mechanical Engineering", "size": 10530},
-      {"name": "Space Minor", "size": 16540}
-     ]
-    },
-   ]
-  }
- ]
+    ]
 }

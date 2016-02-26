@@ -85,13 +85,6 @@
 	      .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
 
 
-	function getSize(d) {
-	  var bbox = this.getBBox(),
-	      cbbox = this.parentNode.getBBox(),
-	      scale = Math.min(cbbox.width/bbox.width, cbbox.height/bbox.height);
-	  d.scale = scale;
-	}
-
 	   
 	  var text = svg.selectAll("text")
 	      .data(nodes)
@@ -100,9 +93,6 @@
 	      .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
 	      .style("display", function(d) { return d.parent === root ? "inline" : "none"; }) 
 	      .attr("dx", function(d){return -25})		      	     
-              .style("font-size", "20px")
-	      .each(getSize)
-	      .style("font-size", function(d) { return d.scale + "px"; })
 	      .text(function(d) { return d.name; });
 	      	
 

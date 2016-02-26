@@ -82,8 +82,8 @@
 	      .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
 	      .style("fill", function(d) { return d.children ? color(d.depth) : null; })
 	      .style("fill", function(d) { return d.parent? "color" : "transparent"; })
+	      .attr("r", function(d) { return d.r; })
 	      .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
-
 
 	   
 	  var text = svg.selectAll("text")
@@ -92,7 +92,7 @@
 	      .attr("class", "label")	
 	      .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
 	      .style("display", function(d) { return d.parent === root ? "inline" : "none"; }) 
-	      .attr("dx", function(d){return -25})		      	     
+	      .attr("dx", function(d){return -15})		      	     
 	      .text(function(d) { return d.name; });
 	      	
 
@@ -101,6 +101,8 @@
 
 	  var node = svg.selectAll("circle,text");
 	  
+	
+
 
 	  d3.select("body")
 	      .on("click", function() { zoom(root); });

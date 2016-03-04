@@ -19,7 +19,9 @@
 	}
 
 	.label {
+	  font: 20px "Helvetica Neue", Helvetica, Arial, sans-serif;
 	  text-anchor: middle;
+	  text-shadow: 0 1px 0 #fff, 1px 0 0 #fff, -1px 0 0 #fff, 0 -1px 0 #fff;
 	}
 
 	.label,
@@ -48,28 +50,7 @@
 	<script src="js/d3.min.js" charset="utf-8"></script>
 	<script type="text/javascript">
 
-	 var calculateTextFontSize = function(d) {
-	  var radius = 0;
-	  if (d.fontsize){
-	    //if fontsize is already calculated use that.
-	    return d.fontsize;
-	  }
-	  if (!d.computed ) {
-	    //if computed not present get & store the getComputedTextLength() of the text field
-	    d.computed = this.getComputedTextLength();
-	    if(d.computed != 0){
-	      //if computed is not 0 then get the visual radius of DOM
-	      var r = d.r;
-	      //if radius present in DOM use that
-	      if (r) {
-		radius = r;
-	      }
-	      //calculate the font size and store it in object for future
-	      d.fontsize = (2 * d.r - 8) / this.getComputedTextLength() * 24 + "px"; 
-	      return d.fontsize;  
-	    }
-	  }
-	 }
+
 
 	function comparator(a, b) {
  		 return a.length - b.length;
@@ -90,10 +71,10 @@
 	    .value(function(d) { return d.size; })
 
 	var svg = d3.select("body").append("svg")
-	    .attr("width", 1600)
-	    .attr("height", 2000)
+	    .attr("width", diameter)
+	    .attr("height", diameter)
 	  .append("g")
-	    .attr("transform", 'translate(' + diameter / 2 + ',' + diameter / 2 + ')');
+	    .attr("transform", "translate(" + diameter / 2 + "," + diameter / 2 + ")");
 
 	d3.json("flare.json", function(error, root) {
 		  if (error) throw error;
@@ -103,7 +84,29 @@
 	      view;
 
 
-
+	 var calculateTextFontSize = function(d) {
+	  var id = d3.select(this).text();
+	  var radius = 0;
+	  if (d.fontsize){
+	    //if fontsize is already calculated use that.
+	    return d.fontsize;
+	  }
+	  if (!d.computed ) {
+	    //if computed not present get & store the getComputedTextLength() of the text field
+	    d.computed = this.getComputedTextLength();
+	    if(d.computed !== 0){
+	      //if computed is not 0 then get the visual radius of DOM
+	      var r = d.r;
+	      //if radius present in DOM use that
+	      if (r) {
+		radius = r;
+	      }
+	      //calculate the font size and store it in object for future
+	      d.fontsize = (2 * radius - 8) / d.computed * 24 + "px";
+	      return d.fontsize;  
+	    }
+	  }
+	 }
 
 
 
@@ -131,34 +134,11 @@
 	      .attr("class", "label")	
 	      .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
 	      .style("display", function(d) { return d.parent === root ? "inline" : "none"; }) 
-	      .style("text-anchor", "middle")  		
-	      .text(function (d) {return d.name.substring(0, d.r/2);}).call(wrap,0)
-              .style("font-size", calculateTextFontSize)          
-	      .attr("dy", ".8em");
+	      .text(function(d) {return d.name;})
+              .style("font-size", calculateTextFontSize)
+              .attr("dy", ".35em");
 
-	  function wrap(text, width) {
-        	text.each(function () {
-            var text = d3.select(this),
-                words = text.text().split(/\s+/).reverse(),
-                word,
-                line = [],
-                lineNumber = 0,
-                lineHeight = 1, // ems
-                y = text.attr("y")-((words.length+1)*4),
-                dy = parseFloat(text.attr("dy")),
-                tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
-            while (word = words.pop()) {
-                line.push(word);
-                tspan.text(line.join(" "));
-                if (tspan.node().getComputedTextLength() > width) {
-                    line.pop();
-                    tspan.text(line.join(" "));
-                    line = [word];
-                    tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
-                }
-            }
-        });
-    }
+	  
 
 	  var node = svg.selectAll("circle,text");;
 	  
@@ -202,6 +182,7 @@
 	      }).style("font-size", calculateTextFontSize);
 	    }, 500)
 	}
+
 	  function zoomTo(v) {
 	    var k = diameter / v[2]; view = v;
 	    node.attr("transform", function(d) { return "translate(" + (d.x - v[0]) * k + "," + (d.y - v[1]) * k + ")"; });

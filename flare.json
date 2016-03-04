@@ -1,81 +1,109 @@
 {
-    "name": "flare",
-    "root": "true",	
-    "children": [
-	{
-	    "name": "External Relationships",
-	    "children": [
-		{"name": "Member Organizations", "size": 20000,
-		 "children": [
-		     {"name": "International Astronomical Union", "size": 10000},
-		     {"name": "Association of Universities for Research in Astronomy", "size": 10000}
-		     ]
-		},
-		{"name": "Close Collaborations", "size": 20000,
-		 "children": [
-		     {"name": "Space Telescope Science Institute", "size": 7000},
-		     {"name": "NASA Goddard Space Flight Center", "size": 7000},
-		     {"name": "Institute for the Physics and Mathematics of the Universe", "size": 6000}
-		     ]
-		},
-		{"name": "Large Project Collaborations", "size": 20000,
-		 "children": [
-		     {"name": "Sloan Digital Sky Survey", "size": 7000},
-		     {"name": "PAN-STARRS", "size": 7000},
-		     {"name": "LSST", "size": 6000}
-		     ]
-		}
-	    ] 	
-	},
-	{
-	    "name": "Johns Hopkins",
-	    "children": [
-		{
-		    "name": "Krieger School of Arts and Science",
-		    "children": [
-			{"name": "Dept. of Physics and Astronomy",
-			 "children":[	      	
-			     {"name": "Center for Astrophysical Sciences", "size": 7000},
-			     {"name": "Instrument Development Group", "size": 7000}
-			 ]
-			},		
-			{"name": "Dept. of Earth and Planetary Sciences", "size": 14000},
-			{"name": "Space Minor", "size": 7000}
-		    ]
-		},
-		{
-		    "name": "School of Medicine",
-		    "children": [
-			{"name": "Institute for Basic Biomedical Sciences",
-			 "children":[	      	
-			     {"name": "Center for Epigences", "size": 12000}
- 			 ]
-			},
-			{"name": "Department of Otolaryngology - Head and Neck Surgery", "size": 12000},
-			{"name": "Biomedical Engineering", "size": 11000}
-		    ]
-		},	
-		{
-		    "name": "Applied Physics Laboratory",
-		    "children": [
-			{"name": "Space Systems and Analysis", "size": 8750},
-			{"name": "Space Systems Implementation", "size": 8750},
-			{"name": "Space Research and Instrumentation", "size": 8750},
-			{"name": "Space Flight Engineering", "size": 8750}
-		    ]
-		},
-		{
-		    "name": "Whiting School of Engineering",
-		    "children": [
-			{"name": "Laboratory for Computational Sensing and Robotics", "size": 6000},
-			{"name": "Dept. of Applied Mathematics and Statistics", "size": 6000},
-			{"name": "Masters in Space Systems Engineering", "size": 6000},
-			{"name": "Department of Mechanical Engineering", "size": 6000},
-			{"name": "Biomedical Engineering", "size": 6000},
-			{"name": "Space Minor", "size": 5000}
-		    ]
-		}
-	    ]
-	}
-    ]
+"name":"flare",
+"children":[{
+"name":"-ships Member ",
+"children":[{
+"name":"IAU",
+"size":10000
+},{
+"name":"AURA",
+"size":10000
+}]
+},{
+"name":"Collaborations Large",
+"children":[{
+"name":"SDSS",
+"size":70000
+},{
+"name":"PAN-STARRS",
+"size":40000
+},{
+"name":"LSST",
+"size":10000
+}]
+},{
+"name":"Hopkins Johns ",
+"children":[{
+"name":"Krieger School",
+"children":[{
+"name":"Dept. of Physics and Astronomy",
+"children":[{
+"name":"Center for Astrophysical Sciences",
+"size":10000
+},{
+"name":"Instrument Design Group",
+"size":10000
+}]
+},{
+"name":"Dept. of Earth and Planetary Science",
+"size":20000
+},{
+"name":"Space Minor",
+"size":10000
+}]
+},{
+"name":"School of Medicine",
+"children":[{
+"name":"Inst. for Basic Biomedical Science",
+"children":[{
+"name":"Center for Epigences",
+"size":12000
+}]
+},{
+"name":"Head and Neck Surgery",
+"size":10000
+},{
+"name":"Biomed. Engineering",
+"size":10000
+}]
+},{
+"name":"APL",
+"children":[{
+"name":"Space Systems and Analysis",
+"size":8750
+},{
+"name":"Space Systems Implementation",
+"size":8750
+},{
+"name":"Space Research and Instrumentation",
+"size":8750
+},{
+"name":"Space Flight Engineering",
+"size":8750
+}]
+},{
+"name":"Whiting School of Engineering",
+"children":[{
+"name":"Laboratory for Computational Sensing and Robotics",
+"size":6000
+},{
+"name":"Dept. of Applied Mathematics and Statistics",
+"size":6000
+},{
+"name":"Masters in Space Systems Engineering",
+"size":6000
+},{
+"name":"Department of Mechanical Engineering",
+"size":6000
+},{
+"name":"Biomedical Engineering",
+"size":6000
+},{
+"name":"Space Minor",
+"size":5000
+}]
+}]
+},{
+"name":"Collaborations Close",
+"children":[{
+"name":"Space Telescope Science Institute",
+"size":70000
+},{
+"name":"NASA Goddard Space FlightCenter",
+"size":20000
+},{
+"name":"Institute for the Physics and Mathematics of the Universe",
+"size":10000
+}]
+}]
 }

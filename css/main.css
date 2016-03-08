@@ -43,14 +43,14 @@ h3{
 }
 
 h4{
-  font-size: 18px;
+  font-size: 20px;
   color: #FFF;
   font-weight:800; 
 }
 
 a {
   color: #FFFFFF;
-  font-size: 15px;
+  font-size: 18px;
   -webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
   -o-transition:  color 300ms, background-color 300ms;

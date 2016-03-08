@@ -34,18 +34,48 @@
 "children":[{
 "name":"Dept. of Physics and Astronomy",
 "children":[{
-"name":"Center for Astrophysical Sciences",
-"size":10000
+    "name":"Center for Astrophysical Sciences",
+    "children":[{
+	"name":"Cosmology",
+	"size":2000
+    },{
+	"name":"Extragalactic Astronomy",
+	"size":2000
+    },{
+	"name":"Galactic Astronomy",
+	"size":2000
+    },{
+	"name":"Numerical Simulations",
+	"size":2000
+    },{
+	"name":"Large Datasets",
+	"size":2000
+    },{
+	"name":"Instrumentation",
+	"size":2000
+    }]
 },{
 "name":"MD Space Grant Observatory",
 "size":10000
 },{
-"name":"Instrument Design Group",
-"size":10000
+    "name":"Instrument Development Group",
+    "children":[{
+	"name":"Space Missions Instruments",
+	"size":5000
+    },{
+	"name":"Ground Based Astronomy Instruments",
+	"size":5000
+    }]
 }]
 },{
-"name":"Dept. of Earth and Planetary Science",
-"size":20000
+"name":"Dept. of Earth & Planetary Sciences",
+"children":[{
+    "name":"Geophysics",
+    "size":10000
+},{
+    "name":"Atmospheric Sciences",
+    "size":10000
+}]
 },{
 "name":"Space Minor",
 "size":10000
@@ -114,7 +144,10 @@
 "name":"NASA Goddard Space FlightCenter",
 "size":20000
 },{
-"name":"Institute for the Physics and Mathematics of the Universe",
+    "name": "MD Space Grant",
+    "size":15000
+},{
+"name":"IPMU",
     "children":[{"name":"Subaru Telescope",
 		 "size":10000}]
 }]

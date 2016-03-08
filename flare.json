@@ -98,17 +98,65 @@
 },{
 "name":"APL",
 "children":[{
-"name":"Space Systems and Analysis",
-"size":8750
+    "name":"Space Systems and Analysis",
+    "children":[{
+	"name":"Analysis and Applications",
+	"size":3300
+    },{
+	"name":"Astrodynamics and Control Systems",
+	"size":3300
+    },{
+	"name":"Space Systems Engineering",
+	"size":3300
+    }]
 },{
-"name":"Space Systems Implementation",
-"size":8750
+    "name":"Space Systems Implementation",
+    "children":[{
+	"name":"Embedded Applications",
+	"size":2500
+    },{
+	"name":"Ground Applications",
+	"size":2500
+    },{
+	"name":"Integration and Test",
+	"size":2500
+    },{
+	"name":"Space Mission Operations",
+	"size":2500
+    }]
 },{
-"name":"Space Research and Instrumentation",
-"size":8750
+    "name":"Space Research and Instrumentation",
+    "children":[{
+	"name":"Space Technologies and Applied Research",
+	"size":2000
+    },{
+	"name":"Planetary Exploration",
+	"size":2000
+    },{
+	"name":"Space Physics",
+	"size":2000
+    },{
+	"name":"Space Science Instrumentation",
+	"size":2000
+    },{
+	"name":"Geospace and Earth Science",
+	"size":2000
+    }]
 },{
-"name":"Space Flight Engineering",
-"size":8750
+    "name":"Space Flight Engineering",
+    "children":[{
+	"name":"Electronic Systems",
+	"size":2500
+    },{
+	"name":"Mechanical Systems",
+	"size":2500
+    },{
+	"name":"Power and Component Engineering",
+	"size":2500
+    },{
+	"name":"RF Engineering",
+	"size":2500
+    }]
 }]
 },{
 "name":"Whiting School of Engineering",

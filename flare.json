@@ -4,20 +4,13 @@
 "name":"Memberships ",
 "children":[{
 "name":"IAU",
-<<<<<<< HEAD
-"size":7000
+"size":20000
 },{
 "name":"AURA",
-"size":7000
+"size":20000
 },{
 "name":"MD Round Table",
-"size":7000
-=======
-"size":40000
-},{
-"name":"AURA",
-"size":40000
->>>>>>> origin/gh-pages
+"size":20000
 }]
 },{
 "name":"Large Collaborations ",

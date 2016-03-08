@@ -4,31 +4,40 @@
 "name":"-ships Member ",
 "children":[{
 "name":"IAU",
-"size":10000
+"size":7000
 },{
 "name":"AURA",
-"size":10000
+"size":7000
+},{
+"name":"MD Round Table",
+"size":7000
 }]
 },{
 "name":"Collaborations Large",
 "children":[{
 "name":"SDSS",
-"size":70000
+"size":50000
 },{
 "name":"PAN-STARRS",
-"size":40000
+"size":30000
 },{
 "name":"LSST",
-"size":10000
+"size":20000
+},{
+"name":"Subaru Telescope",
+"size": 20000
 }]
 },{
 "name":"Hopkins Johns ",
 "children":[{
-"name":"Krieger School",
+"name":"Krieger School of Arts & Sciences",
 "children":[{
 "name":"Dept. of Physics and Astronomy",
 "children":[{
 "name":"Center for Astrophysical Sciences",
+"size":10000
+},{
+"name":"MD Space Grant Observatory",
 "size":10000
 },{
 "name":"Instrument Design Group",
@@ -50,10 +59,10 @@
 "size":12000
 }]
 },{
-"name":"Head and Neck Surgery",
+"name":"Dept. of Otolaryngology-Head and Neck Surgery",
 "size":10000
 },{
-"name":"Biomed. Engineering",
+"name":"Biomedical Engineering",
 "size":10000
 }]
 },{
@@ -74,8 +83,11 @@
 },{
 "name":"Whiting School of Engineering",
 "children":[{
-"name":"Laboratory for Computational Sensing and Robotics",
-"size":6000
+    "name":"Laboratory for Computational Sensing and Robotics",
+    "children":[{"name":"SMARTS Lab",
+		 "size":6000},
+		{"name":"ASCO Lab",
+		 "size":6000}]
 },{
 "name":"Dept. of Applied Mathematics and Statistics",
 "size":6000
@@ -83,10 +95,10 @@
 "name":"Masters in Space Systems Engineering",
 "size":6000
 },{
-"name":"Department of Mechanical Engineering",
+"name":"Dept. of Mechanical Engineering",
 "size":6000
 },{
-"name":"Biomedical Engineering",
+"name":"Dept. Biomedical Engineering",
 "size":6000
 },{
 "name":"Space Minor",
@@ -103,7 +115,8 @@
 "size":20000
 },{
 "name":"Institute for the Physics and Mathematics of the Universe",
-"size":10000
+    "children":[{"name":"Subaru Telescope",
+		 "size":10000}]
 }]
 }]
 }

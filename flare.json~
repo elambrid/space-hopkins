@@ -1,16 +1,16 @@
 {
 "name":"flare",
 "children":[{
-"name":"-ships Member ",
+"name":"Memberships ",
 "children":[{
 "name":"IAU",
-"size":10000
+"size":40000
 },{
 "name":"AURA",
-"size":10000
+"size":40000
 }]
 },{
-"name":"Collaborations Large",
+"name":"Large Collaborations ",
 "children":[{
 "name":"SDSS",
 "size":70000
@@ -22,20 +22,20 @@
 "size":10000
 }]
 },{
-"name":"Hopkins Johns ",
+"name":"Johns Hopkins ",
 "children":[{
 "name":"Krieger School",
 "children":[{
-"name":"Physics and Astronomy",
+"name":"Dept. of Physics and Astronomy",
 "children":[{
-"name":"CAS",
+"name":"Center for Astrophysical Sciences",
 "size":10000
 },{
-"name":"IDG",
+"name":"Instrument Design Group",
 "size":10000
 }]
 },{
-"name":"EPS",
+"name":"Dept. of Earth and Planetary Science",
 "size":20000
 },{
 "name":"Space Minor",
@@ -44,7 +44,7 @@
 },{
 "name":"School of Medicine",
 "children":[{
-"name":"IBBS",
+"name":"Inst. for Basic Biomedical Science",
 "children":[{
 "name":"Center for Epigences",
 "size":12000
@@ -59,50 +59,50 @@
 },{
 "name":"APL",
 "children":[{
-"name":"SpaceSystemsandAnalysis",
+"name":"Space Systems and Analysis",
 "size":8750
 },{
-"name":"SpaceSystemsImplementation",
+"name":"Space Systems Implementation",
 "size":8750
 },{
-"name":"SpaceResearchandInstrumentation",
+"name":"Space Research and Instrumentation",
 "size":8750
 },{
-"name":"SpaceFlightEngineering",
+"name":"Space Flight Engineering",
 "size":8750
 }]
 },{
-"name":"WhitingSchoolofEngineering",
+"name":"Whiting School of Engineering",
 "children":[{
-"name":"LaboratoryforComputationalSensingandRobotics",
+"name":"Laboratory for Computational Sensing and Robotics",
 "size":6000
 },{
-"name":"Dept.ofAppliedMathematicsandStatistics",
+"name":"Dept. of Applied Mathematics and Statistics",
 "size":6000
 },{
-"name":"MastersinSpaceSystemsEngineering",
+"name":"Masters in Space Systems Engineering",
 "size":6000
 },{
-"name":"DepartmentofMechanicalEngineering",
+"name":"Department of Mechanical Engineering",
 "size":6000
 },{
-"name":"BiomedicalEngineering",
+"name":"Biomedical Engineering",
 "size":6000
 },{
-"name":"SpaceMinor",
+"name":"Space Minor",
 "size":5000
 }]
 }]
 },{
-"name":"Close Collaborations",
+"name":"Collaborations Close",
 "children":[{
-"name":"SpaceTelescopeScienceInstitute",
+"name":"Space Telescope Science Institute",
 "size":70000
 },{
-"name":"NASAGoddardSpaceFlightCenter",
+"name":"NASA Goddard Space FlightCenter",
 "size":20000
 },{
-"name":"InstituteforthePhysicsandMathematicsoftheUniverse",
+"name":"Institute for the Physics and Mathematics of the Universe",
 "size":10000
 }]
 }]

@@ -18,9 +18,7 @@
 	  fill: white;
 	}
 
-	.label {
-	  text-anchor: middle;
-	}
+
 
 	.label,
 	.node--root,
@@ -48,34 +46,12 @@
 	<script src="js/d3.min.js" charset="utf-8"></script>
 	<script type="text/javascript">
 
-	 var calculateTextFontSize = function(d) {
-	  var radius = 0;
-	  if (d.fontsize){
-	    //if fontsize is already calculated use that.
-	    return d.fontsize;
-	  }
-	  if (!d.computed ) {
-	    //if computed not present get & store the getComputedTextLength() of the text field
-	    d.computed = this.getComputedTextLength();
-	    if(d.computed != 0){
-	      //if computed is not 0 then get the visual radius of DOM
-	      var r = d.r;
-	      //if radius present in DOM use that
-	      if (r) {
-		radius = r;
-	      }
-	      //calculate the font size and store it in object for future
-	      d.fontsize = (2 * d.r - 8) / this.getComputedTextLength() * 24 + "px"; 
-	      return d.fontsize;  
-	    }
-	  }
-	 }
 
 	function comparator(a, b) {
  		 return a.length - b.length;
 		};
 
-	var margin = 20,
+	var margin = 10,
 	    diameter = 960;
 
 	var color = d3.scale.linear()
@@ -87,11 +63,11 @@
 	    .sort(comparator) 	
 	    .padding(4)
 	    .size([diameter - margin, diameter - margin])
-	    .value(function(d) { return d.size; })
+	    .value(function(d) { return d.size;})
 
 	var svg = d3.select("body").append("svg")
-	    .attr("width", 1600)
-	    .attr("height", 2000)
+	    .attr("width", diameter)
+	    .attr("height", diameter)
 	  .append("g")
 	    .attr("transform", 'translate(' + diameter / 2 + ',' + diameter / 2 + ')');
 
@@ -102,28 +78,14 @@
 	      nodes = pack.nodes(root),
 	      view;
 
-
-
-
-
-
 	  var circle = svg.selectAll("circle")
 	      .data(nodes)
 	    .enter().append("circle")
 	      .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
 	      .style("fill", function(d) { return d.children ? color(d.depth) : null; })
 	      .style("fill", function(d) { return d.parent? "color" : "transparent"; })
-	      .attr("r", function(d) { return d.r; })
-              .attr("id", function(d) {return d.name;})	      	
+	      .attr("r", function(d) { return d.r; })      	
 	      .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
-	
-
-
-
-          circle.append("svg:title").text(function(d) {return d.name;})
-
-
-
 	   
 	  var text = svg.selectAll("text")
 	      .data(nodes)
@@ -131,10 +93,11 @@
 	      .attr("class", "label")	
 	      .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
 	      .style("display", function(d) { return d.parent === root ? "inline" : "none"; }) 
-	      .style("text-anchor", "middle")  		
-	      .text(function (d) {return d.name.substring(0, d.r/2);}).call(wrap,0)
-	      .attr("dy", ".8em")	
-              .style("font-size", calculateTextFontSize);
+	      .attr("dy", ".3em")  
+              .style("text-anchor", "middle")		
+	      .style("font-size",function(d) { return d.r/4 + "px";})
+	      .text(function(d) {return d.name;}).call(wrap,0);
+
 
 	  function wrap(text, width) {
         	text.each(function () {
@@ -143,9 +106,9 @@
                 word,
                 line = [],
                 lineNumber = 0,
-                lineHeight = 1, // ems
-                y = text.attr("y")-((words.length+1)*4),
-                dy = parseFloat(text.attr("dy")),
+                lineHeight = 1.1, // ems
+                y = text.attr("y")-((words.length+2)*4),
+                dy = 0.3,
                 tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
             while (word = words.pop()) {
                 line.push(word);
@@ -154,15 +117,16 @@
                     line.pop();
                     tspan.text(line.join(" "));
                     line = [word];
-                    tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
+                    tspan = text.append("tspan").attr("x", 0).attr("y",4*y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
                 }
             }
         });
+
     }
 
-	  var node = svg.selectAll("circle,text");;
-	  
+	  var node = svg.selectAll("circle,text");
 
+		
 
 
 	  d3.select("body")
@@ -197,18 +161,14 @@
 	      if (d.parent !== focus) this.style.display = "none";
 	    });
 	    setTimeout(function() {
-	      d3.selectAll("text").filter(function(d) {
-		return d.parent === focus || this.style.display === "inline";
-	      }).style("font-size", calculateTextFontSize);
-	    }, 500)
-	}
+	      d3.selectAll("text").style("font-size",function(d) { return d.r/4 + "px";}).text(function(d) {return d.name;}).call(wrap,0).filter(function(d) {return d.parent === focus || this.style.display === "inline";})}, 500)}
+
 	  function zoomTo(v) {
 	    var k = diameter / v[2]; view = v;
 	    node.attr("transform", function(d) { return "translate(" + (d.x - v[0]) * k + "," + (d.y - v[1]) * k + ")"; });
 	    circle.attr("r", function(d) { return d.r * k; });
-	  }
-
-	});
+	    text.style("font-size",function(d) { return d.r/4 * k + "px";}).text(function(d) {return d.name;}).call(wrap,0);
+}});
 
 
 

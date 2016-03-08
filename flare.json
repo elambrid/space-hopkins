@@ -1,16 +1,16 @@
 {
 "name":"flare",
 "children":[{
-"name":"-ships Member ",
+"name":"Memberships ",
 "children":[{
 "name":"IAU",
-"size":10000
+"size":40000
 },{
 "name":"AURA",
-"size":10000
+"size":40000
 }]
 },{
-"name":"Collaborations Large",
+"name":"Large Collaborations ",
 "children":[{
 "name":"SDSS",
 "size":70000
@@ -22,7 +22,7 @@
 "size":10000
 }]
 },{
-"name":"Hopkins Johns ",
+"name":"Johns Hopkins ",
 "children":[{
 "name":"Krieger School",
 "children":[{
@@ -94,7 +94,7 @@
 }]
 }]
 },{
-"name":"Collaborations Close",
+"name":"Close Collaborations ",
 "children":[{
 "name":"Space Telescope Science Institute",
 "size":70000

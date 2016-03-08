@@ -18,9 +18,7 @@
 	  fill: white;
 	}
 
-	.label {
-	  text-anchor: middle;
-	}
+
 
 	.label,
 	.node--root,
@@ -53,7 +51,7 @@
  		 return a.length - b.length;
 		};
 
-	var margin = 20,
+	var margin = 10,
 	    diameter = 960;
 
 	var color = d3.scale.linear()
@@ -95,8 +93,8 @@
 	      .attr("class", "label")	
 	      .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
 	      .style("display", function(d) { return d.parent === root ? "inline" : "none"; }) 
-	      .style("text-anchor", "middle")  		
-	      .attr("dy", ".3em")
+	      .attr("dy", ".3em")  
+              .style("text-anchor", "middle")		
 	      .style("font-size",function(d) { return d.r/4 + "px";})
 	      .text(function(d) {return d.name;}).call(wrap,0);
 
@@ -108,9 +106,9 @@
                 word,
                 line = [],
                 lineNumber = 0,
-                lineHeight = 0.8, // ems
-                y = text.attr("y")-((words.length+1)*4),
-                dy = parseFloat(text.attr("dy")),
+                lineHeight = 1.1, // ems
+                y = text.attr("y")-((words.length+2)*4),
+                dy = 0.3,
                 tspan = text.text(null).append("tspan").attr("x", 0).attr("y", y).attr("dy", dy + "em");
             while (word = words.pop()) {
                 line.push(word);
@@ -119,7 +117,7 @@
                     line.pop();
                     tspan.text(line.join(" "));
                     line = [word];
-                    tspan = text.append("tspan").attr("x", 0).attr("y", y).attr("dy", ++lineNumber * lineHeight - 3*dy + "em").text(word);
+                    tspan = text.append("tspan").attr("x", 0).attr("y",4*y).attr("dy", ++lineNumber * lineHeight + dy + "em").text(word);
                 }
             }
         });

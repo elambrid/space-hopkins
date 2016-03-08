@@ -7,7 +7,7 @@
 body {
 	font-family: PT Sans Narrow, sans-serif;
 	color:#333;
-	line-height:20px;
+	line-height:1.5;
 	padding-top: 0px;
 }
 
@@ -20,7 +20,7 @@ h5,
 h6 {
     font-weight:500; 
     font-family: PT Sans Narrow, sans-serif;
-    line-height:26.4px;
+    line-height:1.5;
     color: #FFFFFF;
     font-size: 4.0em;
 
@@ -32,25 +32,25 @@ h1{
 }
 
 h2{
-  font-size: 20px;
+  font-size: 36px;
 }
 
 h3{
   font-size: 18px;
   color: #787878;
   font-weight: 400;
-  line-height: 24px;
+  line-height: 1.5;
 }
 
 h4{
-  font-size: 18px;
+  font-size: 20px;
   color: #FFF;
   font-weight:800; 
 }
 
 a {
   color: #FFFFFF;
-  font-size: 15px;
+  font-size: 18px;
   -webkit-transition: color 300ms, background-color 300ms;
   -moz-transition: color 300ms, background-color 300ms;
   -o-transition:  color 300ms, background-color 300ms;

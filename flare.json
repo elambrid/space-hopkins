@@ -85,7 +85,7 @@
 "children":[{
 "name":"Inst. for Basic Biomedical Science",
 "children":[{
-"name":"Center for Epigences",
+"name":"Center for Epigenetics",
 "size":12000
 }]
 },{
@@ -189,7 +189,7 @@
 "name":"Space Telescope Science Institute",
 "size":70000
 },{
-"name":"NASA Goddard Space FlightCenter",
+"name":"NASA Goddard Space Flight Center",
 "size":20000
 },{
     "name": "MD Space Grant",

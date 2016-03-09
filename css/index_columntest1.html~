@@ -1,0 +1,624 @@
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Space@Hopkins</title>
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/font-awesome.min.css">
+        <link href="css/animate.min.css" rel="stylesheet">
+        <link href="css/prettyPhoto.css" rel="stylesheet">
+        <link href="css/main.css" rel="stylesheet">
+        <link href="css/responsive.css" rel="stylesheet">
+   	<!-- Yamm styles-->
+   	 <link href="css/yamm.css" rel="stylesheet">
+        <!--[if lt IE 9]>
+            <script src="js/html5shiv.js"></script>
+            <script src="js/respond.min.js"></script>
+        <![endif]-->
+        <link rel="stylesheet" href="css/main.css">
+	<script type="text/javascript" src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+  </head>
+  <body class="homepage">  
+	<section id="parallax-intro"> <!--/#parallax-intro-->  
+		<div class="container-fluid">
+		    <div class="row">
+			<div class="ha-bg-parallax-header block-marginb-none" data-type="background" data-speed="20">	
+			<div class="ha-parallax-body-header">
+				<div class="col-md-4 col"><div class="content"><div class="ha-content ha-content-whitecolor-header"><h6 style="padding-left:50px;padding-top:10px">Space@Hopkins</h6></div></div></div><div class="col-md-4 col"><div class="content"></div></div><div class="col-md-4 col"><div class="content"><img src="images/ulogowhite.png" alt="Johns Hopkins University" class="img-responsive" style="padding-top:15px;padding-left:60px"></div></div>			     
+			    <div class="ha-parallax-divider-wrapper-header">
+				<span class="ha-diamond-divider-md-header img-responsive"></span>
+			    </div>
+			    <div class="ha-heading-parallax-header"></div>
+			</div>
+		    </div>
+		</div>
+	 </div>
+	</section>        <!--/#parallax-intro-->  
+
+	<nav class="navbar navbar-inverted yamm">
+	    <div class="container">
+		<div class="navbar-header">
+		    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+			<span class="sr-only">Toggle navigation</span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+			<span class="icon-bar"></span>
+		    </button>
+		</div>
+	    <div class="collapse navbar-collapse" role="banner">
+		<ul class="nav navbar-nav">
+		    <li class="active">
+		        <a href="index.html">Home</a>
+		    </li>
+		    <li>
+		        <a href="history.html">Our History</a>
+		    </li>
+	
+      		     <li class="dropdown"><a href="#" data-toggle="dropdown" class="dropdown-toggle">Our Research<b class="caret"></b></a>
+             		 <ul class="dropdown-menu">
+                	<li>
+		          <!-- Content container to add padding -->
+		          <div class="yamm-content">
+		            <div class="row">
+		              <ul class="col-lg-12 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP">
+
+		                <li><a href="astronauthealth.html"> Astronaut Health </a></li>
+		                <li><a href="astrophysics.html"> Astrophysics </a></li>
+		                <li><a href="earthscience.html"> Earth Science </a></li>
+		                <li><a href="planetaryscience.html"> Planetary Science </a></li>
+		                <li><a href="robotics.html"> Robotics </a></li>
+		                <li><a href="sensors.html"> Sensors </a></li>
+		                <li><a href="solarscience.html"> Solar Science </a></li>
+		                <li><a href="spacecraftengineering.html"> Spacecraft Engineering </a></li>
+
+		            </div>
+		          </div>
+		        </li>
+		      </ul>
+		    </li>
+		    <li>
+		        <a href="spaceminor.html">Our Space Minor</a>
+		    </li>
+		    <li>	
+		        <a href="News.html">News<br></a>
+		    </li>
+		    <li class="dropdown"><a href="seedgrants.html" data-toggle="dropdown" class="dropdown-toggle">Oppurtunities and Seed Grants<b class="caret"></b></a>
+             		 <ul class="dropdown-menu">
+                	<li>
+		              <ul class="col-sm-12 list-unstyled" style="color:#FFFFFF;line-height:20px;color:#c3ddeaP">
+				<li><a href="seedgrants.html"> Seed Grants </a></li>
+		                <li><a href="#"> External Grants </a></li>
+				<li><a href="#"> Join the Initiative! </a></li>
+			      </ul>
+		        </li>
+		      </ul>
+		    </li>
+		    <li>	
+		        <a href="events.html">Events<br></a>
+		    </li>		   	
+		    <li>	
+		        <a href="about_us.html">About Us<br></a>
+		    </li>
+		    <li>	
+		        <a href="contact_us.html">Contact Us<br></a>
+		    </li>
+
+		</ul>
+	    </div>	
+       </div>
+	<!--/.container-->
+    </nav>
+    <!--/nav-->
+
+
+    <section id="parallax-intro">
+		<div class="container-fluid">
+		    <div class="row">
+			    <div class="ha-bg-parallax text-center block-marginb-none" data-type="background" data-speed="20">
+			<div class="ha-parallax-body" style="background:rgba(0,0,0,0.5)">
+			    <div class="ha-content ha-content-whitecolor top10" style="width:75%">
+				<br></br>
+			
+				<h4 style="font-size:30;"><i>Space@Hopkins connects the array of Johns Hopkins University divisions, departments, and collaborative institutions in their common pursuit of civilian space research.</i></h4>
+		
+				<div class="navbar-collapse collapse" style="font-weight:bold;">
+					<ul class="nav navbar-nav top5" style ="border-style:solid;background:rgba(0,0,0,0.5);" data-0="margin-top:50px;" data-300="margin-top:15px;">
+						<li><a href="#section-universe">Space@Hopkins Connections</a></li>
+						<li><a href="#section-news">In the News</a></li>
+						<li><a href="#section-research">Research Areas</a></li>
+					</ul>
+				</div>
+			    <div class="ha-parallax-divider-wrapper">
+				<span class="ha-diamond-divider-md img-responsive"></span>
+			    </div>
+			    <div class="ha-heading-parallax"></div>
+
+			</div>
+		    </div>
+
+		  </div>
+
+		</div>
+	</section>
+	<!--/#parallax-intro--> 
+
+
+	<div id="fix-for-navbar-fixed-top-spacing" style="height: 42px;">&nbsp;</div>
+	<section id="section-news">
+	<div class = "container-fluid">
+		<div class="col-md-4 text-center" >
+			<section id="carousel">    				
+				<div class="quote"><i class="fa fa-quote-left fa-4x"></i></div>
+						<div class="carousel slide" id="fade-quote-carousel" data-ride="carousel" data-interval="3000">
+						  <!-- Carousel indicators -->
+				  <ol class="carousel-indicators">
+						    <li data-target="#fade-quote-carousel" data-slide-to="0" class="active"></li>
+						    <li data-target="#fade-quote-carousel" data-slide-to="1"></li>
+						    <li data-target="#fade-quote-carousel" data-slide-to="2"></li>
+						  </ol>
+						  <!-- Carousel items -->
+						  <div class="carousel-inner">
+						    <div class="active item">
+						    	<blockquote>
+						    		<p><h4 style="color:#000;">"From our founding over 139 years ago, Johns Hopkins' students and faculty have pursued knowledge—in the classroom, in the laboratory, and in the farthest reaches of space—with a restless curiosity, intellectual courage, and undaunted determination." </h4><br>- <b>Ronald J Daniels, 14th President of The Johns Hopkins University</b></p>
+						    	</blockquote>
+						    	<div class="profile-circle" style="background-color: rgba(0,0,0,.2);background-image:url('ron.jpg')"></div>
+						    </div>
+						  
+					</div>						
+				</div>
+			</section>
+		        <a class = "btn btn-primary btn-lg btn-responsive text-center bottom5" href="seedgrants.html"> Apply for a Space@Hopkins Seed Grant </a>
+		</div><!-- End Column -->
+
+
+
+		<div class ="col-md-8">
+			<section id="news">
+			    <div class="container" style="width:100%">
+				<h4 style="color:#000;"> JHU Space-related News </h4>
+				<div id="myCarousel" class="carousel slide" data-ride="carousel">
+				    <!-- Wrapper for slides -->
+				    <div class="carousel-inner">
+				        <div class="item active">
+				            <img src="images/portfolio/full/apl.jpg">
+				            <div class="carousel-caption">
+				                <h4><a href="#">New Horizons: NASA's first mission to Pluto and the Kuiper Belt</a></h4>
+				                <p>New Horizons launched on Jan. 19, 2006; it swung past Jupiter for a gravity boost and scientific studies in February 2007, and conducted a six-month-long reconnaissance flyby study of Pluto and its moons in summer 2015, culminating with Pluto closest approach on July 14, 2015. As part of an extended mission, pending NASA approval, the spacecraft is expected to head farther into the Kuiper Belt to examine another of the ancient, icy mini-worlds in that vast region, at least a billion miles beyond Neptune’s orbit. <a class="label label-primary" href="News.html" target="_blank">Read More</a></p>
+				            </div>
+				        </div>
+				        <!-- End Item -->
+				        <div class="item">
+				            <img src="images/blog/feinberg_space.png">
+				            <div class="carousel-caption">
+				                <h4><a href="#">Genomics at zero gravity: JHU researchers conduct experiments on NASA aircraft</a></h4>
+				                <p>JHU geneticists Andrew Feinberg and Lindsay Rizzardi spent four days conducting experiments to test two key tools in zero-gravity conditions. <a class="label label-primary" href="http://hub.jhu.edu/2015/10/14/feinberg-rizzardi-zero-gravity-genetics" target="_blank">Read More</a></p>
+				            </div>
+				        </div>
+				        <!-- End Item -->
+				        <div class="item">
+				            <img src="images/blog/20150408_ObservingSun.jpg">
+				            <div class="carousel-caption">
+				                <h4><a href="#">NASA Gives Green Light for Johns Hopkins APL to Begin Building Solar Probe Plus Spacecraft</a></h4>
+				                <p>NASA’s Solar Probe Plus mission — which will fly closer to the Sun than any spacecraft has before — reached a major milestone last month when it successfully completed its Critical Design Review (CDR). <a class="label label-primary" href="News.html" target="_blank">Read More</a></p>
+				            </div>
+				        </div>
+				        <!-- End Item -->
+				        <div class="item">
+				            <img src="images/blog/NGC-1365-Great-Barred-Spiral-Galaxy.jpg">
+				            <div class="carousel-caption">
+				                <h4><a href="#">Johns Hopkins Rocketeers Launch Their Most Sensitive Instrument Yet</a></h4>
+				                <p>Rocketeers led by Johns Hopkins University astrophysicist Stephan R. McCandliss launched the most sensitive instrument they’ve ever used to explore outer space, seeking clues to how galaxies grow with the birth of new stars, and how they stop growing. <a class="label label-primary" href="News.html" target="_blank">Read More</a></p>
+				            </div>
+				        </div>
+				        <!-- End Item -->
+				        <div class="item">
+				            <img src="images/blog/europaprobe.jpg">
+				            <div class="carousel-caption">
+				                <h4><a href="#">Two JHU APL instruments chosen for NASA mission to Jupiter moon Europa</a></h4>
+				                <p>Two instruments designed by the Johns Hopkins University Applied Physics Laboratory are among nine instruments selected for flight aboard a proposed NASA mission to explore Jupiter's moon Europa and investigate its habitability.<a class="label label-primary" href="News.html" target="_blank">Read More</a></p>
+				            </div>
+				        </div>
+				        <!-- End Item -->
+				    </div>
+				    <!-- End Carousel Inner -->
+				    <ul class="list-group col-sm-4" >
+				        <li data-target="#myCarousel" data-slide-to="0" class="list-group-item active">
+				            <h4 style="color:#000;font-size:16px;">New Horizons: NASA's first mission to Pluto and the Kuiper Belt</h4>
+				        </li>
+				        <li data-target="#myCarousel" data-slide-to="1" class="list-group-item">
+				            <h4 style="color:#000;font-size:16px;">Genomics at zero gravity: JHU researchers conduct experiments on NASA aircraft</h4>
+				        </li>
+				        <li data-target="#myCarousel" data-slide-to="2" class="list-group-item">
+				            <h4 style="color:#000;font-size:16px;">NASA Gives Green Light for Johns Hopkins APL to Begin Building Solar Probe Plus Spacecraft</h4>
+				        </li>
+				        <li data-target="#myCarousel" data-slide-to="3" class="list-group-item">
+				            <h4 style="color:#000;font-size:16px;">Johns Hopkins Rocketeers Launch Their Most Sensitive Instrument Yet</h4>
+				        </li>
+				        <li data-target="#myCarousel" data-slide-to="4" class="list-group-item">
+				            <h4 style="color:#000;font-size:16px;">Two JHU APL instruments chosen for NASA mission to Jupiter moon Europa</h4>
+				        </li>
+				    </ul>
+				    <!-- Controls -->
+				    <div class="carousel-controls">
+				        <a class="left carousel-control" href="#myCarousel" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a>
+				        <a class="right carousel-control" href="#myCarousel" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+				    </div>
+				</div>
+				<!-- End Carousel -->
+			    </div>
+			</section><!-- End News -->
+			<div id="fix-for-navbar-fixed-top-spacing" style="height: 42px;">&nbsp;</div> 
+		</div><!-- End Column -->
+	</div> <!-- End Section -->
+	</section>
+	    
+	<section id="section-universe">
+	<section id="parallax-intro">
+		<div class="container-fluid">
+		    <div class="row">
+			    <div class="ha-bg-parallax text-center block-marginb-none" data-type="background" data-speed="20">
+			<div class="ha-parallax-body">
+			    <div class="ha-content ha-content-whitecolor">
+				<h6>Space@Hopkins Research Connections</h6>
+			    </div>
+			    <div class="ha-parallax-divider-wrapper">
+				<span class="ha-diamond-divider-md img-responsive"></span>
+			    </div>
+			    <div class="ha-heading-parallax"></div>
+			</div>
+		    </div>
+		</div>
+	</section>
+	</section>
+        <!--/#parallax-intro--> 	
+				<div class="tinted-image">
+					<hr style="background:#003366;margin-top:0;margin-bottom:0;border:none;height:20px">
+					<iframe class="pull-right" src="science_bubble_NEW.html" width="70%" height="700" seamless frameBorder="0" scrolling="no" align="middle" allowtransparency="true"></iframe>
+					<div style="margin-left:5%;font-family: 'Myriad Pro',Verdana,Arial,Helvetica,sans-serif;font-size:30px">
+  					  <h2>Johns Hopkins</h2>
+					  <ul>
+					    <li><a href="#">Whiting School of Engineering</a></li>
+					    <ul>
+					      <li><a href="#">Laboratory for Computational Sensing and Robotics</a></li>
+					      <ul>
+						<li><a href="#">SMARTS Lab</a></li>
+						<li><a href="#">ASCO Lab</a></li>
+					      </ul>
+					      <li><a href="#">Department of Applied Mathematics and Statistics</a></li>
+					      <li><a href="#">Department of Biomedical Engineering</a></li>
+					      <li><a href="#">Department of Mechanical Engineering</a></li>
+					      <li><a href="#">Masters Program in Space Systems Engineering</a></li>
+					      <li><a href="#">Space Minor</a></li>
+					    </ul>										
+
+					    <li><a href="#">APL</a></li>
+					    <ul>
+					      <li><a href="#">Space Systems and Analysis</a></li>
+					      <ul>
+						<li><a href="#">Analysis and Applications</a></li>
+						<li><a href="#">Astrodynamics and Control Systems</a></li>
+						<li><a href="#">Space Systems Engineering</a></li>
+					      </ul>
+					      <li><a href="#">Space Systems Implementaion</a></li>
+					      <ul>
+						<li><a href="#">Embedded Applications</a></li>
+						<li><a href="#">Ground Applications</a></li>
+						<li><a href="#">Integration and Test</a></li>
+						<li><a href="#">Space Mission Operations</a></li>
+					      </ul>
+					      <li><a href="#">Space Research and Instrumentation</a></li>
+					      <ul>
+						<li><a href="#">Space Technologies and Applied Research</a></li>
+						<li><a href="#">Planetary Exploration</a></li>
+						<li><a href="#">Space Physics</a></li>
+						<li><a href="#">Space Science Instrumentation</a></li>
+						<li><a href="#">Geospace and Earth Science</a></li>
+					      </ul>
+					      <li><a href="#">Space Flight Engineering</a></li>
+					      <ul>
+						<li><a href="#">Electronic Systems</a></li>
+						<li><a href="#">Mechanical Systems</a></li>
+						<li><a href="#">Power and Component Engineering</a></li>
+						<li><a href="#">RF Engineering</a></li>
+					      </ul>
+					    </ul>	
+					    <li><a href="#">Krieger School of Arts and Sciences</a></li>
+					    <ul>
+					      <li><a href="#">Department of Physics and Astronomy</a></li>
+					      <ul>
+						<li><a href="#">Center for Astrophysical Sciences</a></li>
+						<ul>
+						  <li><a href="#">Cosmology</a></li>
+						  <li><a href="#">Extragalactic Astronomy</a></li>
+						  <li><a href="#">Galactic Astronomy</a></li>
+						  <li><a href="#">Numerical Simulations</a></li>
+						  <li><a href="#">Large Datasets</a></li>
+						  <li><a href="#">Instrumentation</a></li>
+						</ul>
+						<li><a href="#">MD Space Grant Observatory</a></li>
+						<li><a href="#">Instrument Development Group</a></li>
+						<ul>
+						  <li><a href="#">Space Missions Instruments</a></li>
+						  <li><a href="#">Ground Based Astronomy Instruments</a></li>
+						</ul>
+					      </ul>
+					      <li><a href="#">Department of Earth and Planetary Sciences</a></li>
+					      <ul>
+						<li><a href="#">Geophysics</a></li>
+						<li><a href="#">Atmospheric Sciences</a></li>
+					      </ul>
+					      <li><a href="#">Space Minor</a></li>
+					    </ul>
+					    <li><a href="#">School of Medicine</a></li>
+					    <ul>
+					      <li><a href="#">Institute for Basic Biomedical Science</a></li>
+					      <ul>
+						<li><a href="#">Center for Epigenetics</a></li>
+					      </ul>
+					      <li><a href="#">Department of Otolaryngology-Head and Neck Surgery</a></li>
+					      <li><a href="#">Biomedical Engineering</a></li>
+					    </ul>
+					  </ul>	
+  					  <h2>Close Collaboration</h2>
+					  <ul>
+					      <li><a href="#">Space Telescope Science Institute</a></li>
+					      <li><a href="#">NASA Goddard Space Flight Center </a></li>
+					      <li><a href="#">MD Space Grant</a></li>
+					      <li><a href="#">Institute for the Physics and Mathematics of the Universe</a></li>
+					      <ul>
+						<li><a href="#">Subaru Telescope</a></li>
+					      </ul>
+					    </ul>
+  					  <h2>Memberships</h2>
+					  <ul>
+					      <li><a href="#">International Astronomical Union</a></li>
+					      <li><a href="#">Association of Universities for Research in Astronomy</a></li>
+					      <li><a href="#">MD Round Table</a></li>
+					    </ul>
+  					  <h2>Large Collaborations</h2>
+					  <ul>
+					      <li><a href="#">Large Synoptic Survey Telescope (LSST)</a></li>
+					      <li><a href="#">Sloan Digital Sky Survey</a></li>
+					      <li><a href="#">Subaru Telescope</a></li>
+					      <li><a href="#">Panoramic Survey Telescope and Rapid Response System (Pan-STARRS)</a></li>
+					    </ul>
+					</div>			
+	
+				<div class="clear"></div>
+				</div>
+
+
+
+
+	
+	
+	<section id="section-research">
+	<section id="parallax-intro">
+		<div class="container-fluid">
+		     
+		    <div class="row">
+			<hr style="background:#003366;margin-top:0;margin-bottom:0;border:none;height:20px">
+			    <div class="ha-bg-parallax text-center block-marginb-none" data-type="background" data-speed="20">
+			<div class="ha-parallax-body">
+			    <div class="ha-content ha-content-whitecolor">
+				<h6>Research Areas</h6>
+			    </div>
+			    <div class="ha-parallax-divider-wrapper">
+				<span class="ha-diamond-divider-md img-responsive"></span>
+			    </div>
+			    <div class="ha-heading-parallax"></div>
+			</div>
+		    </div>
+		</div>
+	</section>
+	</section>
+        <!--/#parallax-intro--> 
+	<div id="fix-for-navbar-fixed-top-spacing" style="height: 30px;">&nbsp;</div> 
+	<section id="recent-works">
+        <div class="center wow fadeInDown">          
+	 <div class="row">
+                    <div class="col-xs-12 col-sm-4 col-md-3">
+                        <div class="recent-work-wrap">
+                            <img class="img-responsive bottom5" src="images/frontpage/lunarrobot.png" alt="">
+                            <div class="overlay">
+                                <div class="recent-work-inner">
+                                    <h4><a href="robotics.html">Robotics</a> </h4>
+                                    <p>Space robotics at Johns Hopkins means everything from building robotic lunar probes to researching telerobotic on-orbit servicing of spacecraft!</p>
+                                </div>                                 
+                            </div>
+                        </div>
+                    </div>                     
+                    <div class="col-xs-12 col-sm-4 col-md-3">
+                        <div class="recent-work-wrap">
+                            <img class="img-responsive bottom5" src="images/frontpage/astronaut.png" alt="">
+                            <div class="overlay">
+                                <div class="recent-work-inner">
+                                    <h4><a href="astronauthealth.html">Astronaut Health</a></h4>
+                                    <p>It wasn't too long ago that the first humans went to space, and Johns Hopkins researchers are determined to help astronauts continue to space travel as safely as possible!</p>
+                                </div>                                 
+                            </div>
+                        </div>
+                    </div>                     
+                    <div class="col-xs-12 col-sm-4 col-md-3">
+                        <div class="recent-work-wrap">
+                            <img class="img-responsive bottom5" src="images/frontpage/sun.jpg" alt="">
+                            <div class="overlay">
+                                <div class="recent-work-inner">
+                                    <h4><a href="solarscience.html">Solar Science</a></h4>
+                                    <p class="">The Sun is our lifeforce, and JHU scientists and engineers want to know all there is to know about it!</p>
+                                </div>                                 
+                            </div>
+                        </div>
+                    </div>                     
+                    <div class="col-xs-12 col-sm-4 col-md-3">
+                        <div class="recent-work-wrap">
+                            <img class="img-responsive bottom5" src="images/frontpage/planets.jpg" alt="">
+                            <div class="overlay">
+                                <div class="recent-work-inner">
+                                    <h4><a href="planetaryscience.html">Planetary Science</a></h4>
+                                    <p>From Mercury to Pluto to the outer edge of the solar system, Johns Hopkins Scientists and engineers are studying it all!</p>
+                                </div>                                 
+                            </div>
+                        </div>
+                    </div>                     
+                    <div class="col-xs-12 col-sm-4 col-md-3">
+                        <div class="recent-work-wrap">
+                            <img class="img-responsive bottom5" src="images/frontpage/earth.jpg" alt="">
+                            <div class="overlay">
+                                <div class="recent-work-inner">
+                                    <h4><a href="earthscience.html">Earth Science</a></h4>
+                                    <p>JHU scientists and engineers are working to understand the inner workings of all processes happening on our home planet!</p>
+                                </div>                                 
+                            </div>
+                        </div>
+                    </div>                     
+                    <div class="col-xs-12 col-sm-4 col-md-3">
+                        <div class="recent-work-wrap">
+                            <img class="img-responsive bottom5" src="images/frontpage/spaceengineer.jpg" alt="">
+                            <div class="overlay">
+                                <div class="recent-work-inner">
+                                    <h4><a href="spacecraftengineering.html">Spacecraft Engineering</a></h4>
+                                    <p>Spacecraft Engineers at John Hopkins work to build spacecraft that will fly both near and far!</p>
+                                </div>                                 
+                            </div>
+                        </div>
+                    </div>                     
+                    <div class="col-xs-12 col-sm-4 col-md-3">
+                        <div class="recent-work-wrap">
+                            <img class="img-responsive bottom5" src="images/frontpage/astro.jpg" alt="">
+                            <div class="overlay">
+                                <div class="recent-work-inner">
+                                    <h4><a href="astrophysics.html">Astrophysics</a></h4>
+                                    <p>JHU Astrophysicists are investigating the universe from exoplanets to galaxies to the cosmic microwave background!</p>
+                                </div>                                 
+                            </div>
+                        </div>
+                    </div>                     
+                    <div class="col-xs-12 col-sm-4 col-md-3">
+                        <div class="recent-work-wrap">
+                            <img class="img-responsive bottom5" src="images/frontpage/sensor.jpg" alt="">
+                            <div class="overlay">
+                                <div class="recent-work-inner">
+                                    <h4><a href="sensors.html">Sensors</a></h4>
+                                    <p>JHU scientists and engineers build cutting edge sensors for everything from spacecrafts to space telescopes to ground-based telescopes!</p>
+                                </div>                                 
+                            </div>
+                        </div>
+                    </div>                     
+                </div>
+                <!--/.row-->
+            </div>
+        </section>
+        <!--/#recent-works>
+     
+        <!--/#news-->         
+        <!--/#bottom-->
+<div class="content-block" id="footer">
+		<div class="container">
+			<div class="row">
+					<div class="col-sm-4 ">
+			
+					    <h2 class="footer-block">About Us</h2>
+
+					    <p>Space@Hopkins connects the array of Johns Hopkins University divisions, departments, and collaborative institutions in their common pursuit of civilian space research.</p>
+					    <br>
+					    <p> <a href="index.html"> Home</a></p>
+					    <p> <a href="history.html"> History</a></p>
+					    <p> <a href="#"> Research</a></p>
+					    <p> <a href="seedgrants.html"> Opportunities and Seed Grants</a></p>
+					    <p> <a href="#"> News</a></p> 		
+					    <p> <a href="#"> Events</a></p>
+
+					</div>
+					<div class="col-sm-4 blog-post">
+						<h2 class="footer-block">Leave us a message</h2>
+						<form action="contact-form.php" id="contactForm" method="post" name="contactform" class="" role="form">
+							<div class="form-group">
+						    	<input type="text" class="form-control form-control-white" id="name" name="name" placeholder="Your Name" required>
+						  	</div>
+						    <div class="form-group">
+						    	<input type="email" class="form-control form-control-white" id="email" name="email" placeholder="Enter email" required>
+						    </div>
+						    <div class="form-group">
+						    	<textarea class="form-control form-control-white" id="message" name="massage" placeholder="Write Something" required></textarea>
+						    </div>
+						    <div id="contactFormResponse"></div>
+						    <div class="form-group">
+						    	<input id="cfsubmit" type="submit" class="text-center btn btn-o-white" value="Leave A Comment">
+						  	</div>
+						</form>
+					</div>
+					<div class="col-sm-4 blog-post">
+					
+						<h2 class="footer-block">Contact Details</h2>
+						<ul>
+							<li class="address-sub"><i class="fa fa-map-marker"></i>Space@Hopkins</li>
+								<p>
+									Johns Hopkins University<br>
+									3701 San Martin Drive<br>
+									Baltimore, MD 21218
+								</p>
+						
+							<li class="address-sub"><i class="fa fa-envelope-o"></i>Contact Us</li>
+								<p>
+								  Space Fellows: Kirsten Hall and Erini Lambrides
+									<a href="mailto:info@spacestudies.jhu.edu">Email: info@SpaceStudies.jhu.edu</a><br>
+							
+								</p>
+
+
+						</ul>
+						<div class="social">
+							<a href="https://twitter.com/SpaceAtHopkins"><i class="fa fa-twitter"></i></a>
+							<a href="https://www.facebook.com/SpaceAtHopkins"><i class="fa fa-facebook"></i></a>
+							<a href="https://www.linkedin.com/groups/8478131"><i class="fa fa-linkedin-square"></i></a>
+						</div>
+					
+					</div>
+				</div>
+			</div>
+		</div>
+
+	</div><!--/#wrapper-->
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="js/jquery.js"></script>
+        <script src="js/bootstrap.min.js"></script>
+        <script src="js/jquery.prettyPhoto.js"></script>
+        <script src="js/jquery.isotope.min.js"></script>
+        <script src="js/wow.min.js"></script>
+        <script src="js/main.js"></script>
+	<script>	
+		$(document).ready(function(){
+		    
+			var clickEvent = false;
+			$('#myCarousel').carousel({
+				interval:   4000	
+			}).on('click', '.list-group li', function() {
+					clickEvent = true;
+					$('.list-group li').removeClass('active');
+					$(this).addClass('active');		
+			}).on('slid.bs.carousel', function(e) {
+				if(!clickEvent) {
+					var count = $('.list-group').children().length -1;
+					var current = $('.list-group li.active');
+					current.removeClass('active').next().addClass('active');
+					var id = parseInt(current.data('slide-to'));
+					if(count == id) {
+						$('.list-group li').first().addClass('active');	
+					}
+				}
+				clickEvent = false;
+			});
+		})
+		$(window).load(function() {
+		    var boxheight = $('#myCarousel .carousel-inner').innerHeight();
+		    var itemlength = $('#myCarousel .item').length;
+		    var triggerheight = Math.round(boxheight/itemlength+1);
+			$('#myCarousel .list-group-item').outerHeight(triggerheight);
+		});
+	</script>
+    </body>
+</html>

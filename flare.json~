@@ -4,13 +4,13 @@
 "name":"Memberships ",
 "children":[{
 "name":"IAU",
-"size":10000
+"size":20000
 },{
 "name":"AURA",
-"size":10000
+"size":20000
 },{
 "name":"MD Round Table",
-"size":10000
+"size":20000
 }]
 },{
 "name":"Large Collaborations ",
@@ -34,18 +34,48 @@
 "children":[{
 "name":"Dept. of Physics and Astronomy",
 "children":[{
-"name":"Center for Astrophysical Sciences",
-"size":10000
+    "name":"Center for Astrophysical Sciences",
+    "children":[{
+	"name":"Cosmology",
+	"size":2000
+    },{
+	"name":"Extragalactic Astronomy",
+	"size":2000
+    },{
+	"name":"Galactic Astronomy",
+	"size":2000
+    },{
+	"name":"Numerical Simulations",
+	"size":2000
+    },{
+	"name":"Large Datasets",
+	"size":2000
+    },{
+	"name":"Instrumentation",
+	"size":2000
+    }]
 },{
 "name":"MD Space Grant Observatory",
 "size":10000
 },{
-"name":"Instrument Design Group",
-"size":10000
+    "name":"Instrument Development Group",
+    "children":[{
+	"name":"Space Missions Instruments",
+	"size":5000
+    },{
+	"name":"Ground Based Astronomy Instruments",
+	"size":5000
+    }]
 }]
 },{
-"name":"Dept. of Earth and Planetary Science",
-"size":20000
+"name":"Dept. of Earth & Planetary Sciences",
+"children":[{
+    "name":"Geophysics",
+    "size":10000
+},{
+    "name":"Atmospheric Sciences",
+    "size":10000
+}]
 },{
 "name":"Space Minor",
 "size":10000
@@ -55,7 +85,7 @@
 "children":[{
 "name":"Inst. for Basic Biomedical Science",
 "children":[{
-"name":"Center for Epigences",
+"name":"Center for Epigenetics",
 "size":12000
 }]
 },{
@@ -68,17 +98,65 @@
 },{
 "name":"APL",
 "children":[{
-"name":"Space Systems and Analysis",
-"size":8750
+    "name":"Space Systems and Analysis",
+    "children":[{
+	"name":"Analysis and Applications",
+	"size":3300
+    },{
+	"name":"Astrodynamics and Control Systems",
+	"size":3300
+    },{
+	"name":"Space Systems Engineering",
+	"size":3300
+    }]
 },{
-"name":"Space Systems Implementation",
-"size":8750
+    "name":"Space Systems Implementation",
+    "children":[{
+	"name":"Embedded Applications",
+	"size":2500
+    },{
+	"name":"Ground Applications",
+	"size":2500
+    },{
+	"name":"Integration and Test",
+	"size":2500
+    },{
+	"name":"Space Mission Operations",
+	"size":2500
+    }]
 },{
-"name":"Space Research and Instrumentation",
-"size":8750
+    "name":"Space Research and Instrumentation",
+    "children":[{
+	"name":"Space Technologies and Applied Research",
+	"size":2000
+    },{
+	"name":"Planetary Exploration",
+	"size":2000
+    },{
+	"name":"Space Physics",
+	"size":2000
+    },{
+	"name":"Space Science Instrumentation",
+	"size":2000
+    },{
+	"name":"Geospace and Earth Science",
+	"size":2000
+    }]
 },{
-"name":"Space Flight Engineering",
-"size":8750
+    "name":"Space Flight Engineering",
+    "children":[{
+	"name":"Electronic Systems",
+	"size":2500
+    },{
+	"name":"Mechanical Systems",
+	"size":2500
+    },{
+	"name":"Power and Component Engineering",
+	"size":2500
+    },{
+	"name":"RF Engineering",
+	"size":2500
+    }]
 }]
 },{
 "name":"Whiting School of Engineering",
@@ -111,10 +189,13 @@
 "name":"Space Telescope Science Institute",
 "size":70000
 },{
-"name":"NASA Goddard Space FlightCenter",
+"name":"NASA Goddard Space Flight Center",
 "size":20000
 },{
-"name":"Institute for the Physics and Mathematics of the Universe",
+    "name": "MD Space Grant",
+    "size":15000
+},{
+"name":"IPMU",
     "children":[{"name":"Subaru Telescope",
 		 "size":10000}]
 }]

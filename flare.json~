@@ -30,9 +30,9 @@
 },{
 "name":"Johns Hopkins ",
 "children":[{
-"name":"Krieger School of Arts & Sciences",
+"name":"Krieger School of Arts& Sciences",
 "children":[{
-"name":"Dept. of Physics and Astronomy",
+"name":"Dept. of Physics& Astronomy",
 "children":[{
     "name":"Center for Astrophysical Sciences",
     "children":[{
@@ -187,17 +187,17 @@
 "name":"Close Collaborations ",
 "children":[{
 "name":"Space Telescope Science Institute",
-"size":70000
+"size":80000
 },{
 "name":"NASA Goddard Space Flight Center",
-"size":20000
+"size":30000
 },{
     "name": "MD Space Grant",
-    "size":15000
+    "size":20000
 },{
 "name":"IPMU",
     "children":[{"name":"Subaru Telescope",
-		 "size":10000}]
+		 "size":20000}]
 }]
 }]
 }

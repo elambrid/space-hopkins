@@ -278,10 +278,13 @@
 					<hr style="background:#003366;margin-top:0;margin-bottom:0;border:none;height:20px">
 					<iframe src="science_bubble_NEW_1.html" width="100%" height="700" seamless frameBorder="0" scrolling="no" align="middle" allowtransparency="true"></iframe>
 					<div style="font-family: 'Myriad Pro',Verdana,Arial,Helvetica,sans-serif;font-size:30px">
-  					  <h2>Johns Hopkins</h2>
+  					  <h6>Johns Hopkins</h6>
+					<h2 style="font-weight:bold;"> Krieger School of Arts and Sciences</h2>
+
+					   <div class="col-xs-6 col-md-4">
 					  <ul>
 					    <li style="font-weight:bold;"><a href="#">Whiting School of Engineering</a></li>
-					    <ul class="col-md-4 odd">
+					    <ul>
 					      <li><a href="#">Laboratory for Computational Sensing and Robotics</a></li>
 					      <ul>
 						<li><a href="#">SMARTS Lab</a></li>
@@ -292,9 +295,41 @@
 					      <li><a href="#">Department of Mechanical Engineering</a></li>
 					      <li><a href="#">Masters Program in Space Systems Engineering</a></li>
 					      <li><a href="#">Space Minor</a></li>
-					    </ul>										
-					    <li style="font-weight:bold;"><a href="#">APL</a></li>
-					    <ul class="col-md-4 even">
+					    </ul>
+					  </div>					
+					 <div class="col-xs-6 col-md-4">
+					      <li style="font-weight:bold;"><a href="#">Department of Physics and Astronomy</a></li>
+					      <ul>
+						<li><a href="#">Center for Astrophysical Sciences</a></li>
+						<ul>
+						  <li><a href="#">Cosmology</a></li>
+						  <li><a href="#">Extragalactic Astronomy</a></li>
+						  <li><a href="#">Galactic Astronomy</a></li>
+						  <li><a href="#">Numerical Simulations</a></li>
+						  <li><a href="#">Large Datasets</a></li>
+						  <li><a href="#">Instrumentation</a></li>
+						</ul>
+						<li><a href="#">MD Space Grant Observatory</a></li>
+						<li><a href="#">Instrument Development Group</a></li>
+						<ul>
+						  <li><a href="#">Space Missions Instruments</a></li>
+						  <li><a href="#">Ground Based Astronomy Instruments</a></li>
+						</ul>
+					</div>
+					   <div class="col-xs-6 col-md-4">
+					      <li style="font-weight:bold;"><a href="#">Department of Earth and Planetary Sciences</a></li>
+					      <ul>
+						<li><a href="#">Geophysics</a></li>
+						<li><a href="#">Atmospheric Sciences</a></li>
+					      </ul>
+					      <li style="font-weight:bold;"><a href="#">Space Minor</a></li>
+					    </ul>
+					    </div>
+
+					    <div class="col-xs-12">	
+					<h2 style="font-weight:bold;"> Applied Physics Laboratory</h2>
+					    <ul>
+						<div class="col-xs-6 col-sm-4">
 					      <li><a href="#">Space Systems and Analysis</a></li>
 					      <ul>
 						<li><a href="#">Analysis and Applications</a></li>
@@ -308,6 +343,8 @@
 						<li><a href="#">Integration and Test</a></li>
 						<li><a href="#">Space Mission Operations</a></li>
 					      </ul>
+						</div>
+						<div class="col-xs-6 col-sm-4">
 					      <li><a href="#">Space Research and Instrumentation</a></li>
 					      <ul>
 						<li><a href="#">Space Technologies and Applied Research</a></li>
@@ -323,12 +360,49 @@
 						<li><a href="#">Power and Component Engineering</a></li>
 						<li><a href="#">RF Engineering</a></li>
 					      </ul>
+						</div>
 					    </ul>	
+					</div>
+					 <div class="col-xs-6 col-md-4">
+					    <h2 style="font-weight:bold;"> School of Medicine</h2>
+					    <ul>
+					      <li><a href="#">Institute for Basic Biomedical Science</a></li>
+					      <ul>
+						<li><a href="#">Center for Epigenetics</a></li>
+					      </ul>
+					      <li><a href="#">Department of Otolaryngology-Head and Neck Surgery</a></li>
+					      <li><a href="#">Biomedical Engineering</a></li>
+					      </ul>
+					</div>
+				</div>  <!--/#font-family-->		
+					<div class="row">				
+					<h6>Close Collaborations</h6>
+					  <ul>
+					      <li><a href="#">Space Telescope Science Institute</a></li>
+					      <li><a href="#">NASA Goddard Space Flight Center </a></li>
+					      <li><a href="#">MD Space Grant</a></li>
+					      <li><a href="#">Institute for the Physics and Mathematics of the Universe</a></li>
+					      <ul>
+						<li><a href="#">Subaru Telescope</a></li>
+					      </ul>
+					    </ul>
+					<h6>Memberships</h6>
+					  <ul>
+					      <li><a href="#">International Astronomical Union</a></li>
+					      <li><a href="#">Association of Universities for Research in Astronomy</a></li>
+					      <li><a href="#">MD Round Table</a></li>
+					    </ul>
+					<h6>Large Collaborations</h6>
+					  <ul>
+					      <li><a href="#">Large Synoptic Survey Telescope (LSST)</a></li>
+					      <li><a href="#">Sloan Digital Sky Survey</a></li>
+					      <li><a href="#">Subaru Telescope</a></li>
+					      <li><a href="#">Panoramic Survey Telescope and Rapid Response System (Pan-STARRS)</a></li>
+					    </ul>
+					</div>
 
-					</div>			
-	
 				<div class="clear"></div>
-				</div>
+				</div>  <!--/#tinted image-->
 
 
 

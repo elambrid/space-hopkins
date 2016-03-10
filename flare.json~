@@ -187,17 +187,17 @@
 "name":"Close Collaborations ",
 "children":[{
 "name":"Space Telescope Science Institute",
-"size":80000
+"size":70000
 },{
 "name":"NASA Goddard Space Flight Center",
-"size":30000
+"size":20000
 },{
     "name": "MD Space Grant",
-    "size":20000
+    "size":15000
 },{
 "name":"IPMU",
     "children":[{"name":"Subaru Telescope",
-		 "size":20000}]
+		 "size":10000}]
 }]
 }]
 }

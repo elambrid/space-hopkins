@@ -34,8 +34,8 @@
 	  fill: #fff;
 	  stroke: green;
 	  stroke-width: 3.5px;
-	}	
-	
+	}
+
 	</style>
 	<body>
 	<script src="js/d3.min.js" charset="utf-8"></script>
@@ -55,7 +55,7 @@
 	    .interpolate(d3.interpolateHcl);
 
 	var pack = d3.layout.pack()
-	    .sort(comparator) 	
+	    .sort(comparator)
 	    .padding(4)
 	    .size([diameter - margin, diameter - margin])
 	    .value(function(d) { return d.size;})
@@ -79,19 +79,19 @@
 	      .attr("class", function(d) { return d.parent ? d.children ? "node" : "node node--leaf" : "node node--root"; })
 	      .style("fill", function(d) { return d.children ? color(d.depth) : null; })
 	      .style("fill", function(d) { return d.parent? "color" : "transparent"; })
-	      .attr("r", function(d) { return d.r; })      	
+	      .attr("r", function(d) { return d.r; })
 	      .on("click", function(d) { if (focus !== d) zoom(d), d3.event.stopPropagation(); });
-	   
+
 	  var text = svg.selectAll("text")
 	      .data(nodes)
 	    .enter().append("text")
-	      .attr("class", "label")	
+	      .attr("class", "label")
 	      .style("fill-opacity", function(d) { return d.parent === root ? 1 : 0; })
-	      .style("display", function(d) { return d.parent === root ? "inline" : "none"; }) 
-	      .attr("dy", ".3em")  
-              .style("text-anchor", "middle")		
-	      .style("font-size",function(d) { return d.r/4 + "px";})
-	      .text(function(d) {return d.name.substring(0, d.r/2);}).call(wrap,0);
+	      .style("display", function(d) { return d.parent === root ? "inline" : "none"; })
+	      .attr("dy", ".1em")
+              .style("text-anchor", "middle"))
+				.style("font-size", "24px") // initial guess
+    		.style("font-size", function(d) { return d.r /this.getComputedTextLength() * 48 + "px"; });
 
 
 	  function wrap(text, width) {
@@ -121,7 +121,7 @@
 
 	  var node = svg.selectAll("circle,text");
 
-		
+
 
 
 	  d3.select("body")

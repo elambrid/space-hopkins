@@ -49,6 +49,10 @@ h4{
   font-weight:800;
 }
 
+p {
+	font-size:1.2em;
+}
+
 a {
   color: #FFFFFF;
   font-size: 1.3em;
@@ -2036,7 +2040,7 @@ Additional Styles (required)
 #####################*/
 .ha-bg-parallax {
 
-    background: url(http://imgsrc.hubblesite.org/hu/db/images/hs-1995-45-a-2560x1024_wallpaper.jpg)
+    background: url(http://images.fanpop.com/images/image_uploads/Hubble-Wallpaper-space-647495_1600_1200.jpg)
 no-repeat fixed;
 
     -moz-background-size: cover;
@@ -2108,7 +2112,7 @@ no-repeat fixed;
 
 .ha-bg-parallax-header {
 
-    background: url(http://imgsrc.hubblesite.org/hu/db/images/hs-1995-45-a-2560x1024_wallpaper.jpg)
+    background: url(http://images.fanpop.com/images/image_uploads/Hubble-Wallpaper-space-647495_1600_1200.jpg)
 no-repeat fixed;
 
     -moz-background-size: cover;
@@ -2181,7 +2185,7 @@ no-repeat fixed;
 }
 
 .background-bubble {
-    background:url(http://imgsrc.hubblesite.org/hu/db/images/hs-1995-45-a-2048x1280_wallpaper.jpg) no-repeat fixed;
+    background:url(http://images.fanpop.com/images/image_uploads/Hubble-Wallpaper-space-647495_1600_1200.jpg) no-repeat fixed;
     position: relative;
 }
 
@@ -2206,7 +2210,7 @@ no-repeat fixed;
       rgba(0, 0, 0, 0.5)
     ),
     /* your image */
-    url(http://imgsrc.hubblesite.org/hu/db/images/hs-1995-45-a-2048x1280_wallpaper.jpg)
+    url(http://images.fanpop.com/images/image_uploads/Hubble-Wallpaper-space-647495_1600_1200.jpg)
 no-repeat fixed;
 
     -moz-background-size: cover;
@@ -2332,7 +2336,7 @@ div.product-chooser{
 
 .masthead {
 	    color:#FFFFFF;
-    background-image: url(http://imgsrc.hubblesite.org/hu/db/images/hs-1995-45-a-2048x1280_wallpaper.jpg);
+    background-image: url(http://images.fanpop.com/images/image_uploads/Hubble-Wallpaper-space-647495_1600_1200.jpg);
     background-repeat:no-repeat;
     height:100px;
 }
@@ -3377,6 +3381,8 @@ hr {
   box-shadow: 0 0 5px #fff;
 }
 
+/* News Page */
+
 .blog-text h1 {
 	color: #000000;
 	font-size: 54px;
@@ -3411,73 +3417,94 @@ hr {
 	font-size: 24px;
 	color: #ffffff;
 }
+
+/* News Carousel */
+#myCarousel .carousel-caption {
+  left:0;
+	right:0;
+	bottom:0;
+	text-align:left;
+	padding:0px;
+	background:rgba(0,0,0,0.6);
+	text-shadow:none;
+}
+
+#myCarousel .list-group {
+	position:absolute;
+	top:0;
+	right:0;
+}
+#myCarousel .list-group-item {
+	border-radius:0px;
+	cursor:pointer;
+}
+#myCarousel .list-group .active {
+	background-color:#eee;
+}
+
+
+@media (min-width: 1801px) {
+	#myCarousel {padding-right:33.3333%;}
+	#myCarousel .carousel-controls {display:none;}
+}
+@media (max-width: 1800px) {
+	.carousel-caption p,
+	#myCarousel .list-group {display:none;}
+}
+
 #scrollContent{
 	height:186px;
 	overflow:auto;
 	position:relative;
 }
-.carousel
+#myCarousel .carousel
 {
 	padding:0px;
 
 }
-.carousel-caption
-{
-  background:rgba(0,0,0,0.2)!important;
-  bottom:0px;
-  text-align:left;
-  padding:5px;
-  left:0px;
-}
-div.carousel-inner div.item img
-{
-padding:0px;
-  background:#ff0;
-}
 
-.list-group-item
-{
-
-  height:81px;
-  vertical-align:middle;
-  font-size:18pt;
-  cursor:pointer;
-}
-.news {
-background:#f0f0f0;
-  float:left;
-  height:100%;
-  position:absolute;
-  z-index:20;
-  margin-right:0px;
-  padding:0px;
-
-}
-div.news-container
-{
-padding:0px;
-}
-.carousel-fade .carousel-inner .item {
+#myCarousel .carousel-fade .carousel-inner .item {
   opacity: 0;
   transition-property: opacity;
 }
 
-.carousel-fade .carousel-inner .active {
+#myCarousel .carousel-fade .carousel-inner .active {
   opacity: 1;
 }
 
-.carousel-fade .carousel-inner .active.left,
-.carousel-fade .carousel-inner .active.right {
+#myCarousel .carousel-fade .carousel-inner .active.left,
+#myCarousel .carousel-fade .carousel-inner .active.right {
   left: 0;
   opacity: 0;
   z-index: 1;
 }
 
-.carousel-fade .carousel-inner .next.left,
+#myCarousel .carousel-fade .carousel-inner .next.left,
 .carousel-fade .carousel-inner .prev.right {
   opacity: 1;
 }
 
-.carousel-fade .carousel-control {
+#myCarousel .carousel-fade .carousel-control {
   z-index: 2;
+}
+@media all and (transform-3d), (-webkit-transform-3d) {
+    .carousel-fade .carousel-inner > .item.next,
+    .carousel-fade .carousel-inner > .item.active.right {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.prev,
+    .carousel-fade .carousel-inner > .item.active.left {
+      opacity: 0;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
+    .carousel-fade .carousel-inner > .item.next.left,
+    .carousel-fade .carousel-inner > .item.prev.right,
+    .carousel-fade .carousel-inner > .item.active {
+      opacity: 1;
+      -webkit-transform: translate3d(0, 0, 0);
+              transform: translate3d(0, 0, 0);
+    }
 }

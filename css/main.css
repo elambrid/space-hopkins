@@ -3377,7 +3377,7 @@ hr {
 	#myCarousel .carousel-controls {display:none;}
 }
 @media (max-width: 1800px) {
-	.carousel-caption p,
+
 	#myCarousel .list-group {display:none;}
 }
 

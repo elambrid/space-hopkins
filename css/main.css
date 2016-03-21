@@ -37,20 +37,28 @@ h2{
 }
 
 h3{
-  font-size: 1.0em;
+  font-size: 1.5em;
   color: #787878;
   font-weight: 400;
   line-height: 1;
 }
 
-h4{
+h5{
   font-size: 1.5em;
   color: #FFF;
   font-weight:800;
 }
 
+ul{
+	font-size: 1.3em;
+}
+
+li{
+	font-size: 1.3em;
+}
+
 p {
-	font-size:1.3em;
+	font-size:1.6em;
 }
 
 a {

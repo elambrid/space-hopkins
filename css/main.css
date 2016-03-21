@@ -50,7 +50,7 @@ h4{
 }
 
 p {
-	font-size:1.2em;
+	font-size:1.3em;
 }
 
 a {
@@ -3141,6 +3141,9 @@ hr {
 	left:-16px;
 }
 
+.container-fluid {
+	padding:0px;
+}
 
 @media (min-width: 768px) {
     .container-small {
@@ -3350,7 +3353,7 @@ hr {
 	right:0;
 	bottom:0;
 	text-align:left;
-	padding:0px;
+	padding:10px;
 	background:rgba(0,0,0,0.6);
 	text-shadow:none;
 }

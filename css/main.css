@@ -3371,13 +3371,20 @@ hr {
 	background-color:#eee;
 }
 
+.row {
+  padding-right: 0px;
+  margin-right: 0px;
+}
 
 @media (min-width: 1801px) {
 	#myCarousel {padding-right:33.3333%;}
 	#myCarousel .carousel-controls {display:none;}
 }
 @media (max-width: 1800px) {
-
+	.carousel-caption {
+		max-width:760px !important;
+	}
+	.carousel-control {max-width:760px !important;}
 	#myCarousel .list-group {display:none;}
 }
 

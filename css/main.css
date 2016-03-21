@@ -2034,37 +2034,6 @@ ul.sidebar-gallery {
 /*#####################
 Additional Styles (required)
 #####################*/
-#myCarousel .carousel-caption {
-    left:0;
-	right:0;
-	bottom:0;
-	text-align:left;
-	padding:10px;
-	background:rgba(0,0,0,0.6);
-	text-shadow:none;
-}
-
-#myCarousel .list-group {
-	position:absolute;
-	top:0;
-	right:0;
-}
-#myCarousel .list-group-item {
-	border-radius:0px;
-	cursor:pointer;
-}
-#myCarousel .list-group .active {
-	background-color:#eee;
-}
-
-@media (min-width: 992px) {
-	#myCarousel {padding-right:33.3333%;}
-	#myCarousel .carousel-controls {display:none;}
-}
-@media (max-width: 991px) {
-	.carousel-caption p,
-	#myCarousel .list-group {display:none;}
-}
 .ha-bg-parallax {
 
     background: url(http://imgsrc.hubblesite.org/hu/db/images/hs-1995-45-a-2560x1024_wallpaper.jpg)
@@ -3441,4 +3410,74 @@ hr {
 .blog-text a.btn-primary {
 	font-size: 24px;
 	color: #ffffff;
+}
+#scrollContent{
+	height:186px;
+	overflow:auto;
+	position:relative;
+}
+.carousel
+{
+	padding:0px;
+
+}
+.carousel-caption
+{
+  background:rgba(0,0,0,0.2)!important;
+  bottom:0px;
+  text-align:left;
+  padding:5px;
+  left:0px;
+}
+div.carousel-inner div.item img
+{
+padding:0px;
+  background:#ff0;
+}
+
+.list-group-item
+{
+
+  height:81px;
+  vertical-align:middle;
+  font-size:18pt;
+  cursor:pointer;
+}
+.news {
+background:#f0f0f0;
+  float:left;
+  height:100%;
+  position:absolute;
+  z-index:20;
+  margin-right:0px;
+  padding:0px;
+
+}
+div.news-container
+{
+padding:0px;
+}
+.carousel-fade .carousel-inner .item {
+  opacity: 0;
+  transition-property: opacity;
+}
+
+.carousel-fade .carousel-inner .active {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-inner .active.left,
+.carousel-fade .carousel-inner .active.right {
+  left: 0;
+  opacity: 0;
+  z-index: 1;
+}
+
+.carousel-fade .carousel-inner .next.left,
+.carousel-fade .carousel-inner .prev.right {
+  opacity: 1;
+}
+
+.carousel-fade .carousel-control {
+  z-index: 2;
 }

@@ -468,80 +468,6 @@ width:228px;
 **************************/
 
 
-.slider {
-  position: relative;
-  margin-top:130px;
-}
-
-#carousel-slider {
-  position: relative;
-}
-
-.slider-size {
-height: 600px; /* This is your slider height */
-}
-
-.carousel {
-width:100%;
-margin:0 auto; /* center your carousel if other than 100% */
-}
-
-
-
-.carousel-caption {
-   position: absolute;
-   width: 760px;
-   bottom: 200px;
-
-}
-
-#carousel-slider .carousel-indicators {
-  bottom: -25px;
-}
-
-#carousel-slider .carousel-indicators li {
-  border: 1px solid #ffbd20;
-}
-
-#carousel-slider a i {
-  border: 1px solid #777;
-  border-radius:50%;
-  font-size: 28px;
-  height: 50px;
-  padding: 8px;
-  position: absolute;
-  top: 50%;
-  width: 50px;
-  color:#777;
-}
-
-#carousel-slider a i:hover {
-  background:#E8CE0E;
-  color:#fff;
-  border: 1px solid #E8CE0E;
-}
-
-#carousel-slider
-.carousel-control {
-  width:inherit;
-}
-
-#carousel-slider .carousel-control.left i {
-  left:-25px
-}
-
-#carousel-slider .carousel-control.right i {
-  right: -25px;
-}
-
-#carousel-slider
-.carousel-control.left,
-#carousel-slider
-.carousel-control.right {
-  background: none;
-}
-
-
 
 #feature {
   background: #f2f2f2;
@@ -759,7 +685,7 @@ margin:0 auto; /* center your carousel if other than 100% */
   position: relative;
 }
 
-.progress span:before{
+.progress  :before{
   content: " ";
   position: absolute;
   width: auto;
@@ -3191,7 +3117,7 @@ hr {
 	color:#000336;
 	margin-top:0;
 }
-.carousel-control {
+#myCarousel-research .carousel-control {
 	color:#fff;
 	top:44%;
 	background:#003366;
@@ -3202,15 +3128,15 @@ hr {
 	height:36px;
 	opacity:1;
 }
-.carousel-control.left, .carousel-control.right {
+#myCarousel-research .carousel-control.left, .carousel-control.right {
 	background-image:none !important;
 }
-.carousel-control.right,
-.carousel-control .glyphicon-chevron-right {
+#myCarousel-research .carousel-control.right,
+#myCarousel-research .carousel-control .glyphicon-chevron-right {
 	left:auto;
 	right:-16px;
 }
-.carousel-control.left {
+#myCarousel-research .carousel-control.left {
 	right:auto;
 	left:-16px;
 }
@@ -3507,4 +3433,18 @@ hr {
       -webkit-transform: translate3d(0, 0, 0);
               transform: translate3d(0, 0, 0);
     }
+}
+.carousel-control {
+  top:50%;
+  width:auto;
+  height:1em;
+
+}
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-circle-arrow-right  {
+  position:static;
+  display:block;
+  width:auto;
+}
+.carousel-control .glyphicon-circle-arrow-left:before {
+  margin-left:0;
 }

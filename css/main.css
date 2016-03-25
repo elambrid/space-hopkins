@@ -433,39 +433,15 @@ ul.social-share li a:hover {
 }
 
 
-#sidebar.affix-top {
-position: static;
-margin-top:30px;
-width:228px;
-}
 
-#sidebar.affix {
-position: fixed;
-top:30px;
-width:228px;
-}
 
-#sidebar li.active {
-  	border:0 #eee solid;
-  	border-right-width:4px;
-}
 
-@media (min-width: 1480px) {
-  #sidebar.affix-top {
-    position: fixed;
-  	margin-top:30px;
-  	width:13%;
-  }
-
-  #sidebar.affix {
-    position: fixed;
-    top:50px;
-    width:13%;
-  }
-}
 
 .nav-stacked {
     color: #003366;
+		position:absolute;
+		margin-top:30px;
+		width:228px;
 }
 .nav-stacked>li>a {
     position: relative;
@@ -486,6 +462,9 @@ width:228px;
 *******Home Page******
 **************************/
 
+.panel-body p {
+	font-size: 1.2em;
+}
 
 
 #feature {

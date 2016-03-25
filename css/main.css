@@ -458,6 +458,8 @@ ul.social-share li a:hover {
   color: #fff;
 }
 
+
+
 /*************************
 *******Home Page******
 **************************/
@@ -3214,7 +3216,23 @@ hr {
 .box .box-content a {
   color:#808080;
   text-transform:none;
+	transition:none;
+	word-wrap: normal;
 }
+
+.box .box-content a:focus {
+	outline-offset: 0px;
+}
+
+.box .box-content ul {
+	overflow: hidden;
+}
+.box .box-content li {
+  color:#808080;
+  font-size: 20px;
+	list-style-position: inherit;
+}
+
 
 .box .box-content a:hover {
   color: #0dbdb7;

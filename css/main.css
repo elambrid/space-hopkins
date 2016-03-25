@@ -3402,7 +3402,7 @@ hr {
 	#myCarousel .carousel-control {display:none;}
 }
 @media (max-width: 1800px) {
-	.carousel-caption {
+	#myCarousel	.carousel-caption {
 		max-width:760px;
 	}
 

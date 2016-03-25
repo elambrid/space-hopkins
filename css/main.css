@@ -3118,17 +3118,18 @@ hr {
 	padding:5px;
 	background: #003366;
 }
+
+
 #myCarousel-research  .carousel-caption {
 	top:auto;
-	width:auto;
-	right:auto;
+	width:100%;
+	right: 100%;
 	bottom:0px;
 	left:0;
 	padding:20px;
 	background:rgba(255,255,255,0.65);
 	text-align:center;
-  	height:auto;
-	width:100%;
+  height:auto;
 	color:#003366;/*#FFF*/
 	text-shadow:none;
 }

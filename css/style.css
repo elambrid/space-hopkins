@@ -365,10 +365,10 @@ h2.ss-subtitle:after{
     background-image: url(../images/history/sdssmap.jpg);
 }
 .ss-circle-50{
-    background-image: url(../images/history/bennett2.jpg);
+    background-image: url(../images/history/wmap_2007.png);
 }
 .ss-circle-51{
-    background-image: url(../images/history/reiss.jpeg);
+    background-image: url(../images/history/nobel.jpg);
 }
 .ss-circle-52{
     background-image: url(../images/solarscience/STEREO.png);
@@ -377,16 +377,16 @@ h2.ss-subtitle:after{
     background-image: url(../images/history/CRISM.jpg);
 }
 .ss-circle-54{
-    background-image: url(../images/history/reiss.jpeg);
+    background-image: url(../images/history/Shaw_Prize_Medal.jpg);
 }
 .ss-circle-55{
-    background-image: url(../images/history/bennett2.jpg);
+    background-image: url(../images/history/gruber-medal.jpg);
 }
 .ss-circle-56{
     background-image: url(../images/history/fuse.jpeg);
 }
 .ss-circle-57{
-    background-image: url(../images/history/reiss.jpeg);
+    background-image: url(../images/history/gruber-medal.jpg);
 }
 .ss-circle-58{
     background-image: url(../images/history/sdssmap.jpg);
@@ -401,20 +401,29 @@ h2.ss-subtitle:after{
     background-image: url(../images/history/CRISM.jpg);
 }
 .ss-circle-62{
-    background-image: url(../images/history/bennett2.jpg);
+    background-image: url(../images/history/Shaw_Prize_Medal.jpg);
 }
 .ss-circle-63{
     background-image: url(../images/spacecraft/MESSANGER.png);
 }
 .ss-circle-64{
-    background-image: url(../images/history/reiss.jpeg);
+    background-image: url(../images/history/nobel.jpg);
 }
 .ss-circle-65{
-    background-image: url(../images/history/bennett2.jpg);
+    background-image: url(../images/history/gruber-medal.jpg);
 }
 .ss-circle-66{
     background-image: url(../images/history/wmap_2007.png);
 }
 .ss-circle-67{
+    background-image: url(../images/portfolio/full/apl.jpg);
+}
+.ss-circle-68{
     background-image: url(../images/planetaryscience/newhorizons.png);
+}
+.ss-circle-69{
+    background-image: url(../images/solarscience/SPP.png);
+}
+.ss-circle-70{
+    background-image: url(../images/history/mars_water.jpg);
 }
